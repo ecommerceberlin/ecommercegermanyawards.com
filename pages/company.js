@@ -18,11 +18,11 @@ const settings = require('../settings').default;
 
 class PageCompany extends React.Component {
   static async getInitialProps({ query, asPath, isServer, store }) {
-    const company = `companies/${query.id}`;
+    // const company = `companies/${query.id}`;
 
     return {
       asPath: asPath,
-      preload: [company, 'exhibitors', 'bookingmap'],
+      preload: [],
       company_id: query.id,
       settings: settings,
     };

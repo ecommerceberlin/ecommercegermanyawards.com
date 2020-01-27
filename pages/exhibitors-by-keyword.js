@@ -13,7 +13,7 @@ const settings = require('../settings').default;
 class PageExhibitorsByKeyword extends React.Component {
   static async getInitialProps({ query }) {
     return {
-      preload: ['exhibitors', 'bookingmap', 'ticketgroups'],
+      preload: [],
       keyword: query.keyword,
       settings: settings,
     };

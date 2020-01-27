@@ -20,7 +20,7 @@ import FeaturedPresenters from '../src/FeaturedPresenters';
 class PageVisit extends React.Component {
   static async getInitialProps({ query, asPath, isServer, store }) {
     return {
-      preload: ['exhibitors', 'presenters'],
+      preload: [],
       settings: settings,
     };
   }

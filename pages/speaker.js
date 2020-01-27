@@ -14,7 +14,7 @@ const settings = require('../settings').default;
 class PageSpeaker extends React.Component {
   static async getInitialProps({ query, asPath, isServer, store }) {
     return {
-      preload: ['presenters', 'exhibitors'],
+      preload: [],
       asPath: asPath,
       speakerId: query.id,
       settings: settings,

@@ -2,16 +2,13 @@ import {
   connect,
   MyHead as Head,
   VoteWithLinkedIn,
-  WidgetVisitor,
-  WidgetCallForPapers,
-  WidgetVotable,
-  WidgetSalesMap,
+  WidgetContestantCompanies,
+  WidgetContestantCompany,
   WidgetVoteStatus,
-  WidgetRoleButtons,
   LayoutMain as Layout,
-  WidgetVips,
   MyTypography as Typography,
   Markdown,
+  WidgetVideoWithEventInfo,
 } from 'eventjuicer-site-components';
 
 /*
@@ -28,12 +25,12 @@ import {
 
 const settings = require('../settings').default;
 
-class PageVisit extends React.Component {
+class PageVote extends React.Component {
   static async getInitialProps(props) {
     const { query, asPath } = props;
 
     return {
-      preload: ['callforpapers'],
+      preload: ['contestant_companies'],
       query: query,
       asPath: asPath,
       settings: settings,
@@ -49,55 +46,47 @@ class PageVisit extends React.Component {
         <Head />
 
         {id && (
-          <WidgetVotable
+          <WidgetContestantCompany
             id={id}
             asPath={asPath}
-            vote={<VoteWithLinkedIn id={id} />}
+            vote={<VoteWithLinkedIn id={id} max_votes={10} disabled={true} />}
             status={<WidgetVoteStatus />}
+            show_votes={true}
           />
         )}
 
-        <WidgetCallForPapers
+        <WidgetContestantCompanies
           intro={
             <div style={{ width: '80%' }}>
               <WidgetVoteStatus />
               <Typography template="benefitsText">
-                <Markdown label="callforpapers.voting.general-rules.description" />
+                <Markdown label="awards.contestants.voting-rules.description" />
               </Typography>
             </div>
           }
           limit={350}
           filter={item =>
-            item.presentation_description.length > 10 &&
-            item.avatar.indexOf('http') > -1 &&
-            item.logotype.indexOf('http') > -1
+            'product_name' in item &&
+            item.product_name.length > 2 &&
+            'logotype' in item &&
+            item.logotype.indexOf('http') > -1 &&
+            'featured' in item &&
+            item.featured == '1'
           }
-          keyword_source="presentation_category"
+          keyword_source="awards_category"
           keyword={keyword}
           label={
             keyword
-              ? 'callforpapers.list.title'
-              : 'callforpapers.categories.title'
+              ? 'awards.contestants.list.title'
+              : 'awards.contestants.categories.title'
           }
           show_votes={true}
         />
 
-        {id && <WidgetVisitor />}
-
-        {id && <WidgetVips limit={12} mobile={4} />}
-
-        {id && (
-          <WidgetSalesMap
-            label="exhibitors.map.title2"
-            secondaryLabel="exhibitors.map.opensales"
-            disabled={false}
-          />
-        )}
-
-        <WidgetRoleButtons />
+        <WidgetVideoWithEventInfo />
       </Layout>
     );
   }
 }
 
-export default connect()(PageVisit);
+export default connect()(PageVote);

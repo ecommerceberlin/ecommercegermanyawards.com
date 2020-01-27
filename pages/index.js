@@ -1,33 +1,23 @@
 import {
   connect,
   MyHead as Head,
-  // MyLink as Link,
-  // FsVideo,
-  WidgetVideoWithEventInfo,
-  //WidgetVideoWithReviews,
-  WidgetVisitor,
-  WidgetFeaturedCompanies,
-  WidgetAllExhibitorsColumnList,
-  WidgetSalesMap,
-  // WidgetPresenters,
-  //WidgetSchedule,
-  // WidgetExhibitors,
   LayoutMain as Layout,
-  WidgetRoleButtons,
-  Wrapper,
-  Facebook,
+  WidgetVideoWithEventInfo,
+  WidgetContestantCompanies,
   WidgetPartners,
+  WidgetPresenters,
+  Wrapper,
 } from 'eventjuicer-site-components';
 
 // import FeaturedExhibitors from '../src/FeaturedExhibitors';
-import FeaturedPresenters from '../src/FeaturedPresenters';
+//import FeaturedPresenters from '../src/FeaturedPresenters';
 
 const settings = require('../settings').default;
 
 class PageIndex extends React.Component {
   static async getInitialProps({ query, isServer, store }) {
     return {
-      preload: ['allexhibitors', 'companies'],
+      preload: ['contestant_companies'],
       settings: settings,
       //    load : ["bookingmap", "formdata", "ticketgroups"]
     };
@@ -38,16 +28,41 @@ class PageIndex extends React.Component {
       <Layout>
         <Head />
 
-        {/* <WidgetSchedule /> */}
+        <WidgetVideoWithEventInfo />
 
-        <div style={{ marginTop: 100 }}>
-          {/* { process.env.TESTING_IS_IMPORTANT } */}
-          {process.env.sales_support.people[0].name}
-        </div>
+        <WidgetContestantCompanies label="awards.contestants.categories.title" />
+
+        <WidgetPresenters
+          label="awards.jury.title"
+          secondaryLabel="awards.jury.description"
+          first
+          disableTemps={false}
+          limit={100}
+          filter={null}
+          bio={false}
+        />
+
+        <Wrapper label="awards.timeline.title">
+          <div style={{ display: 'flex', justifyContent: 'center' }}>
+            <img
+              src="https://res.cloudinary.com/ecommerceberlin/image/upload/c_fit,w_1000/v1572367319/Awards%20website/timeline2.png"
+              alt=""
+            />
+          </div>
+        </Wrapper>
+
+        <Wrapper label="awards.winners.archive.title">
+          <div style={{ display: 'flex', justifyContent: 'center' }}>
+            <img
+              src="https://res.cloudinary.com/ecommerceberlin/image/upload/c_fit,w_1000/v1572365340/Awards%20website/winners.jpg"
+              alt=""
+            />
+          </div>
+        </Wrapper>
 
         {/* 
         
-        <WidgetVideoWithEventInfo />
+       
 
         <WidgetFeaturedCompanies />
 
@@ -88,12 +103,25 @@ class PageIndex extends React.Component {
           secondaryLabel="event.parties"
         />
 
+        */}
+
+        <WidgetPartners
+          label="partners.networking.title"
+          filter={item =>
+            item['scopes(deprecated)'].indexOf('networking') > -1 &&
+            item.logotype.indexOf('cloudinary') > -1
+          }
+          limit={50}
+          center={true}
+        />
+
         <WidgetPartners
           label="partners.media.title"
           filter={item =>
             item['scopes(deprecated)'].indexOf('media') > -1 &&
             item.logotype.indexOf('cloudinary') > -1
           }
+          limit={50}
         />
 
         <WidgetPartners
@@ -102,6 +130,7 @@ class PageIndex extends React.Component {
             item['scopes(deprecated)'].indexOf('community') > -1 &&
             item.logotype.indexOf('cloudinary') > -1
           }
+          limit={50}
         />
 
         <WidgetPartners
@@ -111,7 +140,8 @@ class PageIndex extends React.Component {
             item.logotype.indexOf('cloudinary') > -1
           }
           center={true}
-        /> */}
+          limit={50}
+        />
       </Layout>
     );
   }

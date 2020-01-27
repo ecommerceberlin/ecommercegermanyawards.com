@@ -15,7 +15,7 @@ const settings = require('../settings').default;
 class PageExhibitors extends React.Component {
   static async getInitialProps({ query, asPath, isServer, store }) {
     return {
-      preload: ['exhibitors', 'allexhibitors', 'bookingmap'],
+      preload: [],
       settings: settings,
     };
   }

@@ -1,19 +1,19 @@
 {
   "name": "ecommerceberlin-awards",
   "version": "1.0.0",
-  "description": "awards",
+  "description": "ecommerceberlin awards site",
   "main": "pages/index.js",
   "scripts": {
     "next": "next",
     "precommit": "lint-staged",
-    "dev": "API_TEST123=costam node server.js",
-    "build": "API_TEST123=costam next build",
-    "start": "API_TEST123=costam NODE_ENV=production node server.js",
+    "dev": "PROJECT=ecommercegermanyawards.com GTM='GTM-TFSQ6GK' node server.js",
+    "build": "PROJECT=commercegermanyawards.com GTM='GTM-TFSQ6GK' next build",
+    "start": "PROJECT=ecommercegermanyawards.com GTM='GTM-TFSQ6GK' NODE_ENV=production node server.js",
     "analyze": "cross-env ANALYZE=1 next build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ecommerceberlin/awards.git"
+    "url": "git+https://github.com/ecommerceberlin/awards/site.git"
   },
   "lint-staged": {
     "./pages/*.{js,jsx,json,css}": [
@@ -24,12 +24,12 @@
   "author": "adam zygadlewicz <adam.zygadlewicz@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/eventjuicer/awards/issues"
+    "url": "https://github.com/ecommerceberlin/awards/issues"
   },
-  "homepage": "https://github.com/eventjuicer/awards#readme",
+  "homepage": "https://github.com/ecommerceberlin/awards#readme",
   "dependencies": {
     "dotenv-webpack": "^1.5.7",
-    "eventjuicer-site-components": "^1.4.9",
+    "eventjuicer-site-components": "^1.4.33",
     "next": "^8.0.3",
     "now": "^16.3.0",
     "react": "^16.6.3",

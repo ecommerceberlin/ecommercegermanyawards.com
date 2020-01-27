@@ -17,10 +17,10 @@ const settings = require('../settings').default;
 
 class PageArchive extends React.Component {
   static async getInitialProps({ query, asPath, isServer, store }) {
-    const presenters = `presenters?event_id=${query.id}`;
+    //  const presenters = `presenters?event_id=${query.id}`;
 
     return {
-      preload: ['events', presenters],
+      preload: [],
       eventId: query.id,
       settings: settings,
     };

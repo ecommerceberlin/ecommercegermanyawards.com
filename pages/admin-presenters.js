@@ -11,7 +11,7 @@ const settings = require('../settings').default;
 class PageAgendaPreview extends React.Component {
   static async getInitialProps({ query, asPath, isServer, store }) {
     return {
-      preload: ['presenters'],
+      preload: [],
       settings: settings,
     };
   }

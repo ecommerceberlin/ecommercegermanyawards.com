@@ -1,6 +1,6 @@
 {
-  "name": "ecommerceberlin-site",
-  "alias": "next.ecommerceberlin.com",
+  "name": "project-name",
+  "alias": "domain.com",
   "type": "npm",
   "public": false,
   "version": 1,

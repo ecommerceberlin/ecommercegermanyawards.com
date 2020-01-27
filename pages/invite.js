@@ -18,10 +18,10 @@ const settings = require('../settings').default;
 
 class PageInvite extends React.Component {
   static async getInitialProps({ query, asPath, isServer, store }) {
-    const resource = `code/${query.id}`;
+    // const resource = `code/${query.id}`;
 
     return {
-      preload: [resource, 'exhibitors'],
+      preload: [],
       asPath: asPath,
       resource: resource,
       settings: settings,

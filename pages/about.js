@@ -27,7 +27,7 @@ const settings = require('../settings').default;
 class PageExhibit extends React.Component {
   static async getInitialProps({ query, asPath, isServer, store }) {
     return {
-      preload: ['exhibitors', 'allexhibitors'],
+      preload: [],
       settings: settings,
     };
   }

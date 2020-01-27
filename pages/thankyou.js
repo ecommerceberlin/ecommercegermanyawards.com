@@ -15,10 +15,10 @@ const settings = require('../settings').default;
 
 class ThankyouPage extends React.Component {
   static async getInitialProps({ query, asPath, isServer, store }) {
-    const person = `code/${query.hash}`;
+    //const person = `code/${query.hash}`;
 
     return {
-      preload: [person, 'exhibitors'],
+      preload: [],
       asPath: asPath,
       settings: settings,
     };

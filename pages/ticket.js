@@ -19,10 +19,10 @@ const settings = require('../settings').default;
 
 class PageTicket extends React.Component {
   static async getInitialProps({ query, asPath, isServer, store }) {
-    const person = `code/${query.hash}`;
+    // const person = `code/${query.hash}`;
 
     return {
-      preload: [person, 'exhibitors'],
+      preload: [],
       code: query.hash,
       settings: settings,
     };
