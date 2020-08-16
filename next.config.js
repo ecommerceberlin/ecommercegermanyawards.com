@@ -1,5 +1,11 @@
 module.exports = {
 
-  env : require('./settings').default
-
-}
+    async rewrites() {
+      return [
+     //   {
+          // source: '/:slug,c,:id',
+          // destination: '/company/:id', 
+       // },
+      ]
+    },
+  }

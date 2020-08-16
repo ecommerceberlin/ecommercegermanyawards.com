@@ -43,7 +43,7 @@ class PageExhibit extends React.Component {
           {[
             {
               image:
-                'https://res.cloudinary.com/ecommerceberlin/image/upload/v1566475962/about/visitors-growth.svg',
+                'https://res.cloudinary.com/ecommerceberlin/image/upload/v1595594477/about/visitor_growth.svg',
             },
             {
               image:
@@ -68,11 +68,11 @@ class PageExhibit extends React.Component {
             },
             {
               image:
-                'https://res.cloudinary.com/ecommerceberlin/image/upload/v1566475964/about/exhibitors-growth.svg',
+                'https://res.cloudinary.com/ecommerceberlin/image/upload/v1595594477/about/exhibitor_growth.svg',
             },
             {
               image:
-                'https://res.cloudinary.com/ecommerceberlin/image/upload/v1566476431/about/event-promotion.svg',
+                'https://res.cloudinary.com/ecommerceberlin/image/upload/v1595594477/about/promotion.svg',
             },
           ].map(item => (
             <img

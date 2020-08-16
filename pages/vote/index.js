@@ -9,6 +9,9 @@ import {
   MyTypography as Typography,
   Markdown,
   WidgetVideoWithEventInfo,
+  WidgetContestantCompaniesWinners,
+  reduxWrapper,
+  configure
 } from 'eventjuicer-site-components';
 
 /*
@@ -23,39 +26,18 @@ import {
   'isServer'
 */
 
-const settings = require('../settings').default;
+import settings from '../../settings'
 
-class PageVote extends React.Component {
-  static async getInitialProps(props) {
-    const { query, asPath } = props;
 
-    return {
-      preload: ['contestant_companies'],
-      query: query,
-      asPath: asPath,
-      settings: settings,
-    };
-  }
+const PageVote = (props) => (
 
-  render() {
-    const { query, asPath } = this.props;
-    const { id, keyword } = query;
+  <div>
 
-    return (
-      <Layout>
-        <Head />
+      <WidgetContestantCompaniesWinners />
+      <WidgetVideoWithEventInfo />
 
-        {id && (
-          <WidgetContestantCompany
-            id={id}
-            asPath={asPath}
-            vote={<VoteWithLinkedIn id={id} max_votes={10} disabled={true} />}
-            status={<WidgetVoteStatus />}
-            show_votes={true}
-          />
-        )}
 
-        <WidgetContestantCompanies
+        {/* <WidgetContestantCompanies
           intro={
             <div style={{ width: '80%' }}>
               <WidgetVoteStatus />
@@ -81,12 +63,25 @@ class PageVote extends React.Component {
               : 'awards.contestants.categories.title'
           }
           show_votes={true}
-        />
+        /> */}
 
-        <WidgetVideoWithEventInfo />
-      </Layout>
-    );
-  }
-}
+
+  </div>
+
+)
+
+
+
+export const getStaticProps = reduxWrapper.getStaticProps(async ({ store }) => {
+
+  await configure(store, {
+    settings: settings,
+    preload: ['contestant_companies']
+  })
+
+  
+  
+})
+
 
 export default connect()(PageVote);

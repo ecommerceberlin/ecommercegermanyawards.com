@@ -6,33 +6,15 @@ import {
   // Faq,
   // FaqLink,
   Wrapper,
-  LayoutMain as Layout,
+  reduxWrapper,
+  configure
 } from 'eventjuicer-site-components';
 
-const settings = require('../settings').default;
+import settings from '../settings';
 
-class PageLegalImprint extends React.Component {
-  static async getInitialProps({
-    err,
-    req,
-    res,
-    pathname,
-    query,
-    asPath,
-    isServer,
-    store,
-  }) {
-    return {
-      settings: settings,
-    };
-  }
+const PageLegalImprint = (props) => (
 
-  render() {
-    const { url } = this.props;
-
-    return (
-      <Layout>
-        <Wrapper first label="common.pages.imprint">
+  <Wrapper first label="common.pages.imprint">
           <div
             dangerouslySetInnerHTML={{
               __html: `
@@ -68,9 +50,19 @@ class PageLegalImprint extends React.Component {
             }}
           />
         </Wrapper>
-      </Layout>
-    );
-  }
-}
+
+)
+
+
+
+export const getStaticProps = reduxWrapper.getStaticProps(async ({ store }) => {
+
+  await configure(store, {
+    settings: settings,
+    preload: ['contestant_companies']
+  })
+  
+})
+
 
 export default connect()(PageLegalImprint);

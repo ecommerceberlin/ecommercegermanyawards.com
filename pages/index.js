@@ -3,34 +3,29 @@ import {
   MyHead as Head,
   LayoutMain as Layout,
   WidgetVideoWithEventInfo,
-  WidgetContestantCompanies,
+  WidgetContestantCompaniesWinners,
   WidgetPartners,
   WidgetPresenters,
   Wrapper,
+  reduxWrapper,
+  configure
 } from 'eventjuicer-site-components';
 
 // import FeaturedExhibitors from '../src/FeaturedExhibitors';
 //import FeaturedPresenters from '../src/FeaturedPresenters';
 
-const settings = require('../settings').default;
+import settings from '../settings';
 
-class PageIndex extends React.Component {
-  static async getInitialProps({ query, isServer, store }) {
-    return {
-      preload: ['contestant_companies'],
-      settings: settings,
-      //    load : ["bookingmap", "formdata", "ticketgroups"]
-    };
-  }
+const PageIndex = (props) => (
 
-  render() {
-    return (
-      <Layout>
-        <Head />
-
+  <div>
+     
         <WidgetVideoWithEventInfo />
 
-        <WidgetContestantCompanies label="awards.contestants.categories.title" />
+        {/* <WidgetContestantCompanies label="awards.contestants.categories.title" /> */}
+
+        <WidgetContestantCompaniesWinners />
+
 
         <WidgetPresenters
           label="awards.jury.title"
@@ -42,7 +37,7 @@ class PageIndex extends React.Component {
           bio={false}
         />
 
-        <Wrapper label="awards.timeline.title">
+        {/* <Wrapper label="awards.timeline.title">
           <div style={{ display: 'flex', justifyContent: 'center' }}>
             <img
               src="https://res.cloudinary.com/ecommerceberlin/image/upload/c_fit,w_1000/v1572367319/Awards%20website/timeline2.png"
@@ -59,6 +54,9 @@ class PageIndex extends React.Component {
             />
           </div>
         </Wrapper>
+ */}
+
+
 
         {/* 
         
@@ -142,12 +140,35 @@ class PageIndex extends React.Component {
           center={true}
           limit={50}
         />
-      </Layout>
-    );
-  }
-}
+      </div>
 
-export default connect(
-  null,
-  null,
-)(PageIndex);
+)
+ 
+
+ 
+
+
+ // static async getInitialProps({ query, isServer, store }) {
+  //   return {
+  //     preload: ['contestant_companies'],
+  //     settings: settings,
+  //     //    load : ["bookingmap", "formdata", "ticketgroups"]
+  //   };
+  // }
+
+
+export const getStaticProps = reduxWrapper.getStaticProps(async ({ store }) => {
+
+  await configure(store, {
+    settings: settings,
+  preload: ['contestant_companies']
+  })
+  
+})
+
+
+
+export default connect()(PageIndex);
+
+
+

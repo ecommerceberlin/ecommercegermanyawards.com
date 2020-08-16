@@ -8,33 +8,16 @@ import {
   Wrapper,
   LayoutMain as Layout,
   Markdown,
+  reduxWrapper,
+  configure
 } from 'eventjuicer-site-components';
 
-const settings = require('../settings').default;
+import settings from '../settings'
 
-class PageLegalContest extends React.Component {
-  static async getInitialProps({
-    err,
-    req,
-    res,
-    pathname,
-    query,
-    asPath,
-    isServer,
-    store,
-  }) {
-    return {
-      settings: settings,
-    };
-  }
+const PageLegalContest = (props) => (
 
-  render() {
-    const { url } = this.props;
-
-    return (
-      <Layout>
-        <Wrapper first label="awards.contest.agreement.title">
-          <Markdown>{`
+  <Wrapper first label="awards.contest.agreement.title">
+  <Markdown>{`
 
 ## General information and contact details of the Administrator
 
@@ -214,10 +197,18 @@ The announcement of the Contest Winners will take place during the “E-commerce
 
 
 `}</Markdown>
-        </Wrapper>
-      </Layout>
-    );
-  }
-}
+</Wrapper>
+
+)
+
+export const getStaticProps = reduxWrapper.getStaticProps(async ({ store }) => {
+
+  await configure(store, {
+    settings: settings,
+    preload: ['contestant_companies']
+  })
+  
+})
+
 
 export default connect()(PageLegalContest);

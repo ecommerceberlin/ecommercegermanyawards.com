@@ -1,6 +1,4 @@
-
-exports.default = {
-
+const settings  = {
 
     AVAILABLE_LOCALES : "en,de",
     DEFAULT_LOCALE : "en",
@@ -145,3 +143,5 @@ exports.default = {
     },
 };
 
+
+export default settings
