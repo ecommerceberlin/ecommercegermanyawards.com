@@ -17,7 +17,7 @@ const PagePremiumSingle = ({name}) => {
   return (
 
     <div>
-      <WidgetPremiumTicket name={name} resolve={item => item.translation_asset_id.indexOf(name)!==-1} />
+      <WidgetPremiumTicket name={name} labelPrefix="resources.awards.premium." resolve={item => item.translation_asset_id.indexOf(name)!==-1} />
       <WidgetPremiumTickets />
   
     </div>
@@ -37,7 +37,7 @@ const PagePremiumSingle = ({name}) => {
  
   const paths = filtered.map(row => ({ 
     params: {
-      name : row.translation_asset_id.replace('resources.upgrades.misc.', '')
+      name : row.translation_asset_id.replace('resources.awards.premium.', '')
     }
   }))
 
