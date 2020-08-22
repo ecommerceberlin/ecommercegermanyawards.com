@@ -8,7 +8,7 @@ import {
 } from 'eventjuicer-site-components';
 
 
-const settings = require('../../settings').default;
+import settings from '../../settings';
 
 
 const PagePremiumSingle = ({name}) => {
