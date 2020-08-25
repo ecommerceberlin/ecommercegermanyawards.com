@@ -9,7 +9,7 @@ import {
   MyTypography as Typography,
   Markdown,
   WidgetVideoWithEventInfo,
-  WidgetContestantCompaniesWinners,
+  WidgetContestantCompaniesArchiveWinners,
   reduxWrapper,
   configure
 } from 'eventjuicer-site-components';
@@ -44,7 +44,7 @@ const PageVote = ({id}) => (
         
 
 
-       <WidgetContestantCompaniesWinners />
+       <WidgetContestantCompaniesArchiveWinners />
 
         {/* <WidgetContestantCompanies
           intro={
@@ -92,7 +92,7 @@ export const getStaticProps = reduxWrapper.getStaticProps(async ({ params, store
 
   await configure(store, {
     settings: settings,
-  preload: ['contestant_companies']
+    preload: ['contestant_companies', 'contestant_companies_all']
   })
 
   return {props : {

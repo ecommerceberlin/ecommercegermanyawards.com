@@ -3,9 +3,9 @@ import {
   MyHead as Head,
   LayoutMain as Layout,
   WidgetVideoWithEventInfo,
-  WidgetContestantCompaniesWinners,
+  WidgetContestantCompaniesArchiveWinners,
   WidgetPartners,
-  WidgetPresenters,
+  WidgetJurors,
   Wrapper,
   reduxWrapper,
   configure
@@ -24,18 +24,20 @@ const PageIndex = (props) => (
 
         {/* <WidgetContestantCompanies label="awards.contestants.categories.title" /> */}
 
-        <WidgetContestantCompaniesWinners />
-
-
-        <WidgetPresenters
+        <WidgetJurors
           label="awards.jury.title"
           secondaryLabel="awards.jury.description"
-          first
           disableTemps={false}
           limit={100}
           filter={null}
           bio={false}
+          minToShow={1}
         />
+
+        <WidgetContestantCompaniesArchiveWinners />
+
+
+     
 
         {/* <Wrapper label="awards.timeline.title">
           <div style={{ display: 'flex', justifyContent: 'center' }}>
@@ -161,7 +163,7 @@ export const getStaticProps = reduxWrapper.getStaticProps(async ({ store }) => {
 
   await configure(store, {
     settings: settings,
-  preload: ['contestant_companies']
+  preload: ['contestant_companies_all']
   })
   
 })
