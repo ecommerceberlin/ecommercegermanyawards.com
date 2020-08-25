@@ -88,7 +88,7 @@ const settings  = {
         organizer_regno : 'VAT ID PL7792439665',
         event_name : 'E-commerce Germany Awards',
         event_location : 'Spindler & Klatt, Köpenicker Str. 16-17, 10997 Berlin',
-        event_date : '12th February 2020',
+        event_date : '17th February 2021',
         event_hours : '10:00-17:00',
 
     },
@@ -122,10 +122,10 @@ const settings  = {
 
         people : [
             {             
-                name: 'Ola Miedzynska',
+                name: 'Jacob Przybylski',
                 position : 'Event Manager',
                 langs : ["en","de"],
-                avatar: 'https://res.cloudinary.com/ecommerceberlin/image/upload/c_fit,w_200/v1572967151/Newsletters/ola.png',
+                avatar: 'https://res.cloudinary.com/ecommerceberlin/image/upload/v1598270731/Jacob_Linkedin.jpg',
                 phone: '+49 302 555 98 79',
                 email: 'awards@ecommerceberlin.com',
                 chatlio : true
