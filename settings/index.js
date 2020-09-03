@@ -52,16 +52,12 @@ const settings  = {
                 // {name: 'vote', to: '/vote'},
               ]
             },
-            // {
-            //   name: 'visitors',
-            //   items: [
-            //     {name: 'visit', to: '/visit'},
-            //     // {name: 'schedule', to: '/schedule'},
-            //     // {name: 'presenters', to: '/presenters'},
-            //     {name: 'exhibitors', to: '/exhibitors'},
-            //     // {name: 'offers', to: '/offers'}
-            //   ]
-            // },
+            {
+              name: 'partners',
+              items: [
+                {name: 'premium', to: '/premium'},
+              ]
+            },
             // {
             //   name: 'exhibitors',
             //   items: [
