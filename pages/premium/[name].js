@@ -18,7 +18,7 @@ const PagePremiumSingle = ({name}) => {
 
     <div>
       <WidgetPremiumTicket name={name} labelPrefix="resources.awards.premium." resolve={item => item.translation_asset_id.indexOf(name)!==-1} />
-      <WidgetPremiumTickets />
+      <WidgetPremiumTickets label="resources.awards.premium.title" />
   
     </div>
   )

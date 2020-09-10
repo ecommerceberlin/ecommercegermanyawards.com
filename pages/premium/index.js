@@ -9,7 +9,7 @@ import settings from '../../settings';
 
 const PagePremium = () => (
   
-    <WidgetPremiumTickets />
+    <WidgetPremiumTickets label="resources.awards.premium.title"  />
 )
 
 export const getStaticProps = reduxWrapper.getStaticProps(async ({ store, params }) => {
