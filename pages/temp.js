@@ -32,7 +32,7 @@ const PageIndex = (props) => (
 
   <div>
 
-  <WidgetVideoWithEventInfo />
+
 
   <Wrapper first label="awards.hello.title">
   
@@ -98,6 +98,10 @@ const PageIndex = (props) => (
  />
 
 
+<WidgetIconGrid setting="contestant.categories" icons={{
+
+}}/>
+
 <WidgetPhotostream setting="awardsphotostream" />
 
 
@@ -159,9 +163,6 @@ New Developments in E-commerce
 ]} />
 
 
-<WidgetIconGrid setting="speakers.benefits" icons={{
-
-}}/>
 
 
    {/* <WidgetPresentersAll 
@@ -214,6 +215,8 @@ New Developments in E-commerce
         />
 
 
+
+            <WidgetVideoWithEventInfo />
 
 
 

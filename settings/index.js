@@ -189,6 +189,71 @@ const settings  = {
         },
 
 
+        categories : {
+
+            label: "awards.categories.title",
+            secondaryLabel: "awards.categories.description",
+            baseLabel: "awards.categories",
+            typography: "subtitle",
+            dense: true,
+            
+            items: [
+
+                {
+                    icon : "FaSearch",
+                    label :  'sales_generation',
+                },
+            
+                {
+                    icon : "FaSearch",
+                    label : 'communication'
+                },
+            
+                {
+                    icon : "FaSearch",
+                    label : 'internationalization'
+                },
+
+                {
+                    icon : "FaSearch",
+                    label : 'logistics'
+                },
+
+                {
+                    icon : "FaSearch",
+                    label :  'platform',
+                },
+            
+                {
+                    icon : "FaSearch",
+                    label : 'payment'
+                },
+            
+                {
+                    icon : "FaSearch",
+                    label : 'analytics'
+                },
+
+                {
+                    icon : "FaSearch",
+                    label : 'agency'
+                },
+
+                {
+                    icon : "FaSearch",
+                    label : 'infrastructure'
+                },
+
+                {
+                    icon : "FaSearch",
+                    label : 'innovation'
+                }
+
+            ]
+        },
+
+
+
     },
 
     awardsphotostream : {
