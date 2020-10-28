@@ -34,18 +34,17 @@ const PageIndex = (props) => (
 
   <WidgetVideoWithEventInfo />
 
-
-  <Wrapper first label="cfp.hello.title">
+  <Wrapper first label="awards.hello.title">
   
   <Section 
    
    left={  <div style={{marginTop: '5rem'}}>
 
-     <MyTypography template="h4" label="cfp.hello.submit" />
+     <MyTypography template="h4" label="awards.hello.submit" />
     
-     <MyTypography template="subtitle1" label="cfp.hello.needs" />
+     <MyTypography template="subtitle1" label="awards.hello.needs" />
 
-     <Markdown label="cfp.hello.details" />
+     <Markdown label="awards.hello.details" />
 
 
      </div> }
