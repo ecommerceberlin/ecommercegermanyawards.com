@@ -88,8 +88,8 @@ const PageIndex = (props) => (
 
   right={
     <>
-    <MyTypography template="subtitle1" label="presenters.contest-rules.title" /> 
-    <Markdown label="presenters.contest-rules.description" />
+    <MyTypography template="subtitle1" label="awards.rules-summary.title" /> 
+    <Markdown label="awards.rules-summary.body" />
     </>
   }
 
