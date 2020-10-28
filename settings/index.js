@@ -159,7 +159,67 @@ const settings  = {
             
         ]
 
-    }
+    },
+
+    contestant: {
+
+        register: {
+
+            label : "awards.register.title",
+            baseLabel: "awards",
+            fields : [
+              {name: "email", required: true},
+              {name: "fname", required: true},
+              {name: "lname", required: true},
+              {name: "cname2", required: true},
+            //   {name: "position", required: true},
+            //   {name: "nip", required: false},
+              {name: "project_name", required: true},
+              {name: "awards_category", required: true, options: "categories"},
+              {name: "phone", required: true},
+              {name: "website", required: true},
+              {name: "accept", required: true, type: "confirm"}
+            ],
+
+            start : ['email', 'fname'],
+            ticket_id : 1830,
+            email_template : "ecommerceberlin-visitor-registration",
+            background : "https://res.cloudinary.com/ecommerceberlin/image/upload/c_fit,h_500,w_500/v1546813408/ebe_lanyard1.jpg",
+
+        },
+
+
+    },
+
+    awardsphotostream : {
+
+        wrapperProps: {
+            label : "awards.gallery.title"
+        },
+
+        cols: 12,
+
+        items : [
+
+            {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1597824810/Website/CFP%20-%20gallery/Conference2_MyTheresa.jpg", cols: 6},
+            {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1597824698/Website/CFP%20-%20gallery/Conference6_Facebook_Lisa.jpg", cols: 6},
+
+            {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1597824722/Website/CFP%20-%20gallery/IMG_0782_copy.jpg", cols: 4},
+            {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1597824720/Website/CFP%20-%20gallery/IMG_0643.jpg", cols: 4},
+            {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1597824718/Website/CFP%20-%20gallery/Conference7_IBM_Isabelle.jpg", cols: 4},
+
+            {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1597824707/Website/CFP%20-%20gallery/IMG_9984.jpg", cols: 6},
+          //  {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1597824699/Website/CFP%20-%20gallery/2SH07600.jpg", cols: 3},
+          {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1597824808/Website/CFP%20-%20gallery/Conference4_Nivea.jpg", cols: 6},
+     
+
+            // {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1597824698/Website/CFP%20-%20gallery/Conference10_Douglas.jpg", cols: 6},
+            // {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1597824685/Website/CFP%20-%20gallery/2SH09325.jpg", cols: 6},
+            // {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1597824685/Website/CFP%20-%20gallery/Conference5_BabySweets.jpg", cols: 4}
+
+        ]
+    },
+
 
 
 };

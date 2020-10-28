@@ -68,33 +68,37 @@ const PageIndex = (props) => (
  </Wrapper>
 
 
-<WidgetPhotostream setting="cfpphotostream" />
-
 <WidgetSpeaking
 
- options={{
-   "categories": [
-     'conversion',
-     'marketing',
-     'logistics',
-     'payments',
-     'it',
-     'trends',
-   ]
- }} 
+  setting="contestant.register"
+  options={{
+  "categories": [
+    'sales_generation',
+    'communication',
+    'internationalization',
+    'logistics',
+    'platform',
+    'payment',
+    'analytics',
+    'agency',
+    'infrastructure',
+    'innovation'
+  ]
+  }} 
 
- right={
-   <>
-   <MyTypography template="subtitle1" label="presenters.contest-rules.title" /> 
-   <Markdown label="presenters.contest-rules.description" />
-   </>
- }
+  right={
+    <>
+    <MyTypography template="subtitle1" label="presenters.contest-rules.title" /> 
+    <Markdown label="presenters.contest-rules.description" />
+    </>
+  }
 
  summary={<div>asd</div>}
 
  />
 
 
+<WidgetPhotostream setting="awardsphotostream" />
 
 
    {/* <div>
