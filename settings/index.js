@@ -144,7 +144,26 @@ const settings  = {
             {label : "common.pages.cookies", href : "/legal-cookies"},
         ]
     },
+
+
+    awardstimeline: {
+
+        baseLabel: "awards.timeline",
+
+        items : [
+            {date: "2020-11-02", name: "submissions", icon:  "NoteAdd", dotColor: 'primary', active: true },
+            {date: "2020-12-01", name: "public-voting", icon:  "Public" },
+            {date: "2020-12-21", name: "qualification", icon:  "Assessment" },
+            {date: "2021-01-11", name: "jury-voting", icon:  "HowToVote" },
+            {date: "2021-02-17", name: "results", icon:  "Mic", active: false }
+            
+        ]
+
+    }
+
+
 };
 
 
 export default settings
+ 
