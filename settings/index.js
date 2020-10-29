@@ -54,6 +54,13 @@ const settings  = {
               ]
             },
             {
+                name: 'awards',
+                items: [
+                  {name: 'about', to: '/about'},
+                ]
+              },
+
+            {
               name: 'partners',
               items: [
                 {name: 'premium', to: '/premium'},
