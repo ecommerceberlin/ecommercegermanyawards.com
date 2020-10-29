@@ -144,12 +144,12 @@ const settings  = {
     footer : {
         iconStyle : "black",
         links : [
-            {label : "common.pages.imprint", href : "/legal-imprint"},
+            {label : "common.pages.imprint", href : "/legal/imprint"},
             // {label : "visitors.agreement.title", href : "/legal-visitors"},
             // {label : "exhibitors.agreement.title", href : "/legal-exhibitors"},
-            {label : "awards.contest.agreement.title", href : "/legal-contest"},
-            {label : "awards.contest.legal-data.title", href : "/legal-personal-data"},
-            {label : "common.pages.cookies", href : "/legal-cookies"},
+            {label : "awards.contest.agreement.title", href : "/legal/contest"},
+            {label : "awards.contest.legal-data.title", href : "/legal/personal-data"},
+            {label : "common.pages.cookies", href : "/legal/cookies"},
         ]
     },
 

@@ -8,7 +8,7 @@ import {
   configure
 } from 'eventjuicer-site-components';
 
-import settings from '../settings'
+import settings from '../../settings'
 
 const PageLegalCookies = (props) => (
 
