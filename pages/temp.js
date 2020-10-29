@@ -19,11 +19,7 @@ import {
   WidgetIconGrid
 } from 'eventjuicer-site-components';
 
-import NoteAdd from '@material-ui/icons/NoteAdd'
-import HowToVote from '@material-ui/icons/HowToVote'
-import Public from '@material-ui/icons/Public'
-import Mic from '@material-ui/icons/Mic'
-import Assessment from '@material-ui/icons/Assessment'
+import * as Icons from '../src/icons' 
 
 import settings from '../settings';
 
@@ -52,11 +48,11 @@ const PageIndex = (props) => (
      <WidgetVerticalTimeline 
      setting="awardstimeline" 
      icons={{
-       NoteAdd: <NoteAdd />,
-       HowToVote: <HowToVote />,
-       Public: <Public />,
-       Mic: <Mic />,
-       Assessment: <Assessment />
+       NoteAdd: <Icons.NoteAdd />,
+       HowToVote: <Icons.HowToVote />,
+       Public: <Icons.Public />,
+       Mic: <Icons.Mic />,
+       Assessment: <Icons.Assessment />
      }} />
    }
 

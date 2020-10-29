@@ -5,9 +5,12 @@ import {
     reduxWrapper,
     configure,
     resizeCloudinaryImage,
-    MyTypography
+    MyTypography,
+    WidgetVerticalTimeline,
+    TwoColsLayout as Section
   } from 'eventjuicer-site-components';
  
+  import * as Icons from '../src/icons' 
 
   import settings from '../settings';
   
@@ -19,7 +22,20 @@ import {
     
     <Wrapper first>
 
-    <MyTypography template="h4">
+    <Section
+
+    left={<>
+
+  <div style={{marginBottom: 20}}>
+
+       <MyTypography template="h4">
+       E-commerce Germany Awards 2021 
+       
+       </MyTypography>
+
+    </div>
+    
+       <MyTypography template="subtitle1">
     In 2021 the E-commerce Berlin Expo will take place for the 6th time. When we chose to expand the proven Expo formula back in 2018, we decided to add the Networking Party a day before the actual event. 
     </MyTypography>
 
@@ -31,6 +47,26 @@ import {
     <MyTypography template="subtitle1" >
     The Party consists of two parts: a pure Networking part and the E-commerce Germany Awards Ceremony.
     </MyTypography>
+    </>}
+    right={
+
+      <WidgetVerticalTimeline 
+      setting="awardstimeline" 
+      icons={{
+        NoteAdd: <Icons.NoteAdd />,
+        HowToVote: <Icons.HowToVote />,
+        Public: <Icons.Public />,
+        Mic: <Icons.Mic />,
+        Assessment: <Icons.Assessment />
+      }} />
+ 
+ 
+    } 
+    
+    
+    />
+
+ 
  
     </Wrapper>
 
@@ -67,6 +103,9 @@ import {
       />
     ))}
   </Wrapper>
+
+
+   
 
   </div>
   
