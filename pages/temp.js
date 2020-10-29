@@ -102,6 +102,30 @@ const PageIndex = (props) => (
 
 }}/>
 
+
+
+   <WidgetFaq 
+      baseLabel="awards.faq"
+       items={[
+       {
+         label: 'categories'
+       },
+       {
+         label: 'timeline',
+       },
+       { label: 'fee' },
+       { label: 'limits' },
+       { label: 'status' },
+       { label: 'abuse' },
+       {
+       //  baseLabel: 'cfp.faq.before_event',
+         label: 'sponsorship',
+       },
+]} />
+
+
+
+
 <WidgetPhotostream setting="awardsphotostream" />
 
 
@@ -139,28 +163,6 @@ New Developments in E-commerce
           bio={false}
           minToShow={1}
         />
-
-
-   <WidgetFaq 
-       items={[
-       {
-         label: 'exhibitor-status',
-         important: true,
-         buttons: [],
-       },
-       {
-     //    baseLabel: 'exhibitors.faq.before_event',
-         label: 'fee',
-       },
-       { label: 'submission-limits' },
-       { label: 'co-presenter' },
-       { label: 'ranking' },
-       { label: 'fair-play' },
-       {
-       //  baseLabel: 'cfp.faq.before_event',
-         label: 'stage',
-       },
-]} />
 
 
 
