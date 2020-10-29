@@ -169,6 +169,30 @@ const settings  = {
 
     contestant: {
 
+
+        faq : {
+
+            wrapperProps: {
+                label: "awards.faq.title",
+                secondaryLabel: null,
+            },
+          
+            baseLabel: "awards.faq",
+            items: [
+             {
+               label: 'categories'
+             },
+             {
+               label: 'timeline',
+             },
+             { label: 'fee' },
+             { label: 'limits' },
+             { label: 'status' },
+             { label: 'abuse' },
+             { label: 'sponsorship'},
+        ]
+
+        },
         register: {
 
             label : "awards.register.title",
