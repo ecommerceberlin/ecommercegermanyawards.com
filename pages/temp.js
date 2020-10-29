@@ -105,6 +105,8 @@ const PageIndex = (props) => (
 
 
    <WidgetFaq 
+      label="awards.faq.title"
+      secondaryLabel={null}
       baseLabel="awards.faq"
        items={[
        {
@@ -117,10 +119,7 @@ const PageIndex = (props) => (
        { label: 'limits' },
        { label: 'status' },
        { label: 'abuse' },
-       {
-       //  baseLabel: 'cfp.faq.before_event',
-         label: 'sponsorship',
-       },
+       { label: 'sponsorship'},
 ]} />
 
 
