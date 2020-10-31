@@ -88,15 +88,13 @@ return {paths: [], fallback: true}
 
 export const getStaticProps = reduxWrapper.getStaticProps(async ({ params, store }) => {
 
-  const {id} = params;
-
   await configure(store, {
     settings: settings,
     preload: ['contestant_companies', 'contestant_companies_all']
   })
 
   return {props : {
-    id: id
+    id: "id" in params ? params.id : 0
   }, 
   revalidate: 1}
   
