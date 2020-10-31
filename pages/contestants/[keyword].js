@@ -68,15 +68,13 @@ return {paths: [], fallback: true}
 
 export const getStaticProps = reduxWrapper.getStaticProps(async ({ params, store }) => {
 
-  const {keyword} = params;
-
   await configure(store, {
     settings: settings,
     preload: ['contestant_companies']
   })
 
   return {props : {
-    keyword: keyword
+    keyword: "keyword" in params ? params.keyword : ""
   }, 
   revalidate: 1}
   
