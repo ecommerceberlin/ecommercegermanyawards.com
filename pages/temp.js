@@ -14,7 +14,7 @@ import {
   Markdown,
   WidgetVerticalTimeline,
   WidgetPhotostream,
-  WidgetSpeaking,
+  WidgetRegForm,
   WidgetFaq,
   WidgetIconGrid
 } from 'eventjuicer-site-components';
@@ -57,7 +57,7 @@ const PageIndex = (props) => (
  </Wrapper>
 
 
-<WidgetSpeaking
+<WidgetRegForm
 
   setting="contestant.register"
   options={{
@@ -94,6 +94,12 @@ const PageIndex = (props) => (
   filter={null}
   bio={false}
   minToShow={1}
+/>
+
+<WidgetRegForm
+  setting="awards.become_a_juror"
+  right={null}
+  summary={<div>asd</div>}
 />
 
 <WidgetContestantCompaniesArchiveWinners />

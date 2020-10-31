@@ -57,6 +57,7 @@ const settings  = {
                 name: 'awards',
                 items: [
                   {name: 'about', to: '/about'},
+                  {name: 'jurors', to: '/jurors'},
                 ]
               },
 
@@ -98,25 +99,9 @@ const settings  = {
     },
 
     rolebuttons : {
-        accent : "gold",
-        items : [
-        {
-          url: 'https://static.eventjuicer.com/photos/12961446_1288640741145929_7684227399478032531_o.jpg',
-          label: 'common.visitor',
-          width: '50%',
-          target : "/visit"
-        },
-        {
-          url: 'https://static.eventjuicer.com/photos/12967348_1288628734480463_3860331543127036065_o.jpg',
-          label: 'common.exhibitor',
-          width: '50%',
-          target : "/exhibit"
-        },
-        ]
     },
 
     customer_support : {
-
     },
 
     sales_support : {
@@ -138,7 +123,6 @@ const settings  = {
     },
 
     schedule : {
-
     },
 
     footer : {
@@ -165,6 +149,29 @@ const settings  = {
             
         ]
 
+    },
+
+    awards : {
+
+        become_a_juror: {
+
+            label : "juror.register.title",
+            baseLabel: "juror",
+            fields : [
+              {name: "email", required: true},
+              {name: "fname", required: true},
+              {name: "lname", required: true},
+              {name: "cname2", required: true},
+              {name: "position", required: true},
+              {name: "phone", required: true},
+              {name: "company_website", required: true},
+            ],
+            start : ['fname', 'lname', 'cname2'],
+            ticket_id : 1886,
+            email_template : "ega-juror-submission-confirmation",
+            background : "https://res.cloudinary.com/ecommerceberlin/image/upload/c_fit,h_500,w_500/v1546813408/ebe_lanyard1.jpg",
+
+        },
     },
 
     contestant: {
@@ -211,7 +218,7 @@ const settings  = {
               {name: "accept", required: true, type: "confirm"}
             ],
 
-            start : ['cname2', 'project_name', 'awards_category','accept'],
+            start : ['cname2', 'project_name', 'awards_category'],
             ticket_id : 1861,
             email_template : "ega-submission-confirmation",
             background : "https://res.cloudinary.com/ecommerceberlin/image/upload/c_fit,h_500,w_500/v1546813408/ebe_lanyard1.jpg",
