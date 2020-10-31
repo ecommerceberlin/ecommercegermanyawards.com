@@ -16,6 +16,7 @@ const settings  = {
         default_locale : "en",
         api : "https://api.eventjuicer.com/v1/public/hosts/ecommercegermanyawards.com",
         service_api : "https://api.eventjuicer.com/v1/services",
+        post_api : "https://api.eventjuicer.com/v1/public/hosts/ecommercegermanyawards.com/register",
         og_image : "https://res.cloudinary.com/ecommerceberlin/image/upload/c_limit,w_1024/v1546943854/ebe_og_home.jpg",
     
     },
@@ -78,13 +79,6 @@ const settings  = {
         ]
     },
 
-
-    visitor : {
-        ticket_id : 1549,
-        email_template : "ecommerceberlin-visitor-registration",
-        background : "https://res.cloudinary.com/ecommerceberlin/image/upload/c_fit,h_500,w_500/v1546813408/ebe_lanyard1.jpg",
-        api : "https://api.eventjuicer.com/v1/public/hosts/ecommerceberlin.com/register"
-    },
 
     common : {
 
