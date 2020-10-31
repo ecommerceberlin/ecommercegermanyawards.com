@@ -1,10 +1,7 @@
 import {
   connect,
-  MyHead as Head,
-  LayoutMain as Layout,
   WidgetVideoWithEventInfo,
   WidgetContestantCompaniesArchiveWinners,
-  WidgetPartners,
   WidgetJurors,
   Wrapper,
   reduxWrapper,
@@ -19,9 +16,11 @@ import {
   WidgetIconGrid
 } from 'eventjuicer-site-components';
 
-import * as Icons from '../src/icons' 
 
+import * as Icons from '../src/icons' 
+import AllPartners from '../src/AllPartners'
 import settings from '../settings';
+
 
 const PageIndex = (props) => (
 
@@ -86,6 +85,7 @@ const PageIndex = (props) => (
 <WidgetIconGrid setting="contestant.categories" icons={{}}/>
 <WidgetFaq setting="contestant.faq" />
 <WidgetPhotostream setting="awardsphotostream" />
+
 <WidgetJurors
   label="awards.jury.title"
   secondaryLabel="awards.jury.description"
@@ -95,73 +95,16 @@ const PageIndex = (props) => (
   bio={false}
   minToShow={1}
 />
-
-<WidgetRegForm
-  setting="awards.become_a_juror"
-  right={null}
-  summary={<div>asd</div>}
-/>
-
+ 
 <WidgetContestantCompaniesArchiveWinners />
-
-<WidgetPartners
-label="partners.networking.title"
-filter={item =>
-item['scopes(deprecated)'].indexOf('networking') > -1 &&
-item.logotype.indexOf('cloudinary') > -1
-}
-limit={50}
-center={true}
-/>
-
-<WidgetPartners
-label="partners.media.title"
-filter={item =>
-item['scopes(deprecated)'].indexOf('media') > -1 &&
-item.logotype.indexOf('cloudinary') > -1
-}
-limit={50}
-/>
-
-<WidgetPartners
-label="partners.community.title"
-filter={item =>
-item['scopes(deprecated)'].indexOf('community') > -1 &&
-item.logotype.indexOf('cloudinary') > -1
-}
-limit={50}
-/>
-
-<WidgetPartners
-label="partners.communication.title"
-filter={item =>
-item['scopes(deprecated)'].indexOf('communication') > -1 &&
-item.logotype.indexOf('cloudinary') > -1
-}
-center={true}
-limit={50}
-/>
-
+<AllPartners />
 <WidgetVideoWithEventInfo />
 
 </div>
 
-  
 )
  
-
  
-
-
- // static async getInitialProps({ query, isServer, store }) {
-  //   return {
-  //     preload: ['contestant_companies'],
-  //     settings: settings,
-  //     //    load : ["bookingmap", "formdata", "ticketgroups"]
-  //   };
-  // }
-
-
 export const getStaticProps = reduxWrapper.getStaticProps(async ({ store }) => {
 
   await configure(store, {

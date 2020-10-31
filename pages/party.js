@@ -9,9 +9,10 @@ import {
   MyTypography,
   Markdown,
   WidgetPhotostream,
-  WidgetRegForm
+  WidgetRegForm,
+  YouTube
 } from 'eventjuicer-site-components';
-
+ 
 import AllPartners from '../src/AllPartners'
 
 import settings from '../settings';
@@ -22,29 +23,22 @@ const PageJury = (props) => (
  
 <WidgetRegForm
   first
-  setting="awards.become_a_juror"
+  setting="awards.attend_a_party"
   right={
     <div style={{marginTop: 30, marginLeft: 10}}>
-    <MyTypography template="subtitle1" label="juror.register.title" /> 
-    <Markdown label="juror.register.description" />
+    <MyTypography template="subtitle1" label="party.register.title" /> 
+    <Markdown label="party.register.description" />
     </div>
   }
   summary={<div>asd</div>}
 />
 
-<WidgetJurors
-  label="awards.jury.title"
-  secondaryLabel="awards.jury.description"
-  disableTemps={false}
-  limit={100}
-  filter={null}
-  bio={false}
-  minToShow={1}
-/>
-
-<WidgetContestantCompaniesArchiveWinners />
+{/* <YouTube url='https://www.youtube.com/watch?v=pLfnx7B3BBA' /> */}
 
 <WidgetPhotostream setting="awardsphotostream" />
+
+
+<WidgetContestantCompaniesArchiveWinners />
 
 <AllPartners />
 

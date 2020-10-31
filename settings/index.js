@@ -59,6 +59,7 @@ const settings  = {
                 items: [
                   {name: 'about', to: '/about'},
                   {name: 'jurors', to: '/jurors'},
+                  {name: 'party', to: '/party'},
                 ]
               },
 
@@ -147,6 +148,31 @@ const settings  = {
 
     awards : {
 
+        about : {
+            wrapperProps: {
+                label: "awards.about.stats"
+            },
+            items : [
+                {
+                  image:
+                    'https://res.cloudinary.com/eventjuicer/image/upload/v1604003805/ega/ega_2021_numberOfContestVoters.svg',
+                },
+                {
+                  image:
+                    'https://res.cloudinary.com/eventjuicer/image/upload/v1604003805/ega/ega_2021_awardsCeremonyGuests.svg',
+                },
+                {
+                  image:
+                    'https://res.cloudinary.com/eventjuicer/image/upload/v1604003805/ega/ega_2021_numberOfContestParticipants.svg',
+                },
+                {
+                  image:
+                    'https://res.cloudinary.com/eventjuicer/image/upload/v1604003805/ega/ega_2021_promotion.svg',
+                },
+               
+            ]
+        },
+
         become_a_juror: {
 
             label : "juror.register.title",
@@ -162,7 +188,30 @@ const settings  = {
             ],
             start : ['fname', 'lname', 'cname2'],
             ticket_id : 1886,
+            cc: "awards+juror@ecommerceberlin.com",
             email_template : "ega-juror-submission-confirmation",
+            background : "https://res.cloudinary.com/ecommerceberlin/image/upload/c_fit,h_500,w_500/v1546813408/ebe_lanyard1.jpg",
+
+        },
+
+        attend_a_party: {
+
+            label : "party.register.title",
+            baseLabel: "juror",
+            legend: "party.form.intro",
+            fields : [
+              {name: "email", required: true},
+              {name: "fname", required: true},
+              {name: "lname", required: true},
+              {name: "cname2", required: true},
+              {name: "position", required: true},
+              {name: "phone", required: true},
+              {name: "company_website", required: true},
+            ],
+            start : ['fname', 'lname', 'cname2'],
+            ticket_id : 1887,
+            cc: "awards+party@ecommerceberlin.com",
+            email_template : "ega-party-submission-confirmation",
             background : "https://res.cloudinary.com/ecommerceberlin/image/upload/c_fit,h_500,w_500/v1546813408/ebe_lanyard1.jpg",
 
         },
@@ -214,11 +263,38 @@ const settings  = {
 
             start : ['cname2', 'project_name', 'awards_category'],
             ticket_id : 1861,
+            cc: "awards+submission@ecommerceberlin.com",
             email_template : "ega-submission-confirmation",
             background : "https://res.cloudinary.com/ecommerceberlin/image/upload/c_fit,h_500,w_500/v1546813408/ebe_lanyard1.jpg",
 
         },
 
+        benefits: {
+
+            label: "awards.benefits.title",
+            secondaryLabel: "awards.benefits.description",
+            baseLabel: "awards.benefits",
+            typography: "subtitle",
+            dense: true,
+
+            items: [
+
+                {
+                    icon : "FaSearch",
+                    label :  'celebrate',
+                },
+
+                {
+                    icon : "FaSearch",
+                    label :  'networking',
+                },
+
+                {
+                    icon : "FaSearch",
+                    label :  'confidence',
+                }
+            ]
+        },
 
         categories : {
 
@@ -297,21 +373,40 @@ const settings  = {
 
         items : [
 
-            {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1597824810/Website/CFP%20-%20gallery/Conference2_MyTheresa.jpg", cols: 6},
-            {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1597824698/Website/CFP%20-%20gallery/Conference6_Facebook_Lisa.jpg", cols: 6},
+            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1604012207/ega/beer.jpg", cols: 3},
+            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1604012209/ega/audience1.jpg", cols: 3},
+            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1604012208/ega/photowall2.jpg", cols: 6},
 
-            {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1597824722/Website/CFP%20-%20gallery/IMG_0782_copy.jpg", cols: 4},
-            {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1597824720/Website/CFP%20-%20gallery/IMG_0643.jpg", cols: 4},
-            {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1597824718/Website/CFP%20-%20gallery/Conference7_IBM_Isabelle.jpg", cols: 4},
 
-            {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1597824707/Website/CFP%20-%20gallery/IMG_9984.jpg", cols: 6},
-          //  {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1597824699/Website/CFP%20-%20gallery/2SH07600.jpg", cols: 3},
-          {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1597824808/Website/CFP%20-%20gallery/Conference4_Nivea.jpg", cols: 6},
-     
+            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1604012184/ega/award1.jpg", cols: 6},
+            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1604012217/ega/category_winner2.jpg", cols: 6},
 
-            // {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1597824698/Website/CFP%20-%20gallery/Conference10_Douglas.jpg", cols: 6},
-            // {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1597824685/Website/CFP%20-%20gallery/2SH09325.jpg", cols: 6},
-            // {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1597824685/Website/CFP%20-%20gallery/Conference5_BabySweets.jpg", cols: 4}
+
+            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1604012216/ega/MC_stage.jpg", cols: 6},
+            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1604012215/ega/party_screens2.jpg", cols: 6},
+
+  
+            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1604012221/ega/patio3.jpg", cols: 4},
+            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1604012219/ega/venue3.jpg", cols: 4},
+            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1604012183/ega/beer2.jpg", cols: 4},
+
+
+            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1604012196/ega/bimmer_mainscreen.jpg", cols: 6},
+            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1604012193/ega/venue2.jpg", cols: 6},
+
+            
+            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1604012179/ega/MC_audience.jpg", cols: 6},
+            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1604012191/ega/photowall.jpg", cols: 6},
+
+            // {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1604012212/ega/MC_stage2.jpg", cols: 6},
+            // {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1604012177/ega/photo_wall.jpg", cols: 6},
+            // {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1604012177/ega/award3.jpg", cols: 6},
+            // {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1604012169/ega/patio1.jpg", cols: 6},
+            // {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1604012213/ega/category_winner.jpg", cols: 3},  
+            // {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1604012204/ega/party_screens.jpg", cols: 6},        
+            // {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1604012203/ega/patio2.jpg", cols: 6},
+            // {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1604012197/ega/venue1.jpg", cols: 6},
+            // {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1604012192/ega/award2.jpg", cols: 6},
 
         ]
     },
