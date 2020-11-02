@@ -1,165 +1,115 @@
 import {
   connect,
-  MyHead as Head,
-  LayoutMain as Layout,
   WidgetVideoWithEventInfo,
   WidgetContestantCompaniesArchiveWinners,
-  WidgetPartners,
   WidgetJurors,
   Wrapper,
   reduxWrapper,
-  configure
+  configure,
+  TwoColsLayout as Section,
+  MyTypography,
+  Markdown,
+  WidgetVerticalTimeline,
+  WidgetPhotostream,
+  WidgetRegForm,
+  WidgetFaq,
+  WidgetIconGrid
 } from 'eventjuicer-site-components';
 
 
-
- 
-
+import * as Icons from '../src/icons' 
+import AllPartners from '../src/AllPartners'
 import settings from '../settings';
+
 
 const PageIndex = (props) => (
 
+
   <div>
-     
-        <WidgetVideoWithEventInfo />
 
-        {/* <WidgetContestantCompanies label="awards.contestants.categories.title" /> */}
+  <WidgetVideoWithEventInfo />
 
-        <WidgetJurors
-          label="awards.jury.title"
-          secondaryLabel="awards.jury.description"
-          disableTemps={false}
-          limit={100}
-          filter={null}
-          bio={false}
-          minToShow={1}
-        />
-
-        <WidgetContestantCompaniesArchiveWinners />
-
-
-     
-
-        {/* <Wrapper label="awards.timeline.title">
-          <div style={{ display: 'flex', justifyContent: 'center' }}>
-            <img
-              src="https://res.cloudinary.com/ecommerceberlin/image/upload/c_fit,w_1000/v1572367319/Awards%20website/timeline2.png"
-              alt=""
-            />
-          </div>
-        </Wrapper>
-
-        <Wrapper label="awards.winners.archive.title">
-          <div style={{ display: 'flex', justifyContent: 'center' }}>
-            <img
-              src="https://res.cloudinary.com/ecommerceberlin/image/upload/c_fit,w_1000/v1572365340/Awards%20website/winners.jpg"
-              alt=""
-            />
-          </div>
-        </Wrapper>
- */}
+  <Wrapper first label="awards.hello.title">
+  
+  <Section 
+   
+   left={  
+      <div style={{marginTop: '5rem'}}>
+      <MyTypography template="h4" label="awards.hello.submit" />
+      <MyTypography template="subtitle1" label="awards.hello.needs" />
+      <Markdown label="awards.hello.details" />
+      </div> 
+    }
+   right={ 
+     <WidgetVerticalTimeline 
+     setting="awardstimeline" 
+     icons={{
+       NoteAdd: <Icons.NoteAdd />,
+       HowToVote: <Icons.HowToVote />,
+       Public: <Icons.Public />,
+       Mic: <Icons.Mic />,
+       Assessment: <Icons.Assessment />
+     }} />
+   }
+ leftCentered={true}
+/>
 
 
+ </Wrapper>
 
-        {/* 
-        
-       
 
-        <WidgetFeaturedCompanies />
+<WidgetRegForm
 
-        <WidgetSalesMap
-          label="exhibitors.map.title2"
-          secondaryLabel="exhibitors.map.opensales"
-        />
+  setting="contestant.register"
+  options={{
+  "categories": [
+    'sales_generation',
+    'communication',
+    'internationalization',
+    'logistics',
+    'platform',
+    'payment',
+    'analytics',
+    'agency',
+    'infrastructure',
+    'innovation'
+  ]
+  }} 
+  right={
+    <>
+    <MyTypography template="subtitle1" label="awards.rules-summary.title" /> 
+    <Markdown label="awards.rules-summary.body" />
+    </>
+  }
+ summary={<div>asd</div>}
+ />
 
-        <FeaturedPresenters bio={false} />
+<WidgetIconGrid setting="contestant.categories" icons={{}}/>
+<WidgetFaq setting="contestant.faq" />
 
-        <WidgetVisitor
-          label="visitors.register"
-          secondaryLabel="event.parties"
-        />
+<WidgetJurors
+  label="awards.jury.title"
+  secondaryLabel="awards.jury.description"
+  disableTemps={false}
+  limit={100}
+  filter={null}
+  bio={false}
+  minToShow={1}
+/>
+ 
+<WidgetContestantCompaniesArchiveWinners />
 
-        <WidgetRoleButtons first={true} /> 
+<WidgetPhotostream setting="awardsphotostream" />
 
-       
 
-       <WidgetVisitor
-          label="visitors.register_alt"
-          secondaryLabel="event.parties"
-        /> 
+<AllPartners />
 
-        <WidgetVideoWithReviews overlay="black" /> 
-      
-      */}
 
-        {/* <WidgetAllExhibitorsColumnList /> */}
-
-        {/* <FsVideo
-          background="https://res.cloudinary.com/eventjuicer/image/upload/v1534553598/poster_stage1.jpg"
-          videoSrc="https://res.cloudinary.com/eventjuicer/video/upload/v1534553583/video_stage1.mp4"
-        /> */}
-
-        {/* <WidgetVisitor
-          label="visitors.register"
-          secondaryLabel="event.parties"
-        />
-
-        */}
-
-        <WidgetPartners
-          label="partners.networking.title"
-          filter={item =>
-            item['scopes(deprecated)'].indexOf('networking') > -1 &&
-            item.logotype.indexOf('cloudinary') > -1
-          }
-          limit={50}
-          center={true}
-        />
-
-        <WidgetPartners
-          label="partners.media.title"
-          filter={item =>
-            item['scopes(deprecated)'].indexOf('media') > -1 &&
-            item.logotype.indexOf('cloudinary') > -1
-          }
-          limit={50}
-        />
-
-        <WidgetPartners
-          label="partners.community.title"
-          filter={item =>
-            item['scopes(deprecated)'].indexOf('community') > -1 &&
-            item.logotype.indexOf('cloudinary') > -1
-          }
-          limit={50}
-        />
-
-        <WidgetPartners
-          label="partners.communication.title"
-          filter={item =>
-            item['scopes(deprecated)'].indexOf('communication') > -1 &&
-            item.logotype.indexOf('cloudinary') > -1
-          }
-          center={true}
-          limit={50}
-        />
-      </div>
+</div>
 
 )
  
-
  
-
-
- // static async getInitialProps({ query, isServer, store }) {
-  //   return {
-  //     preload: ['contestant_companies'],
-  //     settings: settings,
-  //     //    load : ["bookingmap", "formdata", "ticketgroups"]
-  //   };
-  // }
-
-
 export const getStaticProps = reduxWrapper.getStaticProps(async ({ store }) => {
 
   await configure(store, {

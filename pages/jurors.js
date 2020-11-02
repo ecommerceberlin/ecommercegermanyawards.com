@@ -21,6 +21,7 @@ const PageJury = (props) => (
 <div>
  
 <WidgetJurors
+  first
   label="awards.jury.title"
   secondaryLabel="awards.jury.description"
   disableTemps={false}
@@ -32,7 +33,7 @@ const PageJury = (props) => (
 
 
 <WidgetRegForm
-  first
+  
   setting="awards.become_a_juror"
   right={
     <div style={{marginTop: 30, marginLeft: 10}}>

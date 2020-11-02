@@ -21,11 +21,11 @@ const PageJury = (props) => (
 
 <div>
  
-<WidgetPhotostream setting="awardsphotostream" />
+<WidgetPhotostream first setting="awardsphotostream" />
 
 
 <WidgetRegForm
-  first
+  
   setting="awards.attend_a_party"
   right={
     <div style={{marginTop: 30, marginLeft: 10}}>
