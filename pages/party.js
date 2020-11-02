@@ -21,6 +21,9 @@ const PageJury = (props) => (
 
 <div>
  
+<WidgetPhotostream setting="awardsphotostream" />
+
+
 <WidgetRegForm
   first
   setting="awards.attend_a_party"
@@ -35,7 +38,6 @@ const PageJury = (props) => (
 
 {/* <YouTube url='https://www.youtube.com/watch?v=pLfnx7B3BBA' /> */}
 
-<WidgetPhotostream setting="awardsphotostream" />
 
 
 <WidgetContestantCompaniesArchiveWinners />

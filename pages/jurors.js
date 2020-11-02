@@ -20,6 +20,17 @@ const PageJury = (props) => (
 
 <div>
  
+<WidgetJurors
+  label="awards.jury.title"
+  secondaryLabel="awards.jury.description"
+  disableTemps={false}
+  limit={100}
+  filter={null}
+  bio={false}
+  minToShow={1}
+/>
+
+
 <WidgetRegForm
   first
   setting="awards.become_a_juror"
@@ -32,15 +43,6 @@ const PageJury = (props) => (
   summary={<div>asd</div>}
 />
 
-<WidgetJurors
-  label="awards.jury.title"
-  secondaryLabel="awards.jury.description"
-  disableTemps={false}
-  limit={100}
-  filter={null}
-  bio={false}
-  minToShow={1}
-/>
 
 <WidgetContestantCompaniesArchiveWinners />
 
