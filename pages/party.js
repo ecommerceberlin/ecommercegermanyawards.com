@@ -2,19 +2,16 @@ import {
   connect,
   WidgetVideoWithEventInfo,
   WidgetContestantCompaniesArchiveWinners,
-  WidgetJurors,
   reduxWrapper,
   configure,
-  TwoColsLayout as Section,
   MyTypography,
   Markdown,
   WidgetPhotostream,
   WidgetRegForm,
-  YouTube
+  // YouTube
 } from 'eventjuicer-site-components';
  
 import AllPartners from '../src/AllPartners'
-
 import settings from '../settings';
 
 const PageJury = (props) => (
@@ -23,9 +20,7 @@ const PageJury = (props) => (
  
 <WidgetPhotostream first setting="awardsphotostream" />
 
-
-<WidgetRegForm
-  
+<WidgetRegForm  
   setting="awards.attend_a_party"
   right={
     <div style={{marginTop: 30, marginLeft: 10}}>
@@ -39,11 +34,8 @@ const PageJury = (props) => (
 {/* <YouTube url='https://www.youtube.com/watch?v=pLfnx7B3BBA' /> */}
 
 
-
 <WidgetContestantCompaniesArchiveWinners />
-
 <AllPartners />
-
 <WidgetVideoWithEventInfo />
 
 </div>
@@ -56,7 +48,7 @@ export const getStaticProps = reduxWrapper.getStaticProps(async ({ store }) => {
 
   await configure(store, {
     settings: settings,
-    preload: ['jurors']
+    preload: []
   })
 
   return {

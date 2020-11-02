@@ -134,9 +134,10 @@ const settings  = {
     awardstimeline: {
 
         baseLabel: "awards.timeline",
+        iconSize: "40",
 
         items : [
-            {date: "2020-11-02", name: "submissions", icon:  "NoteAdd", dotColor: 'primary', active: true },
+            {date: "2020-11-02", name: "submissions", icon:  "NoteAdd", dotColor: 'black', active: true },
             {date: "2020-12-01", name: "public-voting", icon:  "Public" },
             {date: "2020-12-21", name: "qualification", icon:  "Assessment" },
             {date: "2021-01-11", name: "jury-voting", icon:  "HowToVote" },
@@ -280,17 +281,17 @@ const settings  = {
             items: [
 
                 {
-                    icon : "FaSearch",
+                    icon : "TrendingUp",
                     label :  'celebrate',
                 },
 
                 {
-                    icon : "FaSearch",
+                    icon : "People",
                     label :  'networking',
                 },
 
                 {
-                    icon : "FaSearch",
+                    icon : "VerifiedUser",
                     label :  'confidence',
                 }
             ]
@@ -307,52 +308,52 @@ const settings  = {
             items: [
 
                 {
-                    icon : "FaSearch",
+                    icon : "ShoppingCart",
                     label :  'sales_generation',
                 },
             
                 {
-                    icon : "FaSearch",
+                    icon : "Forum",
                     label : 'communication'
                 },
             
                 {
-                    icon : "FaSearch",
+                    icon : "Public",
                     label : 'internationalization'
                 },
 
                 {
-                    icon : "FaSearch",
+                    icon : "LocalShipping",
                     label : 'logistics'
                 },
 
                 {
-                    icon : "FaSearch",
+                    icon : "Storefront",
                     label :  'platform',
                 },
             
                 {
-                    icon : "FaSearch",
+                    icon : "MonetizationOn",
                     label : 'payment'
                 },
             
                 {
-                    icon : "FaSearch",
+                    icon : "Assessment",
                     label : 'analytics'
                 },
 
                 {
-                    icon : "FaSearch",
+                    icon : "People",
                     label : 'agency'
                 },
 
                 {
-                    icon : "FaSearch",
+                    icon : "Computer",
                     label : 'infrastructure'
                 },
 
                 {
-                    icon : "FaSearch",
+                    icon : "NewReleases",
                     label : 'innovation'
                 }
 

@@ -5,7 +5,6 @@ import {
   WidgetJurors,
   reduxWrapper,
   configure,
-  TwoColsLayout as Section,
   MyTypography,
   Markdown,
   WidgetPhotostream,
@@ -45,12 +44,12 @@ const PageJury = (props) => (
 />
 
 
-<WidgetContestantCompaniesArchiveWinners />
-
+ 
 <WidgetPhotostream setting="awardsphotostream" />
 
+ 
+<WidgetContestantCompaniesArchiveWinners />
 <AllPartners />
-
 <WidgetVideoWithEventInfo />
 
 </div>

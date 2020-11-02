@@ -1,4 +1,4 @@
-import { WidgetPartners } from 'eventjuicer-site-components';
+import { WidgetPartners, SubPageButton } from 'eventjuicer-site-components';
 
 const AllPartners = (props) => {
 
@@ -13,6 +13,7 @@ item.logotype.indexOf('cloudinary') > -1
 }
 limit={50}
 center={true}
+placeholder={ <SubPageButton label="common.menu.partners.premium" target={{href:"/premium"}} /> }
 />
 
 <WidgetPartners

@@ -17,7 +17,7 @@ import {
 } from 'eventjuicer-site-components';
 
 
-import * as Icons from '../src/icons' 
+import {Categories, Timeline} from '../src/icons' 
 import AllPartners from '../src/AllPartners'
 import settings from '../settings';
 
@@ -41,15 +41,7 @@ const PageIndex = (props) => (
       </div> 
     }
    right={ 
-     <WidgetVerticalTimeline 
-     setting="awardstimeline" 
-     icons={{
-       NoteAdd: <Icons.NoteAdd />,
-       HowToVote: <Icons.HowToVote />,
-       Public: <Icons.Public />,
-       Mic: <Icons.Mic />,
-       Assessment: <Icons.Assessment />
-     }} />
+      <Timeline />
    }
  leftCentered={true}
 />
@@ -77,14 +69,15 @@ const PageIndex = (props) => (
   }} 
   right={
     <>
-    <MyTypography template="subtitle1" label="awards.rules-summary.title" /> 
+    <MyTypography template="subtitle1" label="awards.rules-summary.title" />  
     <Markdown label="awards.rules-summary.body" />
     </>
   }
  summary={<div>asd</div>}
  />
 
-<WidgetIconGrid setting="contestant.categories" icons={{}}/>
+<Categories />
+
 <WidgetFaq setting="contestant.faq" />
 
 <WidgetJurors

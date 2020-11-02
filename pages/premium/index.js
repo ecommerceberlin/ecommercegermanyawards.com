@@ -2,14 +2,20 @@ import {
   connect,
   reduxWrapper,
   configure,
-  WidgetPremiumTickets
+  WidgetPremiumTickets,
+  WidgetVideoWithEventInfo
 } from 'eventjuicer-site-components';
 
 import settings from '../../settings';
+import AllPartners from '../../src/AllPartners'
 
 const PagePremium = () => (
-  
+    <>
     <WidgetPremiumTickets label="resources.awards.premium.title"  />
+    <WidgetVideoWithEventInfo/>
+    <AllPartners />
+
+    </>
 )
 
 export const getStaticProps = reduxWrapper.getStaticProps(async ({ store, params }) => {
