@@ -175,7 +175,7 @@ const settings  = {
 
         become_a_juror: {
 
-            label : "juror.register.title",
+            label : "juror.form.title",
             baseLabel: "juror",
             fields : [
               {name: "email", required: true},
