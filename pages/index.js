@@ -11,8 +11,9 @@ import {
   configure
 } from 'eventjuicer-site-components';
 
-// import FeaturedExhibitors from '../src/FeaturedExhibitors';
-//import FeaturedPresenters from '../src/FeaturedPresenters';
+
+
+ 
 
 import settings from '../settings';
 
@@ -80,7 +81,7 @@ const PageIndex = (props) => (
 
         <WidgetRoleButtons first={true} /> 
 
-         <FeaturedExhibitors /> 
+       
 
        <WidgetVisitor
           label="visitors.register_alt"

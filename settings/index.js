@@ -196,7 +196,7 @@ const settings  = {
 
         attend_a_party: {
 
-            label : "party.register.title",
+            label : "party.form.title",
             baseLabel: "juror",
             legend: "party.form.intro",
             fields : [

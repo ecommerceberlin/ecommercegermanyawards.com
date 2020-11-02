@@ -1,18 +1,19 @@
 import {
   connect,
-  MyHead as Head,
   VoteWithLinkedIn,
   WidgetContestantCompanies,
   WidgetContestantCompany,
   WidgetVoteStatus,
-  LayoutMain as Layout,
   MyTypography as Typography,
   Markdown,
   WidgetVideoWithEventInfo,
   WidgetContestantCompaniesArchiveWinners,
   reduxWrapper,
-  configure
+  configure,
+  HeadVote
 } from 'eventjuicer-site-components';
+
+import Head from 'next/head'
 
 /*
   'err',
@@ -32,14 +33,16 @@ import settings from '../../settings'
 const PageVote = ({id}) => (
 
 <div>
-       
+
+          <HeadVote id={id}>{(data) => <Head>{data}</Head>}</HeadVote> 
+
        
        <WidgetContestantCompany
             id={id}
-         //   asPath={asPath}
-        //     vote={<VoteWithLinkedIn id={id} max_votes={10} disabled={true} />}
+          
+            //     vote={<VoteWithLinkedIn id={id} max_votes={10} disabled={true} />}
             // status={<WidgetVoteStatus />}
-        //    show_votes={false}
+            //    show_votes={false}
           />
         
 
@@ -88,9 +91,11 @@ return {paths: [], fallback: true}
 
 export const getStaticProps = reduxWrapper.getStaticProps(async ({ params, store }) => {
 
+  const resource = `contestant_companies/${params.id}`
+
   await configure(store, {
     settings: settings,
-    preload: ['contestant_companies', 'contestant_companies_all']
+    preload: [resource, 'contestant_companies_all']
   })
 
   return {props : {
