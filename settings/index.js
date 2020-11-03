@@ -58,6 +58,7 @@ const settings  = {
                 name: 'awards',
                 items: [
                   {name: 'about', to: '/about'},
+                  {name: 'categories', to: '/categories'},
                   {name: 'jurors', to: '/jurors'},
                   {name: 'party', to: '/party'},
                 ]
@@ -272,12 +273,14 @@ const settings  = {
 
         benefits: {
 
+          
+            baseLabel: "awards.benefits",
             label: "awards.benefits.title",
             secondaryLabel: "awards.benefits.description",
-            baseLabel: "awards.benefits",
             typography: "subtitle",
             dense: true,
-
+            iconColor: "black",
+            iconSize: "70",
             items: [
 
                 {
@@ -304,7 +307,8 @@ const settings  = {
             baseLabel: "awards.categories",
             typography: "subtitle",
             dense: true,
-            
+            iconColor: "black",
+            iconSize: "70",
             items: [
 
                 {

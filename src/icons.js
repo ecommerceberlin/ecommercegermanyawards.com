@@ -27,7 +27,7 @@ const Categories = (props) => (<WidgetIconGrid setting="contestant.categories" i
     People,
     Computer,
     NewReleases,
-}} iconColor="black" iconSize="70" />)
+}}  {...props} />)
 
 const Timeline = (props) => (<WidgetVerticalTimeline 
     setting="awardstimeline" 
@@ -37,12 +37,12 @@ const Timeline = (props) => (<WidgetVerticalTimeline
         Public,
         Mic,
         Assessment
-}}  iconSize="40" />)
+}}  iconSize="40"  {...props}  />)
 
 const WhyParticipate = (props) => (<WidgetIconGrid setting="contestant.benefits" icons={{
         TrendingUp,
         People,
         VerifiedUser
-}} iconColor="black" iconSize="70" />)
+}} {...props}  />)
 
 export {Categories, Timeline, WhyParticipate}
