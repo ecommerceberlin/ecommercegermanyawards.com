@@ -88,6 +88,7 @@ const PageIndex = (props) => (
   filter={null}
   bio={false}
   minToShow={1}
+  sort="fname"
 />
  
 <WidgetContestantCompaniesArchiveWinners />

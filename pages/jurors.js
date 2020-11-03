@@ -28,6 +28,7 @@ const PageJury = (props) => (
   filter={null}
   bio={false}
   minToShow={1}
+  sort="fname"
 />
 
 
