@@ -18,7 +18,10 @@ const PagePremiumSingle = ({name}) => {
   return (
 
     <div>
-      <WidgetPremiumTicket name={name} labelPrefix="resources.awards.premium." resolve={item => item.translation_asset_id.indexOf(name)!==-1} />
+      <WidgetPremiumTicket 
+        name={name}
+        resolve={(item, name) => item.translation_asset_id.indexOf(name)>-1}
+       />
       <WidgetPremiumTickets label="resources.awards.premium.title" />
       <AllPartners />
       <WidgetVideoWithEventInfo />
@@ -42,7 +45,7 @@ const PagePremiumSingle = ({name}) => {
       name : row.translation_asset_id.replace('resources.awards.premium.', '')
     }
   }))
-
+  
   return {
     paths: paths,
     fallback: true 
@@ -60,7 +63,7 @@ export const getStaticProps = reduxWrapper.getStaticProps(async ({ store, params
 
   return {
     props : {
-      name : "name" in params ? params.name : ""
+      name : params.name
     },
     revalidate: 1
   }
