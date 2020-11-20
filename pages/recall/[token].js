@@ -5,7 +5,9 @@ import {
     configure,
     getUserByToken,
     Wrapper,
-    lsSet
+    Loading,
+    useDispatch,
+    setUserToken
   } from 'eventjuicer-site-components';
   
 import {useRouter} from 'next/router'
@@ -15,18 +17,21 @@ import {useRouter} from 'next/router'
   const Recall = ({token}) => {
 
     const router = useRouter();
+    const dispatch = useDispatch();
 
     useEffect(()=>{
-        
-        console.log(router)      
-
+    
         if(token){
-            lsSet("token", token)
+            dispatch(setUserToken(token))
             router.push("/account")
         }
     })
 
-     return  <Wrapper> {token}</Wrapper>
+     return  (
+     <Wrapper style={{paddingTop: 100, paddingBottom: "80vh"}}>
+         {token ? <Loading /> : <h1>Error. Bad URL.</h1>}
+    </Wrapper>
+    )
 
   }
 
@@ -39,9 +44,6 @@ Recall.disableLayout = true;
 export const getServerSideProps = reduxWrapper.getServerSideProps(async ({ store, query }) => {
 
     const {token} = query;
-
-    //validate token
-    //fetch via service
 
     const user = await getUserByToken(settings.system.service_api, token)
 
