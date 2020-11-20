@@ -24,7 +24,7 @@ const PageAccount = () => {
             {name: "logotype", required: true},
             {name: "difference", long: true, required: true},
             {name: "innovations", long: true, required: true},
-            {name: "testimonials", long: true, required: true},
+            {name: "testimonials", long: true},
             {name: "case_study", long: true},
             {name: "confidential", long: true},
             {name: "video"},
@@ -35,6 +35,12 @@ const PageAccount = () => {
          baseLabel="awards"
          legend="awards.update.description"
          token={user.token}
+         actionFinishedProps={{
+            action : "profile_updated", 
+            category : "visitors", 
+            // label : "method",
+            // value : ""
+         }}
          right={
             <>
             <MyTypography template="h5">{user.fields.cname2}</MyTypography>  
@@ -43,6 +49,8 @@ const PageAccount = () => {
             {/* <Markdown label="awards.rules-summary.body" /> */}
             </>
           }
+         onSuccess={null}
+         onError={null}
          />
          </Wrapper>)
    }
