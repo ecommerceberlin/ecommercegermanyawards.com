@@ -49,8 +49,8 @@ const PageAccount = () => {
             {/* <Markdown label="awards.rules-summary.body" /> */}
             </>
           }
-         onSuccess={false}
-         onError={false}
+        //  onSuccess={false}
+        //  onError={false}
          />
          </Wrapper>)
    }
