@@ -2,7 +2,7 @@
 const path = require('path');
 const withPlugins = require('next-compose-plugins');
 const withTM = require('next-transpile-modules')(['eventjuicer-site-components'], {
-  // resolveSymlinks: true,
+  resolveSymlinks: true,
   // unstable_webpack5: true
 });
 
