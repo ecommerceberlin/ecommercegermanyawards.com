@@ -368,6 +368,50 @@ const settings  = {
 
     },
 
+    profile_editor: {
+
+        label: "awards.update.title",
+        baseLabel: "awards",
+        legend: "awards.update.description",
+
+        roles: {
+            
+            contestant_company : {
+
+                preview: [
+                    {typography: "h5", field: "cname2"},
+                    {typography: "subtitle1", field: "project_name"}
+                ],
+    
+                fields: [
+                    {name: "project_description", required: true},
+                    {name: "logotype", required: true},
+                    {name: "difference", long: true, required: true},
+                    {name: "innovations", long: true, required: true},
+                    {name: "testimonials", long: true},
+                    {name: "case_study", long: true},
+                    {name: "confidential", long: true},
+                    {name: "video"},
+                ],
+    
+    
+          
+             actionFinishedProps: {
+                action : "profile_updated", 
+                category : "visitors", 
+                // label : "method",
+                // value : ""
+             },
+    
+            },
+    
+            fallback: {
+                source: "contestant_company"
+            }
+    
+        },
+    },
+
     awardsphotostream : {
 
         wrapperProps: {

@@ -8,7 +8,9 @@ import {
     WidgetRegForm,
     Loading,
     MyTypography,
-    useUserData
+    useUserData,
+    SubPageButton,
+    TextSection
   } from 'eventjuicer-site-components';
   
 import settings from '../settings';
@@ -42,12 +44,16 @@ const PageAccount = () => {
             // value : ""
          }}
          right={
-            <>
-            <MyTypography template="h5">{user.fields.cname2}</MyTypography>  
-            <MyTypography template="subtitle1">{user.fields.project_name}</MyTypography>  
+            <div style={{marginTop: 30}}>
+            
+            <SubPageButton target={{href: "/vote/[[id]]", as: `/vote/${user.id}` }} label="common.preview" />
+
+            <TextSection margin={2} record={user.fields} name="cname2" />
+            <TextSection margin={2} record={user.fields} name="project_name" />
+            <TextSection margin={2} record={user.fields} name="awards_category" baseLabel="awards.fields.awards_category_options" isOption={true} />
 
             {/* <Markdown label="awards.rules-summary.body" /> */}
-            </>
+            </div>
           }
 
          />

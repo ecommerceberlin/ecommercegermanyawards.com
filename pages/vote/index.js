@@ -33,11 +33,7 @@ const PageVote = (props) => (
 
   <div>
 
-      <WidgetContestantCompaniesArchiveWinners />
-      <WidgetVideoWithEventInfo />
-
-
-        {/* <WidgetContestantCompanies
+      {/* <WidgetContestantCompanies
           intro={
             <div style={{ width: '80%' }}>
               <WidgetVoteStatus />
@@ -66,6 +62,12 @@ const PageVote = (props) => (
         /> */}
 
 
+      <WidgetContestantCompaniesArchiveWinners />
+      <WidgetVideoWithEventInfo />
+
+
+      
+
   </div>
 
 )
@@ -76,7 +78,7 @@ export const getStaticProps = reduxWrapper.getStaticProps(async ({ store }) => {
 
   await configure(store, {
     settings: settings,
-    preload: ['contestant_companies', 'contestant_companies_all']
+    preload: ['contestant_companies']
   })
 
   return {

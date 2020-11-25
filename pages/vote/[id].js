@@ -2,7 +2,7 @@ import {
   connect,
   VoteWithLinkedIn,
   WidgetContestantCompanies,
-  WidgetContestantCompany,
+  WidgetContestantPerson,
   WidgetVoteStatus,
   MyTypography as Typography,
   Markdown,
@@ -34,50 +34,39 @@ const PageVote = ({id}) => (
 
 <div>
 
-          <HeadVote id={id}>{(data) => <Head>{data}</Head>}</HeadVote> 
-
+  
+<HeadVote id={id}>{(data) => <Head>{data}</Head>}</HeadVote> 
        
-       <WidgetContestantCompany
-            id={id}
-          
-            //     vote={<VoteWithLinkedIn id={id} max_votes={10} disabled={true} />}
-            // status={<WidgetVoteStatus />}
-            //    show_votes={false}
-          />
-        
+<WidgetContestantPerson
+  id={id}
+  wrapperProps={{label: null, first: true}}
+  //vote={<VoteWithLinkedIn id={id} max_votes={10} disabled={true} />}
+  //status={<WidgetVoteStatus />}
+  //show_votes={false}
+/>
 
 
-       <WidgetContestantCompaniesArchiveWinners />
 
-        {/* <WidgetContestantCompanies
-          intro={
-            <div style={{ width: '80%' }}>
-              <WidgetVoteStatus />
-              <Typography template="benefitsText">
-                <Markdown label="awards.contestants.voting-rules.description" />
-              </Typography>
-            </div>
-          }
-          limit={350}
-          filter={item =>
-            'product_name' in item &&
-            item.product_name.length > 2 &&
-            'logotype' in item &&
-            item.logotype.indexOf('http') > -1 &&
-            'featured' in item &&
-            item.featured == '1'
-          }
-          keyword_source="awards_category"
-          keyword={keyword}
-          label={
-            keyword
-              ? 'awards.contestants.list.title'
-              : 'awards.contestants.categories.title'
-          }
-          show_votes={true}
-        /> */}
+  {/* <WidgetContestantCompanies
+    intro={
+      <div style={{ width: '80%' }}>
+      <WidgetVoteStatus />
+      <Typography template="benefitsText">
+      <Markdown label="awards.contestants.voting-rules.description" />
+      </Typography>
+      </div>
+    }
+    limit={350}
+    filter={item => 'product_name' in item && item.product_name.length > 2 && 'logotype' in item && item.logotype.indexOf('http') > -1 && 'featured' in item && item.featured == '1'}
+    keyword_source="awards_category"
+    keyword={keyword}
+    label={ keyword ? 'awards.contestants.list.title' : 'awards.contestants.categories.title' }
+    show_votes={true}
+  /> */}
 
-        <WidgetVideoWithEventInfo />
+  <WidgetContestantCompaniesArchiveWinners />
+
+  <WidgetVideoWithEventInfo />
 
 </div>
 
@@ -86,7 +75,7 @@ const PageVote = ({id}) => (
 
 export const getStaticPaths = () => {
 
-return {paths: [], fallback: true}
+  return {paths: [], fallback: true}
 }
 
 export const getStaticProps = reduxWrapper.getStaticProps(async ({ params, store }) => {
@@ -95,7 +84,7 @@ export const getStaticProps = reduxWrapper.getStaticProps(async ({ params, store
 
   await configure(store, {
     settings: settings,
-    preload: [resource, 'contestant_companies_all']
+    preload: [resource]
   })
 
   return {props : {
