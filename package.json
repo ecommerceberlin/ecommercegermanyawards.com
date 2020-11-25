@@ -27,8 +27,8 @@
   },
   "homepage": "https://github.com/ecommerceberlin/awards#readme",
   "dependencies": {
-    "eventjuicer-site-components": "2.7.6",
-    "next": "^10.0.3",
+    "eventjuicer-site-components": "2.7.8",
+    "next": "^10.0.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-icons": "^3.11.0",
