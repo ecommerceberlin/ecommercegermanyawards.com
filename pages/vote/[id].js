@@ -10,22 +10,10 @@ import {
   WidgetContestantCompaniesArchiveWinners,
   reduxWrapper,
   configure,
-  HeadVote
+  HeadVoteContestant
 } from 'eventjuicer-site-components';
 
 import Head from 'next/head'
-
-/*
-  'err',
-  'req',
-  'res',
-  'pathname',
-  'query',
-  'asPath',
-  'AppTree',
-  'store',
-  'isServer'
-*/
 
 import settings from '../../settings'
 
@@ -35,7 +23,7 @@ const PageVote = ({id}) => (
 <div>
 
   
-<HeadVote id={id}>{(data) => <Head>{data}</Head>}</HeadVote> 
+<HeadVoteContestant id={id}>{(data) => <Head>{data}</Head>}</HeadVoteContestant> 
        
 <WidgetContestantPerson
   id={id}

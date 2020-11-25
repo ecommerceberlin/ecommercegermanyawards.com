@@ -4,10 +4,10 @@
   "description": "ecommerceberlin awards site",
   "main": "pages/index.js",
   "scripts": {
-    "next": "next",
+    "next": "NODE_OPTIONS=--max_old_space_size=8192 next",
     "precommit": "lint-staged",
-    "dev": "next dev",
-    "build": "NODE_ENV=production next build",
+    "dev": "NODE_OPTIONS=--max_old_space_size=8192 next dev",
+    "build": "NODE_OPTIONS=--max_old_space_size=8192 NODE_ENV=production next build",
     "start": "NODE_ENV=production next start",
     "XXXpostinstall": "sed -i 's/followSymlinks: false/followSymlinks: true/g' node_modules/watchpack/lib/DirectoryWatcher.js"
   },
@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/ecommerceberlin/awards#readme",
   "dependencies": {
-    "eventjuicer-site-components": "2.8.7",
+    "eventjuicer-site-components": "2.8.8",
     "next": "^10.0.3",
     "next-compose-plugins": "^2.2.1",
     "next-transpile-modules": "^4.1.0",
