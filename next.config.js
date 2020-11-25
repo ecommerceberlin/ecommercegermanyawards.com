@@ -1,6 +1,29 @@
-module.exports = {
 
+const path = require('path');
+const withPlugins = require('next-compose-plugins');
+const withTM = require('next-transpile-modules')(['eventjuicer-site-components'], {
+  // resolveSymlinks: true,
+  // unstable_webpack5: true
+});
+
+// module.exports = withTM({
  
+// });
+
+/**.
+ * https://medium.com/frontend-digest/using-nextjs-in-a-monorepo-e011ff1826f5
+ */
+
+module.exports = withPlugins([withTM], {
+
+  webpack: (config, options) => {
+
+    // config.resolve.alias['react'] = path.resolve(__dirname, '.', 'node_modules', 'eventjuicer-site-components','node_modules', 'react');
+    // config.resolve.alias['react-dom'] = path.resolve(__dirname, '.', 'node_modules', 'eventjuicer-site-components', 'node_modules', 'react-dom');
+
+    return config
+  },
+
   i18n: {
     // These are all the locales you want to support in
     // your application
@@ -34,4 +57,6 @@ module.exports = {
        // },
       ]
     },
-  }
+  });
+
+

@@ -7,8 +7,9 @@
     "next": "next",
     "precommit": "lint-staged",
     "dev": "next dev",
-    "build": "next build",
-    "start": "NODE_ENV=production next start"
+    "build": "NODE_ENV=production next build",
+    "start": "NODE_ENV=production next start",
+    "XXXpostinstall": "sed -i 's/followSymlinks: false/followSymlinks: true/g' node_modules/watchpack/lib/DirectoryWatcher.js"
   },
   "repository": {
     "type": "git",
@@ -27,8 +28,10 @@
   },
   "homepage": "https://github.com/ecommerceberlin/awards#readme",
   "dependencies": {
-    "eventjuicer-site-components": "2.7.9",
-    "next": "^10.0.2",
+    "eventjuicer-site-components": "2.8.1",
+    "next": "^10.0.3",
+    "next-compose-plugins": "^2.2.1",
+    "next-transpile-modules": "^4.1.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-icons": "^3.11.0",
