@@ -2,7 +2,7 @@
 const path = require('path');
 const withPlugins = require('next-compose-plugins');
 const withTM = require('next-transpile-modules')(['eventjuicer-site-components'], {
-  resolveSymlinks: true,
+  // resolveSymlinks: true,
   // unstable_webpack5: true
 });
 
@@ -18,8 +18,8 @@ module.exports = withPlugins([withTM], {
 
   webpack: (config, options) => {
 
-    config.resolve.alias['react'] = path.resolve(__dirname, '.', 'node_modules', 'react');
-    config.resolve.alias['react-dom'] = path.resolve(__dirname, '.', 'node_modules', 'react-dom');
+    // config.resolve.alias['React'] = path.resolve(__dirname, '.', 'node_modules', 'react');
+    // config.resolve.alias['react-dom'] = path.resolve(__dirname, '.', 'node_modules', 'react-dom');
 
     return config
   },
