@@ -2,102 +2,42 @@ import {
   connect,
   WidgetVideoWithEventInfo,
   WidgetContestantCompaniesArchiveWinners,
-  WidgetJurors,
-  Wrapper,
   reduxWrapper,
   configure,
-  TwoColsLayout as Section,
-  MyTypography,
-  Markdown,
-  WidgetVerticalTimeline,
   WidgetPhotostream,
-  WidgetRegForm,
-  WidgetFaq,
-  WidgetIconGrid
+  WidgetFaq
 } from 'eventjuicer-site-components';
 
 
-import {Categories, Timeline} from '../src/icons' 
+import {Categories} from '../src/icons' 
 import AllPartners from '../src/AllPartners'
-import settings from '../settings';
+import RegForm from '../src/RegForm'
+import Intro from '../src/Intro'
+import Jurors from '../src/Jurors'
 
+import settings from '../settings';
 
 const PageIndex = (props) => (
 
-
-  <div>
+<div>
 
   <WidgetVideoWithEventInfo />
 
-  <Wrapper first label="awards.hello.title">
-  
-  <Section 
-   
-   left={  
-      <div style={{marginTop: '5rem'}}>
-      <MyTypography template="h4" label="awards.hello.submit" />
-      <MyTypography template="subtitle1" label="awards.hello.needs" />
-      <Markdown label="awards.hello.details" />
-      </div> 
-    }
-   right={ 
-      <Timeline />
-   }
- leftCentered={true}
-/>
+  <Intro />
 
+  <RegForm />
 
- </Wrapper>
+  <Categories />
 
+  <WidgetFaq setting="contestant.faq" />
 
-<WidgetRegForm
+  <Jurors />
 
-  setting="contestant.register"
-  options={{
-  "categories": [
-    'sales_generation',
-    'communication',
-    'internationalization',
-    'logistics',
-    'platform',
-    'payment',
-    'analytics',
-    'agency',
-    'infrastructure',
-    'innovation'
-  ]
-  }} 
-  right={
-    <>
-    <MyTypography template="subtitle1" label="awards.rules-summary.title" />  
-    <Markdown label="awards.rules-summary.body" />
-    </>
-  }
- summary={<div>asd</div>}
- />
+  <WidgetContestantCompaniesArchiveWinners />
 
-<Categories />
+  <WidgetPhotostream setting="awardsphotostream" />
 
-<WidgetFaq setting="contestant.faq" />
-
-<WidgetJurors
-  label="awards.jury.title"
-  secondaryLabel="awards.jury.description"
-  disableTemps={false}
-  limit={100}
-  filter={null}
-  bio={false}
-  minToShow={1}
-  sort="fname"
-/>
- 
-<WidgetContestantCompaniesArchiveWinners />
-
-<WidgetPhotostream setting="awardsphotostream" />
-
-
-<AllPartners />
-
+  <AllPartners />
 
 </div>
 
@@ -108,7 +48,7 @@ export const getStaticProps = reduxWrapper.getStaticProps(async ({ store }) => {
 
   await configure(store, {
     settings: settings,
-  preload: ['contestant_companies_all']
+    preload: ['contestant_companies_all']
   })
 
   return {
@@ -121,6 +61,3 @@ export const getStaticProps = reduxWrapper.getStaticProps(async ({ store }) => {
 
 
 export default connect()(PageIndex);
-
-
-

@@ -2,7 +2,6 @@ import {
   connect,
   WidgetVideoWithEventInfo,
   WidgetContestantCompaniesArchiveWinners,
-  WidgetJurors,
   reduxWrapper,
   configure,
   MyTypography,
@@ -12,6 +11,7 @@ import {
 } from 'eventjuicer-site-components';
 
 import AllPartners from '../src/AllPartners'
+import Jurors from '../src/Jurors'
 
 import settings from '../settings';
 
@@ -19,18 +19,7 @@ const PageJury = (props) => (
 
 <div>
  
-<WidgetJurors
-  first
-  label="awards.jury.title"
-  secondaryLabel="awards.jury.description"
-  disableTemps={false}
-  limit={100}
-  filter={null}
-  bio={false}
-  minToShow={1}
-  sort="fname"
-/>
-
+<Jurors />
 
 <WidgetRegForm
   
@@ -47,8 +36,6 @@ const PageJury = (props) => (
 
  
 <WidgetPhotostream setting="awardsphotostream" />
-
- 
 <WidgetContestantCompaniesArchiveWinners />
 <AllPartners />
 <WidgetVideoWithEventInfo />

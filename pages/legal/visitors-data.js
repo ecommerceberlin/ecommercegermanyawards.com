@@ -138,7 +138,7 @@ export const getStaticProps = reduxWrapper.getStaticProps(async ({ store }) => {
 
   await configure(store, {
     settings: settings,
-    preload: ['contestant_companies']
+    preload: []
   })
   
 })

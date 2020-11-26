@@ -62,7 +62,7 @@ const PageVote = (props) => (
         /> */}
 
 
-      <WidgetContestantCompaniesArchiveWinners />
+      <WidgetContestantCompaniesArchiveWinners first />
       <WidgetVideoWithEventInfo />
 
 
