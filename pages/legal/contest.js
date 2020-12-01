@@ -54,7 +54,7 @@ In order to ensure transparency of the rules of the above-mentioned contest and 
 
 2. Participants who either in person or through their members' bodies, employees or associates, are a member of the Jury that evaluates the Contest Participants in the category in which the Participant was nominated for the Award, are not allowed to enter the Contest.
 
-3. Entry to the Contest can be made from November 2, 2020, to November 30, 2020, solely via the application form available on the Contest website. Participation in the Contest is subject to the fulfillment of all mandatory form fields and acceptance of the Terms and Conditions.
+3. Entry to the Contest can be made from November 2, 2020, to January 8, 2021, solely via the application form available on the Contest website. Participation in the Contest is subject to the fulfillment of all mandatory form fields and acceptance of the Terms and Conditions.
 
 4. Entry into the Contest is equivalent to providing the Organizer with a consent to publish the Participant's name (s) and the Trademark Identification (logo) on the Contest Website, as well as in all promotional and advertising materials distributed by the Organizer concerning the Contest, for the duration of the Contest, and for a period of 1 (one) year from the closing date of the Contest.
 
@@ -72,13 +72,13 @@ In order to ensure transparency of the rules of the above-mentioned contest and 
 
 1. The contest will be conducted in the following stages:
 
-* Stage I (November 2, 2020 - November 30, 2020) – entry into the contest and submissions
-* Stage II (December 1, 2020 - December 18, 2020) – Internet User’s public voting
-* Stage III (December 21, 2020) – Public Voting Nominees announcement
-* Stage IV (January 11, 2021 - January 22, 2021) – Jury voting and determining the results of the Contest - selection of winners
-* Stage V (February 17, 2021) – announcement of the Contest Winners of the E-commerce Germany Awards during the Ceremony as a part of the E-commerce Expo Networking Party.
+* Stage I (November 2, 2020 - January 8, 2021) – entry into the contest and submissions
+* Stage II (February 1, 2021 - February 28, 2021) – Internet User’s public voting
+* Stage III (March 1, 2021) – Public Voting Nominees announcement
+* Stage IV (March 15, 2021 - March 31, 2021) – Jury voting and determining the results of the Contest - selection of winners
+* Stage V (May 26, 2021) – announcement of the Contest Winners of the E-commerce Germany Awards during the Ceremony as a part of the E-commerce Expo Networking Party.
 
-2. Submitted information can be edited until November 30, 2020, 23:59 (11:59 pm).
+2. Submitted information can be edited until January 8, 2021, 23:59 (11:59 pm).
 
 ## § 5 [Stage I – Entry into the Contest]
 
@@ -91,7 +91,7 @@ In order to ensure transparency of the rules of the above-mentioned contest and 
 * Best Platform / Shop Software
 * Best Payment Provider
 * Best Analytics / BI Solutions
-* The Best Agency
+* Best Agency
 * Best IT and infrastructural solution
 * Best innovation / New Development in E-commerce
 
@@ -113,13 +113,13 @@ In order to ensure transparency of the rules of the above-mentioned contest and 
 
 4. Usage of any automated scripting/services, paid mass services or another automatic device, program, algorithm or technology which perform the same action, as well as any kind of automation executed by a third party in the voting process will result in the removal of the submission and canceling of the participation in the contest and will be immediately executed by the Organizer.
 
-5. Only votes cast by Internet Users until December 18, 23:59 (11:59 pm) will be considered in the final summary of the voting.
+5. Only votes cast by Internet Users until February 28, 2021, 23:59 (11:59 pm) will be considered in the final summary of the voting.
 
 6. The maximum of 10 (ten) Participants who will receive the highest number of votes in the Internet Users’ public voting in each category will become the nominees. In order to be qualified for Stage II of the “E-commerce Germany Awards” Contest, these participants are obliged to meet the formal conditions for participation in the Contest described in § 2 of these Terms and Conditions.
 
 7. Participants nominated to the Award receive from 1 to 10 contest points from the Internet Users, while the nominated Participant that receives the highest number of votes from the Internet Users gets 10 points, while the subsequent participants get 1, 2, 3, 4, 5, 6, 7, 8 and 9 points less so that the nominated Participant who receives the smallest number of votes receives the smallest number of points.
 
-8. The announcement of the list of Participants nominated in all contest categories (Stage III) will take place on the Contest Website on December 21, 2020.
+8. The announcement of the list of Participants nominated in all contest categories (Stage III) will take place on the Contest Website on March 1, 2021.
 
 ## § 7 [Stage IV – Voting of the Jury]
 
@@ -157,7 +157,7 @@ PJ – is the number of points received by the Participant in the Jury voting.
 
 ## § 9 [Stage V - Announcement of the Contest Winners and the Award Ceremony]
 
-The announcement of the Contest Winners will take place during the “E-commerce Germany Awards” Ceremony, as a part of the Networking Party on February 17, 2021, during the E-commerce Berlin Expo Networking Party.
+The announcement of the Contest Winners will take place during the “E-commerce Germany Awards” Ceremony, as a part of the Networking Party on May 26, 2021, during the E-commerce Berlin Expo Networking Party.
 
 ## § 10 [Participation fees]
 
@@ -167,9 +167,9 @@ The announcement of the Contest Winners will take place during the “E-commerce
 
 3. The participation fee covers the cost of jury voting and other costs related to the Contest.
 
-4. If conditions mentioned in article 2 above are not met until December 28, 2020, the Organizer shall exclude the Participant from the Contest.
+4. If conditions mentioned in article 2 above are not met until March 8, 2021, the Organizer shall exclude the Participant from the Contest.
 
-5. If conditions mentioned in article 2 above are met until December 30, 2020, the Participant shall be entitled to enter Stage IV and following and receives two tickets to Ecommerce Berlin Expo 2020.
+5. If conditions mentioned in article 2 above are met until March 10, 2021, the Participant shall be entitled to enter Stage IV and following and receives two tickets to Ecommerce Berlin Networking Party.
 
 ## § 11 [Contest Communication Channels]
 

@@ -139,10 +139,10 @@ const settings  = {
 
         items : [
             {date: "2020-11-02", name: "submissions", icon:  "NoteAdd", dotColor: 'black', active: true },
-            {date: "2020-12-01", name: "public-voting", icon:  "Public" },
-            {date: "2020-12-21", name: "qualification", icon:  "Assessment" },
-            {date: "2021-01-11", name: "jury-voting", icon:  "HowToVote" },
-            {date: "2021-02-17", name: "results", icon:  "Mic", active: false }
+            {date: "2021-02-01", name: "public-voting", icon:  "Public" },
+            {date: "2021-03-01", name: "qualification", icon:  "Assessment" },
+            {date: "2021-03-15", name: "jury-voting", icon:  "HowToVote" },
+            {date: "2021-05-26", name: "results", icon:  "Mic", active: false }
             
         ]
 
