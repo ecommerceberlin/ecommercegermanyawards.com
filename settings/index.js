@@ -139,7 +139,7 @@ const settings  = {
         iconSize: "40",
 
         items : [
-            {date: "2020-11-02", name: "submissions", icon:  "NoteAdd", dotColor: 'black', active: true },
+            {date: "2021-01-08", name: "submissions", icon:  "NoteAdd", dotColor: 'black', active: true },
             {date: "2021-02-01", name: "public-voting", icon:  "Public" },
             {date: "2021-03-01", name: "qualification", icon:  "Assessment" },
             {date: "2021-03-15", name: "jury-voting", icon:  "HowToVote" },
