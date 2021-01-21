@@ -28,41 +28,34 @@ import {
 
 import settings from '../../settings'
 
+import {Categories} from '../../src/icons' 
+
 
 const PageVote = (props) => (
 
   <div>
 
-      {/* <WidgetContestantCompanies
+      <WidgetContestantCompanies
+          first
           intro={
             <div style={{ width: '80%' }}>
-              <WidgetVoteStatus />
+              <WidgetVoteStatus  max_votes={10} />
               <Typography template="benefitsText">
                 <Markdown label="awards.contestants.voting-rules.description" />
               </Typography>
             </div>
           }
-          limit={350}
-          filter={item =>
-            'product_name' in item &&
-            item.product_name.length > 2 &&
-            'logotype' in item &&
-            item.logotype.indexOf('http') > -1 &&
-            'featured' in item &&
-            item.featured == '1'
-          }
+          limit={500}
           keyword_source="awards_category"
-          keyword={keyword}
-          label={
-            keyword
-              ? 'awards.contestants.list.title'
-              : 'awards.contestants.categories.title'
-          }
-          show_votes={true}
-        /> */}
+          label='awards.contestants.categories.title'
+          show_votes={false}
+          resolveTitle={function(item){ return item.profile.cname2 } }
+        />
 
 
-      <WidgetContestantCompaniesArchiveWinners first />
+       <Categories  dense={false} typography={undefined} secondaryTypography={undefined} />
+
+      <WidgetContestantCompaniesArchiveWinners  />
       <WidgetVideoWithEventInfo />
 
 

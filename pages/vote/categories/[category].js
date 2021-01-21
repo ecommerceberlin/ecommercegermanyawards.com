@@ -21,15 +21,16 @@ import {
       return (
     
           <div>
+
         
           <WidgetContestantCompanies
-            intro={null
-            //   <div style={{ width: '80%' }}>
-            //     <WidgetVoteStatus max_votes={6} />
-            //     <Typography template="benefitsText">
-            //       <Markdown label="callforpapers.voting.general-rules.description" />
-            //     </Typography>
-            //   </div>
+            intro={
+              <div style={{ width: '80%' }}>
+                <WidgetVoteStatus max_votes={10} />
+                <Typography template="benefitsText">
+                  <Markdown label="awards.contestants.voting-rules.description" />
+                </Typography>
+              </div>
             }
             limit={350}
             filter={item => item && "profile" in item && "logotype_cdn" in item.profile       
@@ -41,14 +42,11 @@ import {
             }
             keyword_source="profile.awards_category"
             keyword={category}
-            label={
-                category
-                ? 'awards.contestants.list.title'
-                : 'awards.contestants.categories.title'
-            }
+            label='awards.contestants.list.title'
             show_votes={false}
             first={true}
             renderAs="table"
+            resolveTitle={function(item){ return item.profile.cname2 } }
           />
         
          

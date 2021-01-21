@@ -59,6 +59,7 @@ const settings  = {
                 items: [
                   {name: 'about', to: '/about'},
                   {name: 'categories', to: '/categories'},
+                //   {name: 'vote', to: '/vote'},
                   {name: 'jurors', to: '/jurors'},
                   {name: 'party', to: '/party'},
                 ]
