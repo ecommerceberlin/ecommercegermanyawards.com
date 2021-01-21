@@ -51,7 +51,7 @@ const settings  = {
               name: 'general',
               items: [
                 {name: 'home', to: '/'},
-                // {name: 'vote', to: '/vote'},
+                {name: 'winners', to: '/winners'},
               ]
             },
             {
