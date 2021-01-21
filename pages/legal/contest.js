@@ -139,15 +139,15 @@ In order to ensure transparency of the rules of the above-mentioned contest and 
 
 2. To determine the results of the Contest, the Organizer shall take into account the points received by the Participants in the Internet Users’ voting and the Jury voting. The algorithm looks as follows:
 
-Wu = PI * 0,4 + PJ*0,6
+Wu = PI * 0,4 + PJ * 0,6
 
 where:
 
 Wu – is the Participant’s result,
 
-PI – is the number of points received by the Participant in the Internet Users’ voting,
+PI – is the number of contest points received by the Participant in the Internet Users’ voting,
 
-PJ – is the number of points received by the Participant in the Jury voting.
+PJ – is the number of contest points received by the Participant in the Jury voting.
 
 3. Based on the algorithm set out in paragraph 8, point 2 above, the Participant that achieves the highest score in the category becomes the Contest Winner.
 
