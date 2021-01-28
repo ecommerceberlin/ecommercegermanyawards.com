@@ -33,11 +33,12 @@ import {
               </div>
             }
             limit={350}
-            filter={item => item && "profile" in item &&
-            "logotype" in item.profile && 
-            item.profile.logotype.indexOf("http")>-1 && 
-            "logotype_cdn" in item.profile && 
-            item.profile.logotype_cdn.indexOf("http")>-1 
+            filter={
+            item => item && "profile" in item &&
+              "logotype" in item.profile && 
+              item.profile.logotype.indexOf("http")>-1 && 
+              "logotype_cdn" in item.profile && 
+              item.profile.logotype_cdn.indexOf("http")>-1 
             }
             keyword_source="profile.awards_category"
             keyword={category}
