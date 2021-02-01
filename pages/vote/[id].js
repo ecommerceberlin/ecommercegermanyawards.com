@@ -28,9 +28,9 @@ const PageVote = ({id}) => (
 <WidgetContestantPerson
   id={id}
   wrapperProps={{label: null, first: true}}
-  //vote={<VoteWithLinkedIn id={id} max_votes={10} disabled={true} />}
-  //status={<WidgetVoteStatus />}
-  //show_votes={false}
+  vote={<VoteWithLinkedIn id={id} max_votes={10} disabled={false} />}
+  status={<WidgetVoteStatus />}
+  show_votes={false}
 />
 
 

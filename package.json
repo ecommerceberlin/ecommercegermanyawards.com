@@ -29,15 +29,15 @@
   "homepage": "https://github.com/ecommerceberlin/awards#readme",
   "dependencies": {
     "@material-ui/icons": "^4.11.2",
-    "eventjuicer-site-components": "3.0.11",
-    "next": "^10.0.5",
+    "eventjuicer-site-components": "3.0.12",
+    "next": "^10.0.6",
     "next-transpile-modules": "^6.1.0",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
-    "vercel": "^21.2.1"
+    "vercel": "^21.2.2"
   },
   "devDependencies": {
-    "eslint": "^7.18.0",
+    "eslint": "^7.19.0",
     "eslint-config-prettier": "^7.2.0",
     "eslint-plugin-prettier": "^3.3.1",
     "husky": "^4.3.8",

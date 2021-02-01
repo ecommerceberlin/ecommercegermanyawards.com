@@ -5,16 +5,11 @@ import {
   reduxWrapper,
   configure,
   WidgetPhotostream,
-  WidgetFaq,
-  Wrapper,
-  WidgetContestantCompanies,
-  WidgetVoteStatus,
-  MyTypography,
-  Markdown
+  WidgetFaq
 } from 'eventjuicer-site-components';
 
 
-import {Timeline, Categories} from '../src/icons' 
+import {Categories} from '../src/icons' 
 import AllPartners from '../src/AllPartners'
 import RegForm from '../src/RegForm'
 import Intro from '../src/Intro'
@@ -26,27 +21,13 @@ const PageIndex = (props) => (
 
 <div>
 
+  <Intro first />
+
+  <RegForm />
+
+  <Categories />
+
   <WidgetVideoWithEventInfo />
-
-  <Wrapper label="awards.hello.title"><Timeline /></Wrapper>
-
-  <WidgetContestantCompanies
-
-  intro={
-    <div style={{ width: '80%' }}>
-    <WidgetVoteStatus  max_votes={10} />
-    <MyTypography template="benefitsText">
-      <Markdown label="awards.contestants.voting-rules.description" />
-    </MyTypography>
-    </div>
-  }
-  limit={500}
-  keyword_source="awards_category"
-  label='awards.contestants.categories.title'
-  show_votes={false}
-  resolveTitle={function(item){ return item.profile.cname2 } }
-  />
-
 
   <WidgetFaq setting="contestant.faq" />
 
