@@ -29,7 +29,7 @@
   "homepage": "https://github.com/ecommerceberlin/awards#readme",
   "dependencies": {
     "@material-ui/icons": "^4.11.2",
-    "eventjuicer-site-components": "3.0.12",
+    "eventjuicer-site-components": "3.0.13",
     "next": "^10.0.6",
     "next-transpile-modules": "^6.1.0",
     "react": "^16.14.0",
