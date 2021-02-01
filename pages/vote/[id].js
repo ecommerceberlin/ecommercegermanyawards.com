@@ -14,8 +14,15 @@ import {
 } from 'eventjuicer-site-components';
 
 import Head from 'next/head'
+import dynamic from 'next/dynamic'
 
 import settings from '../../settings'
+
+
+const DynamicWidgetVoteWithLinkedIn = dynamic(
+  () => import('../../proxy/WidgetVoteWithLinkedIn'),
+  { ssr: false }
+)
 
 
 const PageVote = ({id}) => (
@@ -28,8 +35,8 @@ const PageVote = ({id}) => (
 <WidgetContestantPerson
   id={id}
   wrapperProps={{label: null, first: true}}
-  vote={<VoteWithLinkedIn id={id} max_votes={10} disabled={false} />}
-  status={<WidgetVoteStatus />}
+  vote={<DynamicWidgetVoteWithLinkedIn id={id} max_votes={10} />}
+  status={<WidgetVoteStatus max_votes={10} />}
   show_votes={false}
 />
 
@@ -78,7 +85,7 @@ export const getStaticProps = reduxWrapper.getStaticProps(async ({ params, store
   return {props : {
     id: "id" in params ? params.id : 0
   }, 
-  revalidate: 1}
+  revalidate: 5}
   
 })
 
