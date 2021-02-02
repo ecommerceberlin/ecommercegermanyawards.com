@@ -30,7 +30,7 @@ const PageVote = ({id}) => (
 <div>
 
   
-<HeadVoteContestant id={id}>{(data) => <Head>{data}</Head>}</HeadVoteContestant> 
+<HeadVoteContestant id={id} template="ega2021_opengraph_template">{(data) => <Head>{data}</Head>}</HeadVoteContestant> 
        
 <WidgetContestantPerson
   id={id}
