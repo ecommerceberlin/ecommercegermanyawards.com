@@ -1,2 +1,1 @@
-# ecommercegermanyawards.com
-
+# ecommercegermanyawards.co
