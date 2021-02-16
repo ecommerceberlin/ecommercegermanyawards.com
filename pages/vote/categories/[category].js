@@ -43,7 +43,7 @@ import {
             keyword_source="profile.awards_category"
             keyword={category}
             label='awards.contestants.list.title'
-            show_votes={false}
+            show_votes={true}
             first={true}
             renderAs="table"
             resolveTitle={function(item){ return item.profile.cname2 } }
@@ -73,14 +73,14 @@ import {
   
   
   
-  export const getStaticProps = reduxWrapper.getStaticProps(async ({ store, params = {}}) => {
+  export const getStaticProps = reduxWrapper.getStaticProps(async (props) => {
   
-    await configure(store, {
+    await configure(props, {
       settings : settings,
       preload : ["contestant_companies"]
     })
   
-    const {category} = params;
+    const {category} = props.params;
   
     return {
       props : {
