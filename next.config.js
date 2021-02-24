@@ -13,5 +13,15 @@ const withTM = require('next-transpile-modules')(['eventjuicer-site-components']
       locales: ['en','de'],
       defaultLocale: 'en',    
     },
+
+    async redirects() {
+      return [
+        {
+          source: '/vote/105507',
+          destination: '/vote/119699',
+          permanent: false,
+        },
+      ]
+    },
   
   });

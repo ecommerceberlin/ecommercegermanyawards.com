@@ -1,6 +1,0 @@
-{
-    "public": false,
-    "redirects": [
-        { "source": "/vote/105507", "destination": "/vote/119699", "permanent": false }
-    ]
-  }
