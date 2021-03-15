@@ -137,7 +137,7 @@ In order to ensure transparency of the rules of the above-mentioned contest and 
 
 1. Stage IV includes the selection of Contest Winners.
 
-2. To determine the results of the Contest, the Organizer shall take into account the points received by the Participants in the Internet Users’ voting and the Jury voting. The algorithm looks as follows:
+2. To determine the results of the Contest, the Organizer shall take into account the contest points received by the Participants in the Internet Users’ voting and the Jury voting. The algorithm looks as follows:
 
 Wu = PI * 0,4 + PJ * 0,6
 
@@ -163,7 +163,7 @@ The announcement of the Contest Winners will take place during the “E-commerce
 
 1. Following provisions do not apply to the exhibitors of Ecommerce Berlin Expo 2021 for witch entering Stage IV of the Contest is free of charge.
 
-2. To take part in Stage IV and the following stages of the Contest, the Participant is obliged to: (1) pay the participation fee in total net amount of 200 EURO + VAT, and (2) enter into a participation contract with the Organizer.
+2. To take part in Stage IV and the following stages of the Contest, the Participant is obliged to: (1) pay the participation fee in total net amount of 100 EURO net, and (2) enter into a participation contract with the Organizer.
 
 3. The participation fee covers the cost of jury voting and other costs related to the Contest.
 
@@ -201,7 +201,7 @@ export const getStaticProps = reduxWrapper.getStaticProps(async ({ store }) => {
 
   await configure(store, {
     settings: settings,
-    preload: []
+    preload: ['contestant_companies']
   })
   
 })
