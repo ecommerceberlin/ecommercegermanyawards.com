@@ -26,7 +26,7 @@ const PageIndex = (props) => (
 
 <div>
 
-  <WidgetVideoWithEventInfo />
+  <WidgetVideoWithEventInfo insert="https://res.cloudinary.com/eventjuicer/image/upload/v1619180939/hypernode.png" />
 
   <Wrapper label="awards.hello.title"><Timeline /></Wrapper>
 
