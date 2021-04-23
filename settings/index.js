@@ -34,6 +34,7 @@ const settings  = {
         background : "https://res.cloudinary.com/eventjuicer/image/upload/v1575328032/ega2020_2_still.png",
         overlay : "black",
         template : "heroGold",
+        showable: ["date"]
     },
 
     bookingmap : {
@@ -140,10 +141,10 @@ const settings  = {
 
         items : [
             {date: "2021-01-08", name: "submissions", icon:  "NoteAdd", },
-            {date: "2021-02-01", name: "public-voting", icon:  "Public", dotColor: 'black' , active: true},
+            {date: "2021-02-01", name: "public-voting", icon:  "Public"},
             {date: "2021-03-01", name: "qualification", icon:  "Assessment" },
             {date: "2021-03-15", name: "jury-voting", icon:  "HowToVote" },
-            {date: "2021-05-26", name: "results", icon:  "Mic", active: false }
+            {date: "2021-05-26", name: "results", icon:  "Mic", dotColor: 'black' , active: true }
             
         ]
 
