@@ -10,7 +10,8 @@ import {
   WidgetContestantCompanies,
   WidgetVoteStatus,
   MyTypography,
-  Markdown
+  Markdown,
+  EmbedSection
 } from 'eventjuicer-site-components';
 
 
@@ -25,6 +26,10 @@ import settings from '../settings';
 const PageIndex = (props) => (
 
 <div>
+
+  <Wrapper label="awards.ceremony.title">
+    <EmbedSection data="https://youtu.be/bAJOeLNOhss" />
+  </Wrapper>
 
   <WidgetVideoWithEventInfo insert="https://res.cloudinary.com/eventjuicer/image/upload/v1619183737/hypernode.png" />
 
