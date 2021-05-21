@@ -28,7 +28,7 @@ const PageIndex = (props) => (
 <div>
 
   <Wrapper label="awards.ceremony.title">
-    <EmbedSection data="https://youtu.be/bAJOeLNOhss" />
+    <EmbedSection data="https://youtu.be/bAJOeLNOhss" playerProps={{light: false}}/>
   </Wrapper>
 
   <WidgetVideoWithEventInfo insert="https://res.cloudinary.com/eventjuicer/image/upload/v1619183737/hypernode.png" />
