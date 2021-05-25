@@ -1,13 +1,14 @@
 import {
   connect,
   WidgetVideoWithEventInfo,
-  WidgetContestantCompaniesArchiveWinners,
   reduxWrapper,
   configure,
   WidgetPhotostream,
   WidgetFaq,
   Wrapper,
   WidgetContestantCompanies,
+  WidgetContestantCompaniesWinners,
+  WidgetContestantCompaniesArchiveWinners,
   WidgetVoteStatus,
   MyTypography,
   Markdown,
@@ -32,6 +33,8 @@ const PageIndex = (props) => (
   </Wrapper>
 
   <WidgetVideoWithEventInfo insert="https://res.cloudinary.com/eventjuicer/image/upload/v1619183737/hypernode.png" />
+
+  {/* <WidgetContestantCompaniesWinners /> */}
 
   <Wrapper label="awards.hello.title"><Timeline /></Wrapper>
 
