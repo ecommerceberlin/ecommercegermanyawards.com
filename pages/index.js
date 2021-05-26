@@ -28,15 +28,15 @@ const PageIndex = (props) => (
 
 <div>
 
-  <Wrapper label="awards.ceremony.title">
-    <EmbedSection data="https://youtu.be/bAJOeLNOhss" playerProps={{light: false}}/>
-  </Wrapper>
-
   <WidgetVideoWithEventInfo insert="https://res.cloudinary.com/eventjuicer/image/upload/v1619183737/hypernode.png" />
 
-  {/* <WidgetContestantCompaniesWinners /> */}
+  <WidgetContestantCompaniesWinners />
 
-  <Wrapper label="awards.hello.title"><Timeline /></Wrapper>
+  <Wrapper label="awards.ceremony.title">
+    <EmbedSection data="https://youtu.be/bAJOeLNOhss" playerProps={{light: true}}/>
+  </Wrapper>
+
+  {/* <Wrapper label="awards.hello.title"><Timeline /></Wrapper>
 
   <WidgetContestantCompanies
 
@@ -55,8 +55,7 @@ const PageIndex = (props) => (
   resolveTitle={function(item){ return item.profile.cname2 } }
   />
 
-
-  <WidgetFaq setting="contestant.faq" />
+  <WidgetFaq setting="contestant.faq" /> */}
 
   <Jurors />
 
