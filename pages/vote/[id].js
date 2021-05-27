@@ -9,6 +9,7 @@ import {
   Markdown,
   WidgetVideoWithEventInfo,
   WidgetContestantCompaniesArchiveWinners,
+  WidgetContestantCompaniesWinners,
   reduxWrapper,
   configure,
   HeadVoteContestant
@@ -59,6 +60,8 @@ const PageVote = ({id}) => (
     label={ keyword ? 'awards.contestants.list.title' : 'awards.contestants.categories.title' }
     show_votes={true}
   /> */}
+
+  <WidgetContestantCompaniesWinners />
 
   <WidgetContestantCompaniesArchiveWinners />
 

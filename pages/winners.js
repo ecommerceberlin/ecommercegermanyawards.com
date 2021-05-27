@@ -2,6 +2,7 @@ import {
   connect,
   WidgetVideoWithEventInfo,
   WidgetContestantCompaniesArchiveWinners,
+  WidgetContestantCompaniesWinners,
   reduxWrapper,
   configure
 } from 'eventjuicer-site-components';
@@ -11,7 +12,7 @@ import settings from '../settings'
 const PageVote = (props) => (
 
   <div>
-
+      <WidgetContestantCompaniesWinners />
       <WidgetContestantCompaniesArchiveWinners  />
       <WidgetVideoWithEventInfo />
   </div>

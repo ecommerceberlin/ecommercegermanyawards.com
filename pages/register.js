@@ -2,6 +2,7 @@ import {
   connect,
   WidgetVideoWithEventInfo,
   WidgetContestantCompaniesArchiveWinners,
+  WidgetContestantCompaniesWinners,
   reduxWrapper,
   configure,
   WidgetPhotostream,
@@ -33,6 +34,7 @@ const PageIndex = (props) => (
 
   <Jurors />
 
+  <WidgetContestantCompaniesWinners />
   <WidgetContestantCompaniesArchiveWinners />
 
   <WidgetPhotostream setting="awardsphotostream" />

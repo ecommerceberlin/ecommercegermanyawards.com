@@ -10,6 +10,7 @@ import {
   Markdown,
   WidgetVideoWithEventInfo,
   WidgetContestantCompaniesArchiveWinners,
+  WidgetContestantCompaniesWinners,
   reduxWrapper,
   configure
 } from 'eventjuicer-site-components';
@@ -55,6 +56,8 @@ const PageVote = (props) => (
 
        <Categories  dense={false} typography={undefined} secondaryTypography={undefined} />
 
+
+      <WidgetContestantCompaniesWinners />
       <WidgetContestantCompaniesArchiveWinners  />
       <WidgetVideoWithEventInfo />
 
