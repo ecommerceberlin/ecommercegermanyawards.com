@@ -2,6 +2,7 @@ import {
   connect,
   WidgetVideoWithEventInfo,
   WidgetContestantCompaniesArchiveWinners,
+  WidgetContestantCompaniesWinners,
   reduxWrapper,
   configure,
   MyTypography,
@@ -36,6 +37,7 @@ const PageJury = (props) => (
 
  
 <WidgetPhotostream setting="awardsphotostream" />
+<WidgetContestantCompaniesWinners />
 <WidgetContestantCompaniesArchiveWinners />
 <AllPartners />
 <WidgetVideoWithEventInfo />

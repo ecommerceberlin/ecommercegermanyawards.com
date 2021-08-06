@@ -2,6 +2,7 @@ import {
   connect,
   WidgetVideoWithEventInfo,
   WidgetContestantCompaniesArchiveWinners,
+  WidgetContestantCompaniesWinners,
   reduxWrapper,
   configure,
   MyTypography,
@@ -33,7 +34,7 @@ const PageJury = (props) => (
 
 {/* <YouTube url='https://www.youtube.com/watch?v=pLfnx7B3BBA' /> */}
 
-
+<WidgetContestantCompaniesWinners />
 <WidgetContestantCompaniesArchiveWinners />
 <AllPartners />
 <WidgetVideoWithEventInfo />
