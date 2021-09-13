@@ -91,7 +91,7 @@ const settings  = {
         organizer_regno : 'VAT ID PL7792439665',
         event_name : 'E-commerce Germany Awards',
         event_location : 'Spindler & Klatt, Köpenicker Str. 16-17, 10997 Berlin',
-        event_date : '26th May 2021',
+        event_date : '8th February 2022',
         event_hours : '10:00-17:00',
 
     },
