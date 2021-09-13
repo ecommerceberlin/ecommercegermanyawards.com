@@ -3,7 +3,6 @@ const path = require('path');
 const withTM = require('next-transpile-modules')(['eventjuicer-site-components'], {resolveSymlinks: false});
 const { withSentryConfig } = require('@sentry/nextjs');
 
-
 const SentryWebpackPluginOptions = {
   // Additional config options for the Sentry Webpack plugin. Keep in mind that
   // the following options are set automatically, and overriding them is not
@@ -18,32 +17,45 @@ const SentryWebpackPluginOptions = {
 
 
 module.exports = withSentryConfig(withTM({
-    webpack: (config, options) => {
 
+    eslint: {
+      // Warning: Dangerously allow production builds to successfully complete even if
+      // your project has ESLint errors.
+      ignoreDuringBuilds: true,
+    },
+    
+    webpack: (config, options) => {
       if (options.isServer) {
         config.externals = ['react', ...config.externals];
       }
 
       // config.optimization.minimize = false
+
+      config.module.rules.push({
+        test: /\.md$/,
+        use: 'raw-loader',
+      });
+
       
       config.resolve.alias['react'] = path.resolve(__dirname, '.', 'node_modules', 'react');
-  
       return config
     },
 
-    i18n: {
-      locales: ['en','de'],
-      defaultLocale: 'en',    
-    },
-
-    async redirects() {
+    async redirects(){
       return [
         {
           source: '/vote/105507',
           destination: '/vote/119699',
-          permanent: false,
+          permanent: false
         },
       ]
     },
+
+
+    i18n: {
+      locales: ['en','de'],
+      defaultLocale: 'en',
+    },
   
-  }), SentryWebpackPluginOptions);
+}), SentryWebpackPluginOptions);
+
