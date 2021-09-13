@@ -143,11 +143,11 @@ const settings  = {
         iconSize: "40",
 
         items : [
-            {date: "2021-01-08", name: "submissions", icon:  "NoteAdd", },
-            {date: "2021-02-01", name: "public-voting", icon:  "Public"},
-            {date: "2021-03-01", name: "qualification", icon:  "Assessment" },
-            {date: "2021-03-15", name: "jury-voting", icon:  "HowToVote" },
-            {date: "2021-05-26", name: "results", icon:  "Mic", dotColor: 'black' , active: true }
+            {date: "2021-11-01", name: "submissions", icon:  "NoteAdd", dotColor: 'black', active: true },
+            {date: "2021-12-01", name: "public-voting", icon:  "Public"},
+            {date: "2021-12-17", name: "qualification", icon:  "Assessment" },
+            {date: "2022-01-03", name: "jury-voting", icon:  "HowToVote" },
+            {date: "2022-02-08", name: "results", icon:  "Mic" }
             
         ]
 

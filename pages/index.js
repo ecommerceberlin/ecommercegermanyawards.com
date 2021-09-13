@@ -19,7 +19,7 @@ import {
 import {Timeline, Categories} from '../src/icons' 
 import AllPartners from '../src/AllPartners'
 import RegForm from '../src/RegForm'
-import Intro from '../src/Intro'
+// import Intro from '../src/Intro'
 import Jurors from '../src/Jurors'
 
 import settings from '../settings';
@@ -30,13 +30,22 @@ const PageIndex = (props) => (
 
   <WidgetVideoWithEventInfo  />
 
+ <Wrapper label="awards.hello.title"><Timeline /></Wrapper>
+
+  <RegForm />
+
+  <Jurors />
+
+
   <WidgetContestantCompaniesWinners />
 
   <Wrapper label="awards.ceremony.title">
     <EmbedSection data="https://youtu.be/bAJOeLNOhss" playerProps={{light: true}}/>
   </Wrapper>
 
-  {/* <Wrapper label="awards.hello.title"><Timeline /></Wrapper>
+
+
+ {/* 
 
   <WidgetContestantCompanies
 
@@ -57,9 +66,9 @@ const PageIndex = (props) => (
 
   <WidgetFaq setting="contestant.faq" /> */}
 
-  <Jurors />
 
-  <WidgetContestantCompaniesArchiveWinners />
+
+  {/* <WidgetContestantCompaniesArchiveWinners /> */}
 
   <WidgetPhotostream setting="awardsphotostream" />
 

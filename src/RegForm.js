@@ -4,12 +4,13 @@ import {
     WidgetRegForm,
     MyTypography,
     Markdown,
-    Box
+    Box,
+    Wrapper
 } from 'eventjuicer-site-components';
 
 const RegForm = () => (
-
-<WidgetRegForm
+<>
+{/* <WidgetRegForm
 
     setting="contestant.register"
     options={{
@@ -27,13 +28,17 @@ const RegForm = () => (
     ]
     }} 
     right={
-    <Box ml={3}>
-        <MyTypography template="subtitle1" label="awards.rules-summary.title" />  
-        <Markdown label="awards.rules-summary.body" />
-    </Box>
-    }
+  
+   null }
     summary={<div>asd</div>}
     />
+     */}
+    <Wrapper ml={3}>
+    <MyTypography template="subtitle1" label="awards.rules-summary.title" />  
+    <Markdown label="awards.rules-summary.body" />
+    </Wrapper>
+    </>
+
 
 )
 
