@@ -5,7 +5,7 @@ const AllPartners = (props) => {
     return (
 <>
 
-<WidgetPartners
+{/* <WidgetPartners
 label="partners.networking.title"
 filter={item =>
 item['scopes(deprecated)'].indexOf('networking') > -1 &&
@@ -14,7 +14,7 @@ item.logotype.indexOf('cloudinary') > -1
 limit={50}
 center={true}
 placeholder={ <SubPageButton label="common.menu.partners.premium" target={{href:"/premium"}} /> }
-/>
+/> */}
 
 <WidgetPartners
 label="partners.media.title"
