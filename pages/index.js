@@ -34,7 +34,7 @@ const PageIndex = (props) => (
 
   <RegForm />
 
-  <Jurors />
+  <Jurors limit={8} />
 
 
   <WidgetContestantCompaniesWinners />

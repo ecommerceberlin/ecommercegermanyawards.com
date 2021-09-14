@@ -4,7 +4,7 @@ import {
   } from 'eventjuicer-site-components';
 
 
-const Jurors = () => (
+const Jurors = (props) => (
 
     <WidgetJurors
         label="awards.jury.title"
@@ -15,6 +15,7 @@ const Jurors = () => (
         bio={false}
         minToShow={1}
         sort="fname"
+        {...props}
     />
 
 )
