@@ -23,7 +23,7 @@ const settings  = {
 
     premium : {
 
-        ticketgroups : [332]
+        ticketgroups : [340]
 
     },
 
