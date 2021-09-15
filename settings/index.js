@@ -162,7 +162,7 @@ const settings  = {
             items : [
                 {
                   image:
-                    'https://res.cloudinary.com/eventjuicer/image/upload/v1604003805/ega/ega_2021_numberOfContestVoters.svg',
+                    'https://res.cloudinary.com/eventjuicer/image/upload/v1631743692/ega/ega_2022_numberOfContestVoters.svg',
                 },
                 {
                   image:
@@ -170,7 +170,7 @@ const settings  = {
                 },
                 {
                   image:
-                    'https://res.cloudinary.com/eventjuicer/image/upload/v1604003805/ega/ega_2021_numberOfContestParticipants.svg',
+                    'https://res.cloudinary.com/eventjuicer/image/upload/v1631743692/ega/ega_2022_numberOfContestParticipants.svg',
                 },
                 {
                   image:
