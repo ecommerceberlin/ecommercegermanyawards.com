@@ -1,31 +1,17 @@
 import {
   connect,
-  MyHead as Head,
-  VoteWithLinkedIn,
-  WidgetContestantCompanies,
-  WidgetContestantCompany,
-  WidgetVoteStatus,
-  LayoutMain as Layout,
-  MyTypography as Typography,
-  Markdown,
   WidgetVideoWithEventInfo,
-  WidgetContestantCompaniesWinners,
   reduxWrapper,
   configure
 } from 'eventjuicer-site-components';
 
-
 import settings from '../../settings'
-
 
 const PageVote = ({keyword}) => (
 
 <div>
        
-       
-
-       <WidgetContestantCompaniesWinners />
-
+    
         {/* <WidgetContestantCompanies
           intro={
             <div style={{ width: '80%' }}>

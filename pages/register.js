@@ -1,8 +1,6 @@
 import {
   connect,
   WidgetVideoWithEventInfo,
-  WidgetContestantCompaniesArchiveWinners,
-  WidgetContestantCompaniesWinners,
   reduxWrapper,
   configure,
   WidgetPhotostream,
@@ -15,8 +13,8 @@ import AllPartners from '../src/AllPartners'
 import RegForm from '../src/RegForm'
 import Intro from '../src/Intro'
 import Jurors from '../src/Jurors'
-
 import settings from '../settings';
+import {Winners2021} from '../src/Winners'
 
 const PageIndex = (props) => (
 
@@ -25,20 +23,12 @@ const PageIndex = (props) => (
   <Intro first />
 
   <RegForm />
-
   <Categories />
-
   <WidgetVideoWithEventInfo />
-
   <WidgetFaq setting="contestant.faq" />
-
   <Jurors />
-
-  <WidgetContestantCompaniesWinners />
-  <WidgetContestantCompaniesArchiveWinners />
-
+  <Winners2021 />
   <WidgetPhotostream setting="awardsphotostream" />
-
   <AllPartners />
 
 </div>

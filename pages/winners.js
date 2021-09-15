@@ -1,19 +1,21 @@
 import {
   connect,
   WidgetVideoWithEventInfo,
-  WidgetContestantCompaniesArchiveWinners,
-  WidgetContestantCompaniesWinners,
   reduxWrapper,
   configure
 } from 'eventjuicer-site-components';
 
 import settings from '../settings'
+import {Winners2021, Winners2020} from '../src/Winners'
 
-const PageVote = (props) => (
+const PageWinners = (props) => (
 
   <div>
-      <WidgetContestantCompaniesWinners />
-      <WidgetContestantCompaniesArchiveWinners  />
+   
+      <Winners2021  />
+
+      <Winners2020  />
+
       <WidgetVideoWithEventInfo />
   </div>
 
@@ -35,4 +37,4 @@ export const getStaticProps = reduxWrapper.getStaticProps(async ({ store }) => {
 })
 
 
-export default connect()(PageVote);
+export default connect()(PageWinners);

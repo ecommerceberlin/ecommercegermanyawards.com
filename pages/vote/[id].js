@@ -8,8 +8,6 @@ import {
   MyTypography as Typography,
   Markdown,
   WidgetVideoWithEventInfo,
-  WidgetContestantCompaniesArchiveWinners,
-  WidgetContestantCompaniesWinners,
   reduxWrapper,
   configure,
   HeadVoteContestant
@@ -20,6 +18,7 @@ import dynamic from 'next/dynamic'
 
 import settings from '../../settings'
 
+import {Winners2021} from '../../src/Winners'
 
 const DynamicWidgetVoteWithLinkedIn = dynamic(
   () => import('../../proxy/WidgetVoteWithLinkedIn'),
@@ -61,9 +60,7 @@ const PageVote = ({id}) => (
     show_votes={true}
   /> */}
 
-  <WidgetContestantCompaniesWinners />
-
-  <WidgetContestantCompaniesArchiveWinners />
+  <Winners2021 />
 
   <WidgetVideoWithEventInfo />
 

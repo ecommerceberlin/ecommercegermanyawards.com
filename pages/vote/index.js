@@ -9,8 +9,6 @@ import {
   MyTypography as Typography,
   Markdown,
   WidgetVideoWithEventInfo,
-  WidgetContestantCompaniesArchiveWinners,
-  WidgetContestantCompaniesWinners,
   reduxWrapper,
   configure
 } from 'eventjuicer-site-components';
@@ -31,6 +29,7 @@ import settings from '../../settings'
 
 import {Categories} from '../../src/icons' 
 
+import {Winners2021} from '../../src/Winners'
 
 const PageVote = (props) => (
 
@@ -55,15 +54,11 @@ const PageVote = (props) => (
 
 
        <Categories  dense={false} typography={undefined} secondaryTypography={undefined} />
-
-
-      <WidgetContestantCompaniesWinners />
-      <WidgetContestantCompaniesArchiveWinners  />
+      <Winners2021 />
       <WidgetVideoWithEventInfo />
 
 
-      
-
+  
   </div>
 
 )

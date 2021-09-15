@@ -4,14 +4,8 @@ import {
   reduxWrapper,
   configure,
   WidgetPhotostream,
-  WidgetFaq,
   Wrapper,
-  WidgetContestantCompanies,
-  WidgetContestantCompaniesWinners,
-  WidgetContestantCompaniesArchiveWinners,
-  WidgetVoteStatus,
-  MyTypography,
-  Markdown,
+
   EmbedSection
 } from 'eventjuicer-site-components';
 
@@ -21,7 +15,7 @@ import AllPartners from '../src/AllPartners'
 import RegForm from '../src/RegForm'
 // import Intro from '../src/Intro'
 import Jurors from '../src/Jurors'
-
+import {Winners2021} from '../src/Winners'
 import settings from '../settings';
 
 const PageIndex = (props) => (
@@ -36,8 +30,7 @@ const PageIndex = (props) => (
 
   <Jurors limit={8} />
 
-
-  <WidgetContestantCompaniesWinners />
+  <Winners2021 />
 
   <Wrapper label="awards.ceremony.title">
     <EmbedSection data="https://youtu.be/bAJOeLNOhss" playerProps={{light: true}}/>
@@ -64,14 +57,9 @@ const PageIndex = (props) => (
   resolveTitle={function(item){ return item.profile.cname2 } }
   />
 
-  <WidgetFaq setting="contestant.faq" /> */}
-
-
-
-  {/* <WidgetContestantCompaniesArchiveWinners /> */}
+  */}
 
   <WidgetPhotostream setting="awardsphotostream" />
-
   <AllPartners />
 
 </div>

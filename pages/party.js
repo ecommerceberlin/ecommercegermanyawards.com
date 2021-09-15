@@ -1,8 +1,6 @@
 import {
   connect,
   WidgetVideoWithEventInfo,
-  WidgetContestantCompaniesArchiveWinners,
-  WidgetContestantCompaniesWinners,
   reduxWrapper,
   configure,
   MyTypography,
@@ -14,13 +12,11 @@ import {
  
 import AllPartners from '../src/AllPartners'
 import settings from '../settings';
+import {Winners2021} from '../../src/Winners'
 
-const PageJury = (props) => (
-
-<div>
+const PageJury = (props) => (<div>
  
 <WidgetPhotostream first setting="awardsphotostream" />
-
 <WidgetRegForm  
   setting="awards.attend_a_party"
   right={
@@ -31,19 +27,11 @@ const PageJury = (props) => (
   }
   summary={<div>asd</div>}
 />
-
 {/* <YouTube url='https://www.youtube.com/watch?v=pLfnx7B3BBA' /> */}
-
-<WidgetContestantCompaniesWinners />
-<WidgetContestantCompaniesArchiveWinners />
+<Winners2021 />
 <AllPartners />
 <WidgetVideoWithEventInfo />
-
-</div>
-
-  
-)
- 
+</div>)
  
 export const getStaticProps = reduxWrapper.getStaticProps(async ({ store }) => {
 
@@ -59,9 +47,4 @@ export const getStaticProps = reduxWrapper.getStaticProps(async ({ store }) => {
   
 })
 
-
-
 export default connect()(PageJury);
-
-
-

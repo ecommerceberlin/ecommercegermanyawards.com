@@ -1,8 +1,6 @@
 import {
   connect,
   WidgetVideoWithEventInfo,
-  WidgetContestantCompaniesArchiveWinners,
-  WidgetContestantCompaniesWinners,
   reduxWrapper,
   configure,
   MyTypography,
@@ -13,17 +11,12 @@ import {
 
 import AllPartners from '../src/AllPartners'
 import Jurors from '../src/Jurors'
-
 import settings from '../settings';
+import {Winners2021} from '../src/Winners'
 
-const PageJury = (props) => (
-
-<div>
- 
+const PageJury = (props) => (<div>
 <Jurors />
-
 <WidgetRegForm
-  
   setting="awards.become_a_juror"
   right={
     <div style={{marginTop: 30, marginLeft: 10}}>
@@ -33,19 +26,11 @@ const PageJury = (props) => (
   }
   summary={<div>asd</div>}
 />
-
-
- 
 <WidgetPhotostream setting="awardsphotostream" />
-<WidgetContestantCompaniesWinners />
-<WidgetContestantCompaniesArchiveWinners />
+<Winners2021 />
 <AllPartners />
 <WidgetVideoWithEventInfo />
-
-</div>
-
-  
-)
+</div>)
  
  
 export const getStaticProps = reduxWrapper.getStaticProps(async ({ store }) => {
