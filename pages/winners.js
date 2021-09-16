@@ -6,15 +6,13 @@ import {
 } from 'eventjuicer-site-components';
 
 import settings from '../settings'
-import {Winners2021, Winners2020} from '../src/Winners'
+import AllWinners from '../src/Winners'
 
 const PageWinners = (props) => (
 
   <div>
    
-      <Winners2021  />
-
-      <Winners2020  />
+      <AllWinners  />
 
       <WidgetVideoWithEventInfo />
   </div>
