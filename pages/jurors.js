@@ -15,7 +15,7 @@ import settings from '../settings';
 import {Winners2021} from '../src/Winners'
 
 const PageJury = (props) => (<div>
-<Jurors />
+
 <WidgetRegForm
   setting="awards.become_a_juror"
   right={
@@ -26,6 +26,7 @@ const PageJury = (props) => (<div>
   }
   summary={<div>asd</div>}
 />
+<Jurors limit={100} />
 <WidgetPhotostream setting="awardsphotostream" />
 <Winners2021 />
 <AllPartners />

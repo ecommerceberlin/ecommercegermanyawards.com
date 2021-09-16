@@ -19,3 +19,8 @@ export const Winners2020 = (props) =>  (<WidgetContestantCompaniesArchiveWinners
         secondaryLabel : ["awards.winners.archive.description", {name: 2020, date: "12.02.2020"}],
     }}  
 />)
+
+
+const AllWinners = () => (<><Winners2021 /><Winners2020 /></>)
+
+export default AllWinners

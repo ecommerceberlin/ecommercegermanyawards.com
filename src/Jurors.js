@@ -7,22 +7,21 @@ import {
 const Jurors = (props) => (
 
     <WidgetJurors
-        label="awards.jury.title"
-        secondaryLabel="awards.jury.description"
+        wrapperProps={{
+            label: "awards.jury.title",
+            secondaryLabel: "awards.jury.description"
+        }}
         disableTemps={false}
-        limit={100}
+        limit={8}
         filter={null}
         bio={false}
-        minToShow={1}
+        minToShow={4}
         sort="fname"
+        all={true}
         {...props}
     />
 
 )
 
-
-Jurors.defaultProps = {
-
-}
 
 export default Jurors;
