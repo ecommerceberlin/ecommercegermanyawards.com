@@ -58,11 +58,11 @@ const settings  = {
             {
                 name: 'awards',
                 items: [
-                  {name: 'about', to: '/about'},
-                //   {name: 'categories', to: '/categories'},
-                //   {name: 'vote', to: '/vote'},
-               //   {name: 'jurors', to: '/jurors'},
-               //   {name: 'party', to: '/party'},
+                    {name: 'about', to: '/about'},
+                    {name: 'categories', to: '/categories'},
+                    {name: 'register', to: '/register'},
+                    {name: 'jurors', to: '/jurors'},
+                    {name: 'party', to: '/party'},
                 ]
               },
 
@@ -72,14 +72,7 @@ const settings  = {
                 {name: 'premium', to: '/premium'},
               ]
             },
-            // {
-            //   name: 'exhibitors',
-            //   items: [
-            //     {name: 'exhibitors', to: '/exhibitors'},
-            //     {name: 'exhibit', to: '/exhibit'},
-            //     {name: 'faq', to: '/faq'}
-            //   ]
-            // }
+          
         ]
     },
 
