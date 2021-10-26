@@ -262,7 +262,7 @@ const settings  = {
             ],
 
             start : ['cname2', 'project_name', 'awards_category'],
-            ticket_id : 1963,
+            ticket_id : 1962,
             cc: "awards+submission@ecommerceberlin.com",
             email_template : "ega-submission-confirmation",
             background : "https://res.cloudinary.com/ecommerceberlin/image/upload/c_fit,h_500,w_500/v1546813408/ebe_lanyard1.jpg",

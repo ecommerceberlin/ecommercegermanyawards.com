@@ -10,32 +10,38 @@ import {
 
 const RegForm = () => (
 <>
-{/* <WidgetRegForm
+    <Wrapper label="awards.register.title">
 
-    setting="contestant.register"
-    options={{
-        "categories": [
-        'sales_generation',
-        'communication',
-        'internationalization',
-        'logistics',
-        'platform',
-        'payment',
-        'analytics',
-        'agency',
-        'infrastructure',
-        'innovation'
-    ]
-    }} 
-    right={
-  
-   null }
-    summary={<div>asd</div>}
+    <WidgetRegForm
+        setting="contestant.register"
+        options={{
+            "categories": [
+            'sales_generation',
+            'communication',
+            'internationalization',
+            'logistics',
+            'platform',
+            'payment',
+            'analytics',
+            'agency',
+            'infrastructure',
+            'innovation',
+            'omnichannel',
+            'ar_vr_3d'
+        ]
+        }} 
+        right={
+        
+            <>
+            <MyTypography template="subtitle1" label="awards.rules-summary.title" />  
+            <Markdown label="awards.rules-summary.body" />
+            </>
+     }
+        summary={<div>asd</div>}
     />
-     */}
-    <Wrapper ml={3}>
-    <MyTypography template="subtitle1" label="awards.rules-summary.title" />  
-    <Markdown label="awards.rules-summary.body" />
+  
+  
+  
     </Wrapper>
     </>
 
