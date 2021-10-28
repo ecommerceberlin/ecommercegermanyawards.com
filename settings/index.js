@@ -30,8 +30,8 @@ const settings  = {
     hero : {
         heading : "awards.hero.title",
         subheading : "awards.hero.description",
-        videoSrc : "https://res.cloudinary.com/eventjuicer/video/upload/v1575327611/ega2020_2.mp4",
-        background : "https://res.cloudinary.com/eventjuicer/image/upload/v1575328032/ega2020_2_still.png",
+        videoSrc : "https://res.cloudinary.com/eventjuicer/video/upload/q_auto,f_auto/v1575327611/ega2020_2.mp4",
+        background : "https://res.cloudinary.com/eventjuicer/image/upload/q_auto,f_auto/v1575328032/ega2020_2_still.png",
         overlay : "black",
         template : "heroGold",
         showable: ["date"]
