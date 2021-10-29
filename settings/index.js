@@ -357,7 +357,18 @@ const settings  = {
                 {
                     icon : "NewReleases",
                     label : 'innovation'
+                },
+
+                {
+                    icon : "Computer",
+                    label : 'omnichannel'
+                },
+
+                {
+                    icon : "NewReleases",
+                    label : 'ar_vr_3d'
                 }
+
 
             ]
         },
