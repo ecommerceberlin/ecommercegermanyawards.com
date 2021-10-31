@@ -360,12 +360,12 @@ const settings  = {
                 },
 
                 {
-                    icon : "Computer",
+                    icon : "ShoppingBasket",
                     label : 'omnichannel'
                 },
 
                 {
-                    icon : "NewReleases",
+                    icon : "CameraAlt",
                     label : 'ar_vr_3d'
                 }
 

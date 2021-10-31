@@ -13,7 +13,8 @@ import HowToVote from '@material-ui/icons/HowToVote'
 import Mic from '@material-ui/icons/Mic'
 import TrendingUp from '@material-ui/icons/TrendingUp'
 import VerifiedUser from '@material-ui/icons/VerifiedUser'
-
+import ShoppingBasket from '@material-ui/icons/ShoppingBasket';
+import CameraAlt from '@material-ui/icons/CameraAlt';
 import {WidgetIconGrid, WidgetVerticalTimeline} from 'eventjuicer-site-components'
 
 const Categories = (props) => (<WidgetIconGrid setting="contestant.categories" icons={{
@@ -27,6 +28,8 @@ const Categories = (props) => (<WidgetIconGrid setting="contestant.categories" i
     People,
     Computer,
     NewReleases,
+    ShoppingBasket,
+    CameraAlt
 }}  {...props} />)
 
 const Timeline = (props) => (<WidgetVerticalTimeline 
