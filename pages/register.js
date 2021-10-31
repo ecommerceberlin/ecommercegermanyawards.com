@@ -20,9 +20,8 @@ const PageIndex = (props) => (
 
 <div>
 
-  <Intro first />
-
-  <RegForm />
+  <RegForm first />
+  <Intro />
   <Categories />
   <WidgetVideoWithEventInfo />
   <WidgetFaq setting="contestant.faq" />

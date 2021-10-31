@@ -10,6 +10,7 @@ import {Categories} from '../src/icons'
 import AllPartners from '../src/AllPartners'
 import Intro from '../src/Intro'
 import settings from '../settings';
+import RegForm from '../src/RegForm'
 
 const PageCategories = (props) => (
 
@@ -18,6 +19,8 @@ const PageCategories = (props) => (
   <Categories first dense={false} typography={undefined} secondaryTypography={undefined} />
 
   <Intro />
+
+  <RegForm />
 
   <WidgetFaq setting="contestant.faq" />
 
