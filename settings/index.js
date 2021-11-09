@@ -102,11 +102,11 @@ const settings  = {
 
         people : [
             {             
-                name: 'Jacob Przybylski',
-                position : 'Event Manager',
+                name: 'Marta Masternak',
+                position : 'Key Account Manager',
                 langs : ["en","de"],
-                avatar: 'https://res.cloudinary.com/ecommerceberlin/image/upload/v1598270731/Jacob_Linkedin.jpg',
-                phone: '+49 302 555 98 79',
+                avatar: 'https://res.cloudinary.com/ecommerceberlin/image/upload/c_fit,w_120,f_auto,q_auto/v1636131391/Awards%20website/received_1343879069033116.jpg',
+                phone: '+49 30 2555 987',
                 email: 'awards@ecommerceberlin.com',
                 chatlio : true
             }
