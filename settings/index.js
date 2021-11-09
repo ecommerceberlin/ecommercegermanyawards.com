@@ -45,6 +45,10 @@ const settings  = {
 
     },
 
+    appbar: {
+        logotype: "https://res.cloudinary.com/eventjuicer/image/upload/c_fit,h_30,f_auto,q_auto/v1636478607/logo_ega.png"
+    },
+
     ui : {
 
         menuItems : [
