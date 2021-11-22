@@ -18,7 +18,8 @@ import settings from '../settings';
 const PageAccount = () => {
 
     const user = useUserData();
-    
+    console.log(user)
+
    if(user){
     return (<Wrapper><WidgetRegForm 
         fields={[
@@ -32,6 +33,7 @@ const PageAccount = () => {
             {name: "video"},
      
          ]}
+         start={[]}
          data={user.fields} 
          label="awards.update.title"
          baseLabel="awards"
@@ -46,7 +48,7 @@ const PageAccount = () => {
          right={
             <div style={{marginTop: 30}}>
             
-            <SubPageButton target={{href: "/vote/[[id]]", as: `/vote/${user.id}` }} label="common.preview" />
+            <SubPageButton target={{href: `/vote/${user.id}` }} label="common.preview" />
 
             <TextSection margin={2} record={user.fields} name="cname2" />
             <TextSection margin={2} record={user.fields} name="project_name" />

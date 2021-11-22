@@ -46,7 +46,11 @@ const settings  = {
     },
 
     appbar: {
-        logotype: "https://res.cloudinary.com/eventjuicer/image/upload/c_fit,h_30,f_auto,q_auto/v1636478607/logo_ega.png"
+        logotype: "https://res.cloudinary.com/eventjuicer/image/upload/c_fit,h_30,f_auto,q_auto/v1636478607/logo_ega.png",
+        links: [
+            // {label: "Vote!", color: "secondary",  href: "/vote", variant: "contained"}
+        ],
+        profile: ["edit"]
     },
 
     ui : {
