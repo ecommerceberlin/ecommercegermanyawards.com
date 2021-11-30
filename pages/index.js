@@ -26,7 +26,7 @@ const PageIndex = (props) => (
 
  <Wrapper label="awards.hello.title"><Timeline /></Wrapper>
 
-  <RegForm />
+  {/* <RegForm /> */}
 
   <Jurors limit={8} />
 
