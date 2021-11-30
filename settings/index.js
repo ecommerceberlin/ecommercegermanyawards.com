@@ -82,6 +82,7 @@ const settings  = {
               name: 'partners',
               items: [
                 {name: 'premium', to: '/premium'},
+                {name: 'sponsors', to: '/sponsors'},
               ]
             },
           
