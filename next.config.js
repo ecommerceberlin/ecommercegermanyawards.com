@@ -52,6 +52,14 @@ module.exports = withSentryConfig(withTM({
     },
 
 
+    async redirects() {
+      return [{
+          source: '/vote/categories',
+          destination: '/vote',
+          permanent: false,
+        }]
+    },
+
     i18n: {
       locales: ['en','de'],
       defaultLocale: 'en',
