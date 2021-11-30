@@ -10,7 +10,8 @@ import {
   Markdown,
   WidgetVideoWithEventInfo,
   reduxWrapper,
-  configure
+  configure,
+  Wrapper
 } from 'eventjuicer-site-components';
 
 /*
@@ -35,24 +36,16 @@ const PageVote = (props) => (
 
   <div>
 
-      <WidgetContestantCompanies
-          first
-          intro={
-            <div style={{ width: '80%' }}>
-              <WidgetVoteStatus  max_votes={10} />
-              <Typography template="benefitsText">
-                <Markdown label="awards.contestants.voting-rules.description" />
-              </Typography>
-            </div>
-          }
-          limit={500}
-          keyword_source="awards_category"
-          label='awards.contestants.categories.title'
-          show_votes={false}
-          resolveTitle={function(item){ return item.profile.cname2 } }
-        />
+      <Wrapper label="awards.contestants.categories.title" secondaryLabel="awards.contestants.list.description">
 
+      <WidgetVoteStatus  max_votes={10} />
+      <Typography template="benefitsText">
+      <Markdown label="awards.contestants.voting-rules.description" />
+      </Typography>
 
+      </Wrapper>
+
+  
        <Categories  dense={false} typography={undefined} secondaryTypography={undefined} />
       <Winners2021 />
       <WidgetVideoWithEventInfo />
