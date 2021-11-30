@@ -33,20 +33,21 @@ import {
               </div>
             }
             limit={350}
-            filter={
-            item => item && "profile" in item &&
-              "logotype" in item.profile && 
-              item.profile.logotype.indexOf("http")>-1 && 
-              "logotype_cdn" in item.profile && 
-              item.profile.logotype_cdn.indexOf("http")>-1 
-            }
+            // filter={
+            // item => item && "profile" in item &&
+            //   "logotype" in item.profile && 
+            //   item.profile.logotype.indexOf("http")>-1 && 
+            //   "logotype_cdn" in item.profile && 
+            //   item.profile.logotype_cdn.indexOf("http")>-1 
+            // }
             keyword_source="profile.awards_category"
             keyword={category}
             label='awards.contestants.list.title'
-            show_votes={true}
-            first={true}
+            show_votes={false}
+            first={false}
             renderAs="table"
             resolveTitle={function(item){ return item.profile.cname2 } }
+            resolveSelected={()=>false}
           />
         
          
