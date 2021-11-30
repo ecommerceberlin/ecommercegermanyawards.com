@@ -26,7 +26,7 @@ import {
           <WidgetContestantCompanies
             intro={
               <div style={{ width: '80%' }}>
-                <WidgetVoteStatus max_votes={10} />
+                <WidgetVoteStatus max_votes={12} />
                 <Typography template="benefitsText">
                   <Markdown label="awards.contestants.voting-rules.description" />
                 </Typography>

@@ -19,11 +19,16 @@ import dynamic from 'next/dynamic'
 import settings from '../../settings'
 
 import {Winners2021} from '../../src/Winners'
+import {Categories} from '../../src/icons' 
 
 const DynamicWidgetVoteWithLinkedIn = dynamic(
   () => import('../../proxy/WidgetVoteWithLinkedIn'),
   { ssr: false }
 )
+
+const onVoted = (canVote) => (<>
+  <WidgetVoteStatus max_votes={12} />
+  {canVote ? <div><Categories label={null} secondaryLabel={null} /></div>: null}</>)
 
 
 const PageVote = ({id}) => (
@@ -36,11 +41,10 @@ const PageVote = ({id}) => (
 <WidgetContestantPerson
   id={id}
   wrapperProps={{label: null, first: true}}
-  // vote={<DynamicWidgetVoteWithLinkedIn id={id} max_votes={10} />}
-  status={<WidgetVoteStatus max_votes={10} />}
+  vote={<DynamicWidgetVoteWithLinkedIn id={id} max_votes={12} onVoted={onVoted} />}
+  status={<WidgetVoteStatus max_votes={12} />}
   show_votes={false}
 />
-
 
 
   {/* <WidgetContestantCompanies
@@ -86,7 +90,7 @@ export const getStaticProps = reduxWrapper.getStaticProps(async ({ params, store
   return {props : {
     id: "id" in params ? params.id : 0
   }, 
-  revalidate: 5}
+  revalidate: 60}
   
 })
 
