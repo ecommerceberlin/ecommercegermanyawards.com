@@ -46,6 +46,8 @@ const PageVote = ({id}) => (
   show_votes={false}
 />
 
+<Categories first dense={false} typography={undefined} secondaryTypography={undefined} wrapperProps={{label: "awards.voting.cta"}}/>
+
 
   {/* <WidgetContestantCompanies
     intro={
@@ -64,7 +66,7 @@ const PageVote = ({id}) => (
     show_votes={true}
   /> */}
 
-  <Winners2021 />
+  {/* <Winners2021 /> */}
 
   <WidgetVideoWithEventInfo />
 

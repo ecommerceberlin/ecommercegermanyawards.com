@@ -9,7 +9,7 @@ import {
 import settings from '../settings'
 
 
-const PageWinners = (props) => (
+const PageSponsors = (props) => (
 
     <div>
     <Wrapper first label="awards.sponsors.list.title">
@@ -42,4 +42,4 @@ export const getStaticProps = reduxWrapper.getStaticProps(async ({ store }) => {
 })
 
 
-export default connect()(PageWinners);
+export default connect()(PageSponsors);

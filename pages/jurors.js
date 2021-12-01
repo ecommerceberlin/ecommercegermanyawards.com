@@ -38,7 +38,7 @@ export const getStaticProps = reduxWrapper.getStaticProps(async ({ store }) => {
 
   await configure(store, {
     settings: settings,
-    preload: ['jurors']
+    preload: ['jurors', "contestant_companies_all"]
   })
 
   return {
