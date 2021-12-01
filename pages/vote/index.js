@@ -38,7 +38,7 @@ const PageVote = (props) => (
 
       <Wrapper label="awards.contestants.categories.title" secondaryLabel="awards.contestants.list.description">
 
-      <WidgetVoteStatus  max_votes={10} />
+      <WidgetVoteStatus  max_votes={12} />
       <Typography template="benefitsText">
       <Markdown label="awards.contestants.voting-rules.description" />
       </Typography>

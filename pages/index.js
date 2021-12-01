@@ -36,29 +36,6 @@ const PageIndex = (props) => (
     <EmbedSection data="https://youtu.be/bAJOeLNOhss" playerProps={{light: true}}/>
   </Wrapper>
 
-
-
- {/* 
-
-  <WidgetContestantCompanies
-
-  intro={
-    <div style={{ width: '80%' }}>
-    <WidgetVoteStatus  max_votes={10} />
-    <MyTypography template="benefitsText">
-      <Markdown label="awards.contestants.voting-rules.description" />
-    </MyTypography>
-    </div>
-  }
-  limit={500}
-  keyword_source="awards_category"
-  label='awards.contestants.categories.title'
-  show_votes={false}
-  resolveTitle={function(item){ return item.profile.cname2 } }
-  />
-
-  */}
-
   <WidgetPhotostream setting="awardsphotostream" />
   <AllPartners />
 
