@@ -28,7 +28,7 @@ const PageJury = (props) => (<div>
 />
 <Jurors limit={100} />
 <WidgetPhotostream setting="awardsphotostream" />
-{/* <Winners2021 /> */}
+<Winners2021 />
 <AllPartners />
 <WidgetVideoWithEventInfo />
 </div>)
@@ -38,7 +38,7 @@ export const getStaticProps = reduxWrapper.getStaticProps(async ({ store }) => {
 
   await configure(store, {
     settings: settings,
-    preload: ['jurors', "contestant_companies_all"]
+    preload: ['jurors']
   })
 
   return {

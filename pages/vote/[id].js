@@ -48,25 +48,7 @@ const PageVote = ({id}) => (
 
 <Categories first dense={false} typography={undefined} secondaryTypography={undefined} wrapperProps={{label: "awards.voting.cta"}}/>
 
-
-  {/* <WidgetContestantCompanies
-    intro={
-      <div style={{ width: '80%' }}>
-      <WidgetVoteStatus />
-      <Typography template="benefitsText">
-      <Markdown label="awards.contestants.voting-rules.description" />
-      </Typography>
-      </div>
-    }
-    limit={350}
-    filter={item => 'product_name' in item && item.product_name.length > 2 && 'logotype' in item && item.logotype.indexOf('http') > -1 && 'featured' in item && item.featured == '1'}
-    keyword_source="awards_category"
-    keyword={keyword}
-    label={ keyword ? 'awards.contestants.list.title' : 'awards.contestants.categories.title' }
-    show_votes={true}
-  /> */}
-
-  {/* <Winners2021 /> */}
+  <Winners2021 />
 
   <WidgetVideoWithEventInfo />
 

@@ -28,7 +28,7 @@ const PageJury = (props) => (<div>
   summary={<div>asd</div>}
 />
 {/* <YouTube url='https://www.youtube.com/watch?v=pLfnx7B3BBA' /> */}
-{/* <Winners2021 /> */}
+<Winners2021 />
 <AllPartners />
 <WidgetVideoWithEventInfo />
 </div>)
@@ -37,7 +37,7 @@ export const getStaticProps = reduxWrapper.getStaticProps(async ({ store }) => {
 
   await configure(store, {
     settings: settings,
-    preload: ["contestant_companies_all"]
+    preload: []
   })
 
   return {

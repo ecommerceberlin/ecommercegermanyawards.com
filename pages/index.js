@@ -30,7 +30,7 @@ const PageIndex = (props) => (
 
   <Jurors limit={8} />
 
-  {/* <Winners2021 /> */}
+  <Winners2021 />
 
   <Wrapper label="awards.ceremony.title">
     <EmbedSection data="https://youtu.be/bAJOeLNOhss" playerProps={{light: true}}/>
@@ -48,7 +48,7 @@ export const getStaticProps = reduxWrapper.getStaticProps(async ({ store }) => {
 
   await configure(store, {
     settings: settings,
-    preload: ['contestant_companies_all']
+    preload: []
   })
 
   return {

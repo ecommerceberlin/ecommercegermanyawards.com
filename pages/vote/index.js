@@ -47,7 +47,7 @@ const PageVote = (props) => (
 
   
        <Categories  dense={false} typography={undefined} secondaryTypography={undefined} />
-      {/* <Winners2021 /> */}
+      <Winners2021 />
       <WidgetVideoWithEventInfo />
 
 
@@ -62,7 +62,7 @@ export const getStaticProps = reduxWrapper.getStaticProps(async ({ store }) => {
 
   await configure(store, {
     settings: settings,
-    preload: ['contestant_companies_all']
+    preload: []
   })
 
   return {
