@@ -26,7 +26,7 @@ const PageIndex = (props) => (
   <WidgetVideoWithEventInfo />
   <WidgetFaq setting="contestant.faq" />
   <Jurors />
-  <Winners2021 />
+  {/* <Winners2021 /> */}
   <WidgetPhotostream setting="awardsphotostream" />
   <AllPartners />
 

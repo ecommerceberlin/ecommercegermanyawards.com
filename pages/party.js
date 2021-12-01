@@ -28,7 +28,7 @@ const PageJury = (props) => (<div>
   summary={<div>asd</div>}
 />
 {/* <YouTube url='https://www.youtube.com/watch?v=pLfnx7B3BBA' /> */}
-<Winners2021 />
+{/* <Winners2021 /> */}
 <AllPartners />
 <WidgetVideoWithEventInfo />
 </div>)

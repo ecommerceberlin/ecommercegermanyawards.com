@@ -30,7 +30,7 @@ const PageIndex = (props) => (
 
   <Jurors limit={8} />
 
-  <Winners2021 />
+  {/* <Winners2021 /> */}
 
   <Wrapper label="awards.ceremony.title">
     <EmbedSection data="https://youtu.be/bAJOeLNOhss" playerProps={{light: true}}/>

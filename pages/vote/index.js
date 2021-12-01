@@ -47,7 +47,7 @@ const PageVote = (props) => (
 
   
        <Categories  dense={false} typography={undefined} secondaryTypography={undefined} />
-      <Winners2021 />
+      {/* <Winners2021 /> */}
       <WidgetVideoWithEventInfo />
 
 

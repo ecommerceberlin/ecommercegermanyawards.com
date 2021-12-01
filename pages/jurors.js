@@ -28,7 +28,7 @@ const PageJury = (props) => (<div>
 />
 <Jurors limit={100} />
 <WidgetPhotostream setting="awardsphotostream" />
-<Winners2021 />
+{/* <Winners2021 /> */}
 <AllPartners />
 <WidgetVideoWithEventInfo />
 </div>)
