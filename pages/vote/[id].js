@@ -10,7 +10,9 @@ import {
   WidgetVideoWithEventInfo,
   reduxWrapper,
   configure,
-  HeadVoteContestant
+  HeadVoteContestant,
+  WidgetRegForm,
+  ExternalSettings
 } from 'eventjuicer-site-components';
 
 import Head from 'next/head'
@@ -26,17 +28,23 @@ const DynamicWidgetVoteWithLinkedIn = dynamic(
   { ssr: false }
 )
 
+const RegForm = () => <WidgetRegForm wrapperProps={{
+  label: "awards.ebereg.title",
+  secondaryLabel: "awards.ebereg.description"
+}} setting="https://ecommerceberlin.com/api/settings?path=visitor.register" />
+
 const onVoted = (canVote) => (<>
   <WidgetVoteStatus max_votes={12} />
-  {canVote ? <div><Categories label={null} secondaryLabel={null} /></div>: null}</>)
+  {canVote ? <div><RegForm /><Categories label={null} secondaryLabel={null} /></div>: <RegForm />}</>)
 
 
 const PageVote = ({id}) => (
 
 <div>
 
-  
+<ExternalSettings urls={["https://ecommerceberlin.com/api/settings?path=visitor.register"]} />
 <HeadVoteContestant id={id} template="ega2022_opengraph_template">{(data) => <Head>{data}</Head>}</HeadVoteContestant> 
+
        
 <WidgetContestantPerson
   id={id}
@@ -49,6 +57,8 @@ const PageVote = ({id}) => (
 <Categories first dense={false} typography={undefined} secondaryTypography={undefined} wrapperProps={{label: "awards.voting.cta"}}/>
 
   <Winners2021 />
+
+  <RegForm />
 
   <WidgetVideoWithEventInfo />
 
@@ -68,7 +78,11 @@ export const getStaticProps = reduxWrapper.getStaticProps(async ({ params, store
 
   await configure(store, {
     settings: settings,
-    preload: [resource]
+    preload: [resource],
+    externalSettings: [
+      // "https://ecommerceberlin.com/api/settings?path=visitor.register",
+      // "https://ecommerceberlin.com/api/settings?path=visitor.benefits"
+    ]
   })
 
   return {props : {
