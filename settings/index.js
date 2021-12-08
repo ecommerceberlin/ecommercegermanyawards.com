@@ -93,11 +93,11 @@ const settings  = {
     common : {
 
         organizer_name : 'E-commerce Capitals Sp. z o.o. Sp.k.',
-        organizer_address : 'POLAND, Poznan, Jana Matejki 52/4',
+        organizer_address : 'POLAND, 60‐586 Poznań, ul. Botaniczna 26/2',
         organizer_regno : 'VAT ID PL7792439665',
         event_name : 'E-commerce Germany Awards',
         event_location : 'Spindler & Klatt, Köpenicker Str. 16-17, 10997 Berlin',
-        event_date : '8th February 2022',
+        event_date : '4th May 2022',
         event_hours : '10:00-17:00',
 
     },
@@ -153,7 +153,7 @@ const settings  = {
             {date: "2021-12-01", name: "public-voting", icon:  "Public", dotColor: 'black', active: true},
             {date: "2021-12-17", name: "qualification", icon:  "Assessment" },
             {date: "2022-01-03", name: "jury-voting", icon:  "HowToVote" },
-            {date: "2022-02-08", name: "results", icon:  "Mic" }
+            {date: "2022-05-04", name: "results", icon:  "Mic" }
             
         ]
 
