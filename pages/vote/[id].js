@@ -51,7 +51,7 @@ const PageVote = ({id}) => (
   wrapperProps={{label: null, first: true}}
   vote={<DynamicWidgetVoteWithLinkedIn id={id} max_votes={12} onVoted={onVoted} />}
   status={<WidgetVoteStatus max_votes={12} />}
-  show_votes={false}
+  show_votes={true}
 />
 
 <Categories first dense={false} typography={undefined} secondaryTypography={undefined} wrapperProps={{label: "awards.voting.cta"}}/>
