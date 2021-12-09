@@ -56,7 +56,7 @@ In order to ensure transparency of the rules of the above-mentioned contest and 
 * Stage II (December 1st, 2021 - December 16th, 2021) – Internet User’s public voting
 * Stage III (December 17th, 2021) – Public Voting Nominees announcement
 * Stage IV (January 3rd, 2022 - January 14th, 2022) – Jury voting and determining the results of the Contest - selection of winners
-* Stage V (February 8th, 2022) – announcement of the Contest Winners of the E-commerce Germany Awards during the Ceremony as a part of the E-commerce Expo Networking Party.
+* Stage V (May 4th, 2022) – announcement of the Contest Winners of the E-commerce Germany Awards during the Ceremony as a part of the E-commerce Expo Networking Party.
 
 2. Submitted information can be edited until November 26th, 2021, 23:59 (11:59 pm).
 
@@ -139,7 +139,7 @@ PJ – is the number of contest points received by the Participant in the Jury v
 
 ## § 9 [Stage V - Announcement of the Contest Winners and the Award Ceremony]
 
-The announcement of the Contest Winners will take place during the “E-commerce Germany Awards” Ceremony, as a part of the Networking Party on February 8th, 2022, during the E-commerce Berlin Expo Networking Party.
+The announcement of the Contest Winners will take place during the “E-commerce Germany Awards” Ceremony, as a part of the Networking Party on May 4th, 2022, during the E-commerce Berlin Expo Networking Party.
 
 ## § 10 [Participation fees]
 
