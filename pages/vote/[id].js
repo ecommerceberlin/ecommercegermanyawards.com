@@ -1,7 +1,6 @@
 
 import {
   connect,
-  VoteWithLinkedIn,
   WidgetContestantCompanies,
   WidgetContestantPerson,
   WidgetVoteStatus,
@@ -12,7 +11,8 @@ import {
   configure,
   HeadVoteContestant,
   WidgetRegForm,
-  ExternalSettings
+  ExternalSettings,
+  HasTicketWithRole
 } from 'eventjuicer-site-components';
 
 import Head from 'next/head'
@@ -23,19 +23,19 @@ import settings from '../../settings'
 import {Winners2021} from '../../src/Winners'
 import {Categories} from '../../src/icons' 
 
-const DynamicWidgetVoteWithLinkedIn = dynamic(
-  () => import('../../proxy/WidgetVoteWithLinkedIn'),
-  { ssr: false }
-)
+// const DynamicWidgetVoteWithLinkedIn = dynamic(
+//   () => import('../../proxy/WidgetVoteWithLinkedIn'),
+//   { ssr: false }
+// )
 
-const RegForm = () => <WidgetRegForm wrapperProps={{
+const RegForm = () => <HasTicketWithRole>{(check) => (<WidgetRegForm wrapperProps={{
   label: "awards.ebereg.title",
   secondaryLabel: "awards.ebereg.description"
-}} setting="https://ecommerceberlin.com/api/settings?path=visitor.register" />
+}} setting="https://ecommerceberlin.com/api/settings?path=visitor.register" />)}</HasTicketWithRole>
 
-const onVoted = (canVote) => (<>
-  <WidgetVoteStatus max_votes={12} />
-  {canVote ? <div><RegForm /><Categories label={null} secondaryLabel={null} /></div>: <RegForm />}</>)
+// const onVoted = (canVote) => (<>
+//   <WidgetVoteStatus max_votes={12} />
+//   {canVote ? <div><RegForm /><Categories label={null} secondaryLabel={null} /></div>: <RegForm />}</>)
 
 
 const PageVote = ({id}) => (
@@ -44,12 +44,13 @@ const PageVote = ({id}) => (
 
 <ExternalSettings urls={["https://ecommerceberlin.com/api/settings?path=visitor.register"]} />
 <HeadVoteContestant id={id} template="ega2022_opengraph_template">{(data) => <Head>{data}</Head>}</HeadVoteContestant> 
-
+<RegForm />
        
 <WidgetContestantPerson
   id={id}
   wrapperProps={{label: null, first: true}}
-  vote={<DynamicWidgetVoteWithLinkedIn id={id} max_votes={12} onVoted={onVoted} />}
+ // vote={<DynamicWidgetVoteWithLinkedIn id={id} max_votes={12} onVoted={onVoted} />}
+  vote={null}
   status={<WidgetVoteStatus max_votes={12} />}
   show_votes={true}
 />
