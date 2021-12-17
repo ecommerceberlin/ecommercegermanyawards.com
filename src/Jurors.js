@@ -17,7 +17,7 @@ const Jurors = (props) => (
         bio={false}
         minToShow={4}
         sort="fname"
-        all={true}
+        all={false}
         {...props}
     />
 
