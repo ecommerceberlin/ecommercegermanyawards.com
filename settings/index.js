@@ -37,7 +37,8 @@ const settings  = {
         background : "https://res.cloudinary.com/eventjuicer/image/upload/q_auto,f_auto/v1575328032/ega2020_2_still.png",
         overlay : "black",
         template : "heroGold",
-        showable: ["date"]
+        showable: ["date"],
+        insert: "https://res.cloudinary.com/eventjuicer/image/upload/v1648820633/ebe_ega/trevipay.png"
     },
 
     bookingmap : {
