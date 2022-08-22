@@ -13,7 +13,7 @@ import {
 import {Timeline, Categories} from '../src/icons' 
 import AllPartners from '../src/AllPartners'
 import Jurors from '../src/Jurors'
-import {Winners2021} from '../src/Winners'
+import {Winners2022} from '../src/Winners'
 import settings from '../settings';
 
 const PageIndex = (props) => (
@@ -22,15 +22,17 @@ const PageIndex = (props) => (
 
   <WidgetVideoWithEventInfo  />
 
-  <Categories first dense={false} typography={undefined} secondaryTypography={undefined} wrapperProps={{label: "awards.voting.cta"}}/>
+  <Winners2022 />
 
- <Wrapper label="awards.hello.title"><Timeline /></Wrapper>
+  {/* <Categories first dense={false} typography={undefined} secondaryTypography={undefined} wrapperProps={{label: "awards.voting.cta"}}/> */}
+
+ {/* <Wrapper label="awards.hello.title"><Timeline /></Wrapper> */}
 
   {/* <RegForm /> */}
 
   <Jurors limit={8} />
 
-  <Winners2021 />
+
 
   <Wrapper label="awards.ceremony.title">
     <EmbedSection data="https://youtu.be/bAJOeLNOhss" playerProps={{light: true}}/>

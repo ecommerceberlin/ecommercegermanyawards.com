@@ -20,7 +20,7 @@ import dynamic from 'next/dynamic'
 
 import settings from '../../settings'
 
-import {Winners2021} from '../../src/Winners'
+import {Winners2022} from '../../src/Winners'
 import {Categories} from '../../src/icons' 
 
 // const DynamicWidgetVoteWithLinkedIn = dynamic(
@@ -44,7 +44,7 @@ const PageVote = ({id}) => (
 
 <ExternalSettings urls={["https://ecommerceberlin.com/api/settings?path=visitor.register"]} />
 <HeadVoteContestant id={id} template="ega2022_opengraph_template">{(data) => <Head>{data}</Head>}</HeadVoteContestant> 
-<RegForm />
+{/* <RegForm /> */}
        
 <WidgetContestantPerson
   id={id}
@@ -55,9 +55,9 @@ const PageVote = ({id}) => (
   show_votes={true}
 />
 
-<Categories first dense={false} typography={undefined} secondaryTypography={undefined} wrapperProps={{label: "awards.voting.cta"}}/>
+{/* <Categories first dense={false} typography={undefined} secondaryTypography={undefined} wrapperProps={{label: "awards.voting.cta"}}/> */}
 
-  <Winners2021 />
+  <Winners2022 />
 
   <RegForm />
 
