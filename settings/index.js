@@ -38,7 +38,7 @@ const settings  = {
         overlay : "black",
         template : "heroGold",
         showable: ["date"],
-        insert: "https://res.cloudinary.com/eventjuicer/image/upload/v1648820633/ebe_ega/trevipay.png"
+        // insert: "https://res.cloudinary.com/eventjuicer/image/upload/v1648820633/ebe_ega/trevipay.png"
     },
 
     bookingmap : {
@@ -98,7 +98,7 @@ const settings  = {
         organizer_regno : 'VAT ID PL7792439665',
         event_name : 'E-commerce Germany Awards',
         event_location : 'Spindler & Klatt, Köpenicker Str. 16-17, 10997 Berlin',
-        event_date : '4th May 2023',
+        event_date : '22nd February 2023',
         event_hours : '10:00-17:00',
 
     },

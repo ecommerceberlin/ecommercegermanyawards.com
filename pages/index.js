@@ -13,6 +13,8 @@ import {
 import {Timeline, Categories} from '../src/icons' 
 import AllPartners from '../src/AllPartners'
 import Jurors from '../src/Jurors'
+import RegForm from '../src/RegForm'
+
 import {Winners2022} from '../src/Winners'
 import settings from '../settings';
 
@@ -24,11 +26,11 @@ const PageIndex = (props) => (
 
   <Winners2022 />
 
-  {/* <Categories first dense={false} typography={undefined} secondaryTypography={undefined} wrapperProps={{label: "awards.voting.cta"}}/> */}
+  <Categories first dense={false} typography={undefined} secondaryTypography={undefined} wrapperProps={{label: "awards.voting.cta"}}/>
 
- {/* <Wrapper label="awards.hello.title"><Timeline /></Wrapper> */}
+ <Wrapper label="awards.hello.title"><Timeline /></Wrapper>
 
-  {/* <RegForm /> */}
+  <RegForm />
 
   <Jurors limit={8} />
 
