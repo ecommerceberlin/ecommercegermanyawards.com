@@ -24,7 +24,7 @@ const PageIndex = (props) => (
 
   <WidgetVideoWithEventInfo  />
 
-  <Winners2022 />
+
 
   <Categories first dense={false} typography={undefined} secondaryTypography={undefined} wrapperProps={{label: "awards.voting.cta"}}/>
 
@@ -34,7 +34,7 @@ const PageIndex = (props) => (
 
   <Jurors limit={8} />
 
-
+  <Winners2022 />
 
   <Wrapper label="awards.ceremony.title">
     <EmbedSection data="https://youtu.be/bAJOeLNOhss" playerProps={{light: true}}/>
