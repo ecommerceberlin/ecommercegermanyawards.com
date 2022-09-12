@@ -34,7 +34,7 @@ In order to ensure transparency of the rules of the above-mentioned contest and 
 
 2. Participants who either in person or through their members' bodies, employees or associates, are a member of the Jury that evaluates the Contest Participants in the category in which the Participant was nominated for the Award, are not allowed to enter the Contest.
 
-3. Entry to the Contest can be made from November 1st, 2021, to November 26th, 2021, solely via the application form available on the Contest website. Participation in the Contest is subject to the fulfillment of all mandatory form fields and acceptance of the Terms and Conditions.
+3. Entry to the Contest can be made from December 1st, 2022, to January 6th, 2023, solely via the application form available on the Contest website. Participation in the Contest is subject to the fulfillment of all mandatory form fields and acceptance of the Terms and Conditions.
 
 4. Entry into the Contest is equivalent to providing the Organizer with a consent to publish the Participant's name (s) and the Trademark Identification (logo) on the Contest Website, as well as in all promotional and advertising materials distributed by the Organizer concerning the Contest, for the duration of the Contest, and for a period of 1 (one) year from the closing date of the Contest.
 
@@ -52,13 +52,13 @@ In order to ensure transparency of the rules of the above-mentioned contest and 
 
 1. The contest will be conducted in the following stages:
 
-* Stage I (November 1st, 2021 - November 26th, 2021) – entry into the contest and submissions
-* Stage II (December 1st, 2021 - December 16th, 2021) – Internet User’s public voting
-* Stage III (December 17th, 2021) – Public Voting Nominees announcement
-* Stage IV (January 3rd, 2022 - January 14th, 2022) – Jury voting and determining the results of the Contest - selection of winners
-* Stage V (May 4th, 2022) – announcement of the Contest Winners of the E-commerce Germany Awards during the Ceremony as a part of the E-commerce Expo Networking Party.
+* Stage I (December 1st, 2022 - January 6th, 2023) – entry into the contest and submissions
+* Stage II (January 9th, 2023 - January 25th, 2023) – Internet User’s public voting
+* Stage III (January 26th, 2023) – Public Voting Nominees announcement
+* Stage IV (January 30th, 2023 - February 3rd, 2023) – Jury voting and determining the results of the Contest - selection of winners
+* Stage V (February 22nd, 2022) – announcement of the Contest Winners of the E-commerce Germany Awards during the Ceremony as a part of the E-commerce Expo Networking Party.
 
-2. Submitted information can be edited until November 26th, 2021, 23:59 (11:59 pm).
+2. Submitted information can be edited until January 15th, 2023, 23:59 (11:59 pm).
 
 ## § 5 [Stage I – Entry into the Contest]
 
@@ -95,19 +95,19 @@ In order to ensure transparency of the rules of the above-mentioned contest and 
 
 4. Usage of any automated scripting/services, paid mass services or another automatic device, program, algorithm or technology which perform the same action, as well as any kind of automation executed by a third party in the voting process will result in the removal of the submission and canceling of the participation in the contest and will be immediately executed by the Organizer.
 
-5. Only votes cast by Internet Users until December 16th, 2021, 19:59 (7:59 pm) will be considered in the final summary of the voting.
+5. Only votes cast by Internet Users until January 25th, 2023, 19:59 (7:59 pm) will be considered in the final summary of the voting.
 
 6. The maximum of 10 (ten) Participants who will receive the highest number of votes in the Internet Users’ public voting in each category will become the nominees. In order to be qualified for Stage II of the “E-commerce Germany Awards” Contest, these participants are obliged to meet the formal conditions for participation in the Contest described in § 2 of these Terms and Conditions.
 
 7. Participants nominated to the Award receive from 1 to 10 contest points from the Internet Users, while the nominated Participant that receives the highest number of votes from the Internet Users gets 10 points, while the subsequent participants get 1, 2, 3, 4, 5, 6, 7, 8 and 9 points less so that the nominated Participant who receives the smallest number of votes receives the smallest number of points.
 
-8. The announcement of the list of Participants nominated in all contest categories (Stage III) will take place on the Contest Website on December 16th, 2021.
+8. The announcement of the list of Participants nominated in all contest categories (Stage III) will take place on the Contest Website on January 26th, 2023.
 
 ## § 7 [Stage IV – Voting of the Jury]
 
 1. Stage IV includes the voting of the Jury.
 
-2. Stage IV can be entered only by Participants who, in the manner specified in § 6, are nominated to the “E-commerce Germany Awards”, and who paid the participation fee (for more details please go to paragraph 10 below). Taking part in Stage IV and the following Stages is always free of charge for exhibitors of E-commerce Berlin Expo 2022.
+2. Stage IV can be entered only by Participants who, in the manner specified in § 6, are nominated to the “E-commerce Germany Awards”, and who paid the participation fee (for more details please go to paragraph 10 below). Taking part in Stage IV and the following Stages is always free of charge for exhibitors of E-commerce Berlin Expo 2023.
 
 3. Jurors cast their votes by means of a special form made available to them by the Organizer.
 
@@ -139,25 +139,25 @@ PJ – is the number of contest points received by the Participant in the Jury v
 
 ## § 9 [Stage V - Announcement of the Contest Winners and the Award Ceremony]
 
-The announcement of the Contest Winners will take place during the “E-commerce Germany Awards” Ceremony, as a part of the Networking Party on May 4th, 2022, during the E-commerce Berlin Expo Networking Party.
+The announcement of the Contest Winners will take place during the “E-commerce Germany Awards” Ceremony, as a part of the Networking Party on February 22nd, 2023, during the E-commerce Berlin Expo Networking Party.
 
 ## § 10 [Participation fees]
 
-1. Following provisions do not apply to the exhibitors of Ecommerce Berlin Expo 2022 for witch entering Stage IV of the Contest is free of charge.
+1. Following provisions do not apply to the exhibitors of Ecommerce Berlin Expo 2023 for witch entering Stage IV of the Contest is free of charge.
 
 2. To take part in Stage IV and the following stages of the Contest, the Participant is obliged to: 
 (1) enter into a participation contract with the Organizer, and
 (2) pay the participation fee.
 
 3. The participation fee mentioned in the article 2 consist of:
-* 200 EUR for participation in the first Contest category
-* (if applicable) 100 EUR for participation in the second Contest category.
+* 400 EUR for participation in the first Contest category
+* (if applicable) 200 EUR for participation in the second Contest category.
 
 4. The participation fee covers the cost of jury voting and other costs related to the Contest.
 
-5. If conditions mentioned in article 2 above are not met until December 23rd, 2021, the Organizer shall exclude the Participant from the Contest.
+5. If conditions mentioned in article 2 above are not met until February 2nd, 2023, the Organizer shall exclude the Participant from the Contest.
 
-6. If conditions mentioned in article 2 above are met until December 23rd, 2021, the Participant shall be entitled to enter Stage IV and following and receives two tickets to Ecommerce Berlin Networking Party.
+6. If conditions mentioned in article 2 above are met until February 2nd, 2023, the Participant shall be entitled to enter Stage IV and following and receives two tickets to Ecommerce Berlin Networking Party.
 
 ## § 11 [Contest Communication Channels]
 

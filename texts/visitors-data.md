@@ -24,8 +24,12 @@ providing the following personal data:
 * job position and represented brand (the company of the employer or their own company).
 * photo image and video image
 
-4. The Company is also the organizer of Call for Papers Contest, hereinafter referred to as ‘Fair’, 
-in which anyone who has an active profile on Facebook can give eight votes. 
+4. The Company is also the organizer of Call for Papers Contest, hereinafter referred to as ‘CFP’, 
+in which anyone who has an active profile on Linkedin can give 5 votes. 
+With regard to the Contest we process email address of the voter.
+
+4. The Company is also the organizer of E-commerce Germany Awards Contest, hereinafter referred to as ‘Contest’, 
+in which anyone who has an active profile on Linkedin can give 12 votes. 
 With regard to the Contest we process email address of the voter.
 
 5. Provision of personal data is voluntary. However, unless they are provided, 
