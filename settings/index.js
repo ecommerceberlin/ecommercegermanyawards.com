@@ -26,7 +26,7 @@ const settings  = {
 
     premium : {
 
-        ticketgroups : [340]
+        ticketgroups : [383]
 
     },
 
@@ -98,7 +98,7 @@ const settings  = {
         organizer_regno : 'VAT ID PL7792439665',
         event_name : 'E-commerce Germany Awards',
         event_location : 'Spindler & Klatt, Köpenicker Str. 16-17, 10997 Berlin',
-        event_date : '4th May 2022',
+        event_date : '4th May 2023',
         event_hours : '10:00-17:00',
 
     },
@@ -116,11 +116,11 @@ const settings  = {
 
         people : [
             {             
-                name: 'Marta Masternak',
-                position : 'Key Account Manager',
+                name: 'Aleksandra Dalemba',
+                position : 'Event Manager',
                 langs : ["en","de"],
-                avatar: 'https://res.cloudinary.com/ecommerceberlin/image/upload/c_fit,w_120,f_auto,q_auto/v1636131391/Awards%20website/received_1343879069033116.jpg',
-                phone: '+49 30 2555 987',
+                avatar: 'https://res.cloudinary.com/ecommerceberlin/image/upload/c_thumb,g_face,w_120,h_120,f_auto,q_auto/v1661348122/Website/image_1.jpg',
+                phone: '',
                 email: 'awards@ecommerceberlin.com',
                 chatlio : true
             }
@@ -150,11 +150,11 @@ const settings  = {
         iconSize: "40",
 
         items : [
-            {date: "2021-11-01", name: "submissions", icon:  "NoteAdd"  },
-            {date: "2021-12-01", name: "public-voting", icon:  "Public", dotColor: 'black', active: true},
-            {date: "2021-12-17", name: "qualification", icon:  "Assessment" },
-            {date: "2022-01-03", name: "jury-voting", icon:  "HowToVote" },
-            {date: "2022-05-04", name: "results", icon:  "Mic" }
+            {date: "2022-12-01", name: "submissions", icon:  "NoteAdd"  },
+            {date: "2023-01-09", name: "public-voting", icon:  "Public", dotColor: 'black', active: true},
+            {date: "2023-01-26", name: "qualification", icon:  "Assessment" },
+            {date: "2023-01-30", name: "jury-voting", icon:  "HowToVote" },
+            {date: "2023-02-22", name: "results", icon:  "Mic" }
             
         ]
 
@@ -201,7 +201,7 @@ const settings  = {
               {name: "company_website", required: true},
             ],
             start : ['fname', 'lname', 'cname2'],
-            ticket_id : 1963,
+            ticket_id : 2233,
             cc: "awards+juror@ecommerceberlin.com",
             email_template : "ega-juror-submission-confirmation",
             background : "https://res.cloudinary.com/ecommerceberlin/image/upload/c_fit,h_500,w_500/v1546813408/ebe_lanyard1.jpg",
@@ -223,7 +223,7 @@ const settings  = {
               {name: "company_website", required: true},
             ],
             start : ['fname', 'lname', 'cname2'],
-            ticket_id : 1951,
+            ticket_id : 2222,
             cc: "awards+party@ecommerceberlin.com",
             email_template : "ega-party-submission-confirmation",
             background : "https://res.cloudinary.com/ecommerceberlin/image/upload/c_fit,h_500,w_500/v1546813408/ebe_lanyard1.jpg",
@@ -276,7 +276,7 @@ const settings  = {
             ],
 
             start : ['cname2', 'project_name', 'awards_category'],
-            ticket_id : 1962,
+            ticket_id : 2232,
             cc: "awards+submission@ecommerceberlin.com",
             email_template : "ega-submission-confirmation",
             background : "https://res.cloudinary.com/ecommerceberlin/image/upload/c_fit,h_500,w_500/v1546813408/ebe_lanyard1.jpg",
