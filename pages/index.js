@@ -37,7 +37,7 @@ const PageIndex = (props) => (
   <Winners2022 />
 
   <Wrapper label="awards.ceremony.title">
-    <EmbedSection data="https://youtu.be/bAJOeLNOhss" playerProps={{light: true}}/>
+    <EmbedSection data="https://www.youtube.com/watch?v=RNK3s3IquCQ" playerProps={{light: true}}/>
   </Wrapper>
 
   <WidgetPhotostream setting="awardsphotostream" />
