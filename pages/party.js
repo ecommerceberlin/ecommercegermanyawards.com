@@ -12,7 +12,7 @@ import {
  
 import AllPartners from '../src/AllPartners'
 import settings from '../settings';
-import {Winners2021} from '../src/Winners'
+import {Winners2022} from '../src/Winners'
 
 const PageJury = (props) => (<div>
  
@@ -28,7 +28,7 @@ const PageJury = (props) => (<div>
   summary={<div>asd</div>}
 />
 {/* <YouTube url='https://www.youtube.com/watch?v=pLfnx7B3BBA' /> */}
-<Winners2021 />
+<Winners2022 />
 <AllPartners />
 <WidgetVideoWithEventInfo />
 </div>)

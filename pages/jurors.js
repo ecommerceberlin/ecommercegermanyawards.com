@@ -12,7 +12,7 @@ import {
 import AllPartners from '../src/AllPartners'
 import Jurors from '../src/Jurors'
 import settings from '../settings';
-import {Winners2021} from '../src/Winners'
+import {Winners2022} from '../src/Winners'
 
 const PageJury = (props) => (<div>
 
@@ -28,7 +28,7 @@ const PageJury = (props) => (<div>
 />
 <Jurors limit={100} />
 <WidgetPhotostream setting="awardsphotostream" />
-<Winners2021 />
+<Winners2022 />
 <AllPartners />
 <WidgetVideoWithEventInfo />
 </div>)

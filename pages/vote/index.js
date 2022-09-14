@@ -30,7 +30,7 @@ import settings from '../../settings'
 
 import {Categories} from '../../src/icons' 
 
-import {Winners2021} from '../../src/Winners'
+import {Winners2022} from '../../src/Winners'
 
 const PageVote = (props) => (
 
@@ -47,7 +47,7 @@ const PageVote = (props) => (
 
   
        <Categories  dense={false} typography={undefined} secondaryTypography={undefined} />
-      <Winners2021 />
+      <Winners2022 />
       <WidgetVideoWithEventInfo />
 
 
