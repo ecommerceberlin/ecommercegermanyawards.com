@@ -169,16 +169,28 @@ const settings  = {
             items : [
                 {
                   image:
-                    'https://res.cloudinary.com/eventjuicer/image/upload/v1631743692/ega/ega_2022_numberOfContestVoters.svg',
+                    'https://res.cloudinary.com/ecommerceberlin/image/upload/v1663079096/EGA22%20photo/wykresy_2023_NumberOfContestVotersmall.svg',
+                  //  'https://res.cloudinary.com/eventjuicer/image/upload/v1631743692/ega/ega_2022_numberOfContestVoters.svg',
+                  style: {
+                    width: '85%'
+                  }
                 },
+
+                {
+                    image:
+                      'https://res.cloudinary.com/ecommerceberlin/image/upload/v1663079096/EGA22%20photo/wykresy_2023_NumberOfContestParticipants.svg',
+                    //  'https://res.cloudinary.com/eventjuicer/image/upload/v1631743692/ega/ega_2022_numberOfContestParticipants.svg',
+                    style: {
+                      width: '85%'
+                    }
+                  },
+
+                  
                 {
                   image:
                     'https://res.cloudinary.com/eventjuicer/image/upload/v1604003805/ega/ega_2021_awardsCeremonyGuests.svg',
                 },
-                {
-                  image:
-                    'https://res.cloudinary.com/eventjuicer/image/upload/v1631743692/ega/ega_2022_numberOfContestParticipants.svg',
-                },
+               
                 {
                   image:
                     'https://res.cloudinary.com/eventjuicer/image/upload/v1604003805/ega/ega_2021_promotion.svg',
