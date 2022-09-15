@@ -34,17 +34,12 @@ const PageJury = (props) => (<div>
 </div>)
  
  
-export const getStaticProps = reduxWrapper.getStaticProps(async ({ store }) => {
+export const getStaticProps = reduxWrapper.getStaticProps(async (props) => {
 
-  await configure(store, {
+  return await configure(props, {
     settings: settings,
     preload: ['jurors']
   })
-
-  return {
-    props: {},
-    revalidate: 1
-  }
   
 })
 

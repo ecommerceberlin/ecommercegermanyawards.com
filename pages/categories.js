@@ -20,7 +20,7 @@ const PageCategories = (props) => (
 
   <Intro />
 
-  {/* <RegForm /> */}
+  <RegForm />
 
   <WidgetFaq setting="contestant.faq" />
 
@@ -31,17 +31,14 @@ const PageCategories = (props) => (
 )
  
  
-export const getStaticProps = reduxWrapper.getStaticProps(async ({ store }) => {
+export const getStaticProps = reduxWrapper.getStaticProps(async (props) => {
 
-  await configure(store, {
+  return await configure(props, {
     settings: settings,
     preload: []
   })
 
-  return {
-    props: {},
-    revalidate: 1
-  }
+
   
 })
 

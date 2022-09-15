@@ -48,17 +48,14 @@ const PageIndex = (props) => (
 )
  
  
-export const getStaticProps = reduxWrapper.getStaticProps(async ({ store }) => {
+export const getStaticProps = reduxWrapper.getStaticProps(async (props) => {
 
-  await configure(store, {
+  return await configure(props, {
     settings: settings,
     preload: []
   })
 
-  return {
-    props: {},
-    revalidate: 1
-  }
+  
   
 })
 
