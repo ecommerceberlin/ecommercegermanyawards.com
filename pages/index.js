@@ -14,6 +14,7 @@ import {Timeline, Categories} from '../src/icons'
 import AllPartners from '../src/AllPartners'
 import Jurors from '../src/Jurors'
 import RegForm from '../src/RegForm'
+import IntroRegformTimeline from '../src/IntroRegformTimeline'
 
 import {Winners2022} from '../src/Winners'
 import settings from '../settings';
@@ -24,13 +25,11 @@ const PageIndex = (props) => (
 
   <WidgetVideoWithEventInfo  />
 
+  {/* <Wrapper label="awards.hello.title"><Timeline /></Wrapper> */}
 
+  <IntroRegformTimeline />
 
   <Categories first dense={false} typography={undefined} secondaryTypography={undefined} wrapperProps={{label: "awards.voting.cta"}}/>
-
- <Wrapper label="awards.hello.title"><Timeline /></Wrapper>
-
-  <RegForm />
 
   <Jurors limit={8} />
 
