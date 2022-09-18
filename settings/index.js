@@ -201,7 +201,9 @@ const settings  = {
 
         become_a_juror: {
 
-            label : "juror.form.title",
+            wrapperProps : {
+                label: "juror.form.title",
+            },
             baseLabel: "juror",
             fields : [
               {name: "email", required: true},
@@ -221,8 +223,9 @@ const settings  = {
         },
 
         attend_a_party: {
-
-            label : "party.form.title",
+            wrapperProps: {
+                label : "party.form.title",
+            },  
             baseLabel: "juror",
             legend: "party.form.intro",
             fields : [
@@ -271,7 +274,9 @@ const settings  = {
         },
         register: {
 
-            label : "awards.register.title",
+            wrapperProps: {
+                secondaryLabel : "awards.register.title",
+            },
             baseLabel: "awards",
             fields : [
               {name: "email", required: true},
