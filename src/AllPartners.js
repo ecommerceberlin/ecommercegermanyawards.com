@@ -16,6 +16,16 @@ center={true}
 placeholder={ <SubPageButton label="common.menu.partners.premium" target={{href:"/premium"}} /> }
 /> */}
 
+
+<WidgetPartners
+label="partners.association.title"
+filter={item =>
+item['scopes(deprecated)'].indexOf('association') > -1 &&
+item.logotype.indexOf('cloudinary') > -1
+}
+limit={50}
+/>
+
 <WidgetPartners
 label="partners.media.title"
 filter={item =>
