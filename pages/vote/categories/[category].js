@@ -43,7 +43,7 @@ import {
             keyword_source="profile.awards_category"
             keyword={category}
             label='awards.contestants.list.title'
-            show_votes={true}
+            show_votes={false}
             first={false}
             renderAs="table"
             resolveTitle={function(item){ return item.profile.cname2 } }
