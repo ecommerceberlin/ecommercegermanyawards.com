@@ -343,109 +343,109 @@ const settings  = {
                 {
                     icon : "ShoppingCart",
                     label :  'sales_generation',
-                    // buttons: [{
-                    //     href: "/vote/categories/sales_generation",
-                    //     label: "common.vote_now"
-                    // }]
+                    buttons: [{
+                        href: "/vote/categories/sales_generation",
+                        label: "common.vote_now"
+                    }]
                 },
             
                 {
                     icon : "Forum",
                     label : 'communication',
-                    // buttons: [{
-                    //     href: "/vote/categories/communication",
-                    //     label: "common.vote_now"
-                    // }]
+                    buttons: [{
+                        href: "/vote/categories/communication",
+                        label: "common.vote_now"
+                    }]
                 },
             
                 {
                     icon : "Public",
                     label : 'internationalization',
-                    // buttons: [{
-                    //     href: "/vote/categories/internationalization",
-                    //     label: "common.vote_now"
-                    // }]
+                    buttons: [{
+                        href: "/vote/categories/internationalization",
+                        label: "common.vote_now"
+                    }]
                 },
 
                 {
                     icon : "LocalShipping",
                     label : 'logistics',
-                    // buttons: [{
-                    //     href: "/vote/categories/logistics",
-                    //     label: "common.vote_now"
-                    // }]
+                    buttons: [{
+                        href: "/vote/categories/logistics",
+                        label: "common.vote_now"
+                    }]
                 },
 
                 {
                     icon : "Storefront",
                     label :  'platform',
-                    // buttons: [{
-                    //     href: "/vote/categories/platform",
-                    //     label: "common.vote_now"
-                    // }]
+                    buttons: [{
+                        href: "/vote/categories/platform",
+                        label: "common.vote_now"
+                    }]
                 },
             
                 {
                     icon : "MonetizationOn",
                     label : 'payment',
-                    // buttons: [{
-                    //     href: "/vote/categories/payment",
-                    //     label: "common.vote_now"
-                    // }]
+                    buttons: [{
+                        href: "/vote/categories/payment",
+                        label: "common.vote_now"
+                    }]
                 },
             
                 {
                     icon : "Assessment",
                     label : 'analytics',
-                    // buttons: [{
-                    //     href: "/vote/categories/analytics",
-                    //     label: "common.vote_now"
-                    // }]
+                    buttons: [{
+                        href: "/vote/categories/analytics",
+                        label: "common.vote_now"
+                    }]
                 },
 
                 {
                     icon : "People",
                     label : 'agency',
-                    // buttons: [{
-                    //     href: "/vote/categories/agency",
-                    //     label: "common.vote_now"
-                    // }]
+                    buttons: [{
+                        href: "/vote/categories/agency",
+                        label: "common.vote_now"
+                    }]
                 },
 
                 {
                     icon : "Computer",
                     label : 'infrastructure',
-                    // buttons: [{
-                    //     href: "/vote/categories/infrastructure",
-                    //     label: "common.vote_now"
-                    // }]
+                    buttons: [{
+                        href: "/vote/categories/infrastructure",
+                        label: "common.vote_now"
+                    }]
                 },
 
                 {
                     icon : "NewReleases",
                     label : 'innovation',
-                    // buttons: [{
-                    //     href: "/vote/categories/innovation",
-                    //     label: "common.vote_now"
-                    // }]
+                    buttons: [{
+                        href: "/vote/categories/innovation",
+                        label: "common.vote_now"
+                    }]
                 },
 
                 {
                     icon : "ShoppingBasket",
                     label : 'omnichannel',
-                    // buttons: [{
-                    //     href: "/vote/categories/omnichannel",
-                    //     label: "common.vote_now"
-                    // }]
+                    buttons: [{
+                        href: "/vote/categories/omnichannel",
+                        label: "common.vote_now"
+                    }]
                 },
 
                 {
                     icon : "CameraAlt",
                     label : 'ar_vr_3d',
-                    // buttons: [{
-                    //     href: "/vote/categories/ar_vr_3d",
-                    //     label: "common.vote_now"
-                    // }]
+                    buttons: [{
+                        href: "/vote/categories/ar_vr_3d",
+                        label: "common.vote_now"
+                    }]
                 }
 
 
