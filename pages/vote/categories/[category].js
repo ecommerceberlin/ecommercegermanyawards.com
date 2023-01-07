@@ -32,7 +32,7 @@ import {
                 </Typography>
               </div>
             }
-            limit={350}
+            limit={1000}
             // filter={
             // item => item && "profile" in item &&
             //   "logotype" in item.profile && 

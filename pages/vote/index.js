@@ -5,6 +5,7 @@ import {
   WidgetContestantCompanies,
   WidgetContestantCompany,
   WidgetVoteStatus,
+  WidgetFaq,
   LayoutMain as Layout,
   MyTypography as Typography,
   Markdown,
@@ -47,6 +48,7 @@ const PageVote = (props) => (
 
   
        <Categories  dense={false} typography={undefined} secondaryTypography={undefined} />
+       <WidgetFaq setting="contestant.faq" />
       <Winners2022 />
       <WidgetVideoWithEventInfo />
 
