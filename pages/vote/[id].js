@@ -23,19 +23,19 @@ import settings from '../../settings'
 import {Winners2022} from '../../src/Winners'
 import {Categories} from '../../src/icons' 
 
-// const DynamicWidgetVoteWithLinkedIn = dynamic(
-//   () => import('../../proxy/WidgetVoteWithLinkedIn'),
-//   { ssr: false }
-// )
+const DynamicWidgetVoteWithLinkedIn = dynamic(
+   () => import('../../proxy/WidgetVoteWithLinkedIn'),
+   { ssr: false }
+)
 
 const RegForm = () => <HasTicketWithRole>{(check) => (<WidgetRegForm wrapperProps={{
   label: "awards.ebereg.title",
   secondaryLabel: "awards.ebereg.description"
 }} setting="https://ecommerceberlin.com/api/settings?path=visitor.register" />)}</HasTicketWithRole>
 
-// const onVoted = (canVote) => (<>
-//   <WidgetVoteStatus max_votes={12} />
-//   {canVote ? <div><RegForm /><Categories label={null} secondaryLabel={null} /></div>: <RegForm />}</>)
+const onVoted = (canVote) => (<>
+  <WidgetVoteStatus max_votes={12} />
+  {canVote ? <div><RegForm /><Categories label={null} secondaryLabel={null} /></div>: <RegForm />}</>)
 
 
 const PageVote = ({id}) => (
@@ -49,8 +49,8 @@ const PageVote = ({id}) => (
 <WidgetContestantPerson
   id={id}
   wrapperProps={{label: null, first: true}}
- // vote={<DynamicWidgetVoteWithLinkedIn id={id} max_votes={12} onVoted={onVoted} />}
-  vote={null}
+  vote={<DynamicWidgetVoteWithLinkedIn id={id} max_votes={12} onVoted={onVoted} />}
+ // vote={null}
   status={<WidgetVoteStatus max_votes={12} />}
   show_votes={false}
 />
