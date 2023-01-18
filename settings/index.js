@@ -38,7 +38,7 @@ const settings  = {
         overlay : "black",
         template : "heroGold",
         showable: ["date"],
-        // insert: "https://res.cloudinary.com/eventjuicer/image/upload/v1648820633/ebe_ega/trevipay.png"
+        insert: "https://res.cloudinary.com/eventjuicer/image/upload/v1674051390/ebe_ega/nexi.png"
     },
 
     bookingmap : {
