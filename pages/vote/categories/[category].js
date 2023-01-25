@@ -47,7 +47,7 @@ import {
             first={false}
             renderAs="table"
             resolveTitle={function(item){ return item.profile.cname2 } }
-            resolveSelected={()=>false}
+            resolveSelected={(row, position)=> position < 10}
           />
         
          
