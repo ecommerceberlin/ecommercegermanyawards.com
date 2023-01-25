@@ -19,7 +19,7 @@ const CustomWidgetRegForm = ({right=null}) =>  <WidgetRegForm
             'infrastructure',
             'innovation',
             'omnichannel',
-            'ar_vr_3d'
+            'product_content'
         ]
         }} 
         right={right}

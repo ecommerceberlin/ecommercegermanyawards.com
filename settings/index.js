@@ -443,7 +443,7 @@ const settings  = {
                     icon : "CameraAlt",
                     label : 'ar_vr_3d',
                     buttons: [{
-                        href: "/vote/categories/ar_vr_3d",
+                        href: "/vote/categories/product_content",
                         label: "common.vote_now"
                     }]
                 }
