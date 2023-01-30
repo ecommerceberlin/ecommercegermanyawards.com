@@ -17,6 +17,18 @@ placeholder={ <SubPageButton label="common.menu.partners.premium" target={{href:
 /> */}
 
 
+
+<WidgetPartners
+label="partners.sponsors.title"
+filter={item =>
+item['scopes(deprecated)'].indexOf('sponsors') > -1 &&
+item.logotype.indexOf('cloudinary') > -1
+}
+limit={50}
+/>
+
+
+
 <WidgetPartners
 label="partners.association.title"
 filter={item =>
