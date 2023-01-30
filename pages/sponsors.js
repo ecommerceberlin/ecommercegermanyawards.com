@@ -12,7 +12,16 @@ import settings from '../settings'
 const PageSponsors = (props) => (
 
     <div>
+
     <Wrapper first label="awards.sponsors.list.title">
+        <CompanyCardSimple id={2204} label="awards.sponsor.headline" labelParam="2023" />
+        <CompanyCardSimple id={2070} label="awards.sponsor.drinkables" labelParam="2023" />
+        <CompanyCardSimple id={2182} label="awards.sponsor.dj" labelParam="2023" />
+
+   
+    </Wrapper>
+
+    <Wrapper  label="awards.sponsors.archive.title">
         <CompanyCardSimple id={2028} label="awards.sponsor.headline" labelParam="2022" />
         <CompanyCardSimple id={1939} label="awards.sponsor.drinkables" labelParam="2022" />
         <CompanyCardSimple id={2044} label="awards.sponsor.supporting" labelParam="2022" />
@@ -35,7 +44,13 @@ export const getStaticProps = reduxWrapper.getStaticProps(async (props) => {
         'companies/1939', //emplifi.io
         'companies/1822', //hypernode
         'companies/1061', //leaseweb
-        'companies/1366' //intershop
+        'companies/1366', //intershop
+
+        'companies/2204', //nexi
+        'companies/2182', //Actindo
+        'companies/2204', //2070
+
+        
     ]
   })
 
