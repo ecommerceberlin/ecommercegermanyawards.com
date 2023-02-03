@@ -16,7 +16,6 @@ import {Winners2022} from '../src/Winners'
 
 const PageJury = (props) => (<div>
  
-<WidgetPhotostream first setting="awardsphotostream" />
 <WidgetRegForm  
   setting="awards.attend_a_party"
   right={
@@ -27,6 +26,9 @@ const PageJury = (props) => (<div>
   }
   summary={<div>asd</div>}
 />
+
+<WidgetPhotostream first setting="awardsphotostream" />
+
 {/* <YouTube url='https://www.youtube.com/watch?v=pLfnx7B3BBA' /> */}
 <Winners2022 />
 <AllPartners />
