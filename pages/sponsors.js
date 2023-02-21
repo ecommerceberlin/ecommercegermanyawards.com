@@ -17,6 +17,7 @@ const PageSponsors = (props) => (
         <CompanyCardSimple id={2204} label="awards.sponsor.headline" labelParam="2023" />
         <CompanyCardSimple id={2070} label="awards.sponsor.drinkables" labelParam="2023" />
         <CompanyCardSimple id={2182} label="awards.sponsor.dj" labelParam="2023" />
+        <CompanyCardSimple id={2047} label="awards.sponsor.supporting" labelParam="2023" />
 
    
     </Wrapper>
@@ -49,6 +50,8 @@ export const getStaticProps = reduxWrapper.getStaticProps(async (props) => {
         'companies/2204', //nexi
         'companies/2182', //Actindo
         'companies/2204', //2070
+        'companies/2047', //Avask
+        
 
         
     ]
