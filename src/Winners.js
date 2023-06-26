@@ -3,6 +3,17 @@ import {
 } from 'eventjuicer-site-components'
 
 
+
+
+export const Winners2023 = (props) =>  (<WidgetContestantCompaniesArchiveWinners 
+    filter={ (data) => parseInt(data.event_id) === 98 }
+    wrapperProps={{
+        label : ["awards.winners.archive.title", {name: 2023}],
+        secondaryLabel :[ "awards.winners.archive.description", {name: 2023, date: "2023"}],
+      }}  
+/>)
+
+
 export const Winners2022 = (props) =>  (<WidgetContestantCompaniesArchiveWinners 
     filter={ (data) => parseInt(data.event_id) === 94 }
     wrapperProps={{
