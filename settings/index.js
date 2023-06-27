@@ -38,7 +38,7 @@ const settings  = {
         overlay : "black",
         template : "heroGold",
         showable: ["date"],
-        insert: "https://res.cloudinary.com/eventjuicer/image/upload/v1674051390/ebe_ega/nexi.png"
+        // insert: "https://res.cloudinary.com/eventjuicer/image/upload/v1674051390/ebe_ega/nexi.png"
     },
 
     bookingmap : {
@@ -73,7 +73,7 @@ const settings  = {
                     {name: 'vote', to: '/vote'},
                     {name: 'about', to: '/about'},
                     {name: 'categories', to: '/categories'},
-                    {name: 'register', to: '/register'},
+                    // {name: 'register', to: '/register'},
                     {name: 'jurors', to: '/jurors'},
                     {name: 'party', to: '/party'},
                 ]

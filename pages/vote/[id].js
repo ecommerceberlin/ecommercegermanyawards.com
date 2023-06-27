@@ -20,7 +20,7 @@ import dynamic from 'next/dynamic'
 
 import settings from '../../settings'
 
-import {Winners2022} from '../../src/Winners'
+import {Winners2023} from '../../src/Winners'
 import {Categories} from '../../src/icons' 
 
 const DynamicWidgetVoteWithLinkedIn = dynamic(
@@ -57,9 +57,9 @@ const PageVote = ({id}) => (
 
 {/* <Categories first dense={false} typography={undefined} secondaryTypography={undefined} wrapperProps={{label: "awards.voting.cta"}}/> */}
 
-  <Winners2022 />
+  <Winners2023 />
 
-  <RegForm />
+  {/* <RegForm /> */}
 
   <WidgetVideoWithEventInfo />
 
