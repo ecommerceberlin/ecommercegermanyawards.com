@@ -10,13 +10,12 @@ import {
 } from 'eventjuicer-site-components';
 
 
-import {Timeline, Categories} from '../src/icons' 
+// import {Timeline, Categories} from '../src/icons' 
 import AllPartners from '../src/AllPartners'
 import Jurors from '../src/Jurors'
-import RegForm from '../src/RegForm'
+// import RegForm from '../src/RegForm'
 import IntroRegformTimeline from '../src/IntroRegformTimeline'
-
-import {Winners2022} from '../src/Winners'
+import {Winners2023} from '../src/Winners'
 import settings from '../settings';
 
 const PageIndex = (props) => (
@@ -27,14 +26,14 @@ const PageIndex = (props) => (
 
   {/* <Wrapper label="awards.hello.title"><Timeline /></Wrapper> */}
 
-  <Categories dense={false} typography={undefined} secondaryTypography={undefined} wrapperProps={{label: "awards.voting.cta"}}/>
+  {/* <Categories dense={false} typography={undefined} secondaryTypography={undefined} wrapperProps={{label: "awards.voting.cta"}}/> */}
 
   <IntroRegformTimeline />
 
 
   <Jurors limit={8} />
 
-  <Winners2022 />
+  <Winners2023 />
 
   <Wrapper label="awards.ceremony.title">
     <EmbedSection data="https://www.youtube.com/watch?v=RNK3s3IquCQ" playerProps={{light: true}}/>
