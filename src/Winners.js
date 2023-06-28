@@ -48,6 +48,6 @@ export const Winners2019 = (props) =>  (<WidgetContestantCompaniesArchiveWinners
 />)
 
 
-const AllWinners = () => (<><Winners2022 /><Winners2021 /><Winners2020 /><Winners2019 /></>)
+const AllWinners = () => (<><Winners2023 /><Winners2022 /><Winners2021 /><Winners2020 /><Winners2019 /></>)
 
 export default AllWinners

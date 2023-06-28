@@ -24,7 +24,7 @@ const IntroRegformTimeline = () => (
         <Markdown label="awards.hello.details" />
         </Box> 
 
-        <CustomWidgetRegForm />
+        {/* <CustomWidgetRegForm /> */}
 
         </div>
         }
@@ -32,7 +32,7 @@ const IntroRegformTimeline = () => (
         leftCentered={true}
     />
 
-    <RegFormRules /> 
+    {/* <RegFormRules />  */}
 
  </Wrapper>)
 

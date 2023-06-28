@@ -12,7 +12,7 @@ import {
  
 import AllPartners from '../src/AllPartners'
 import settings from '../settings';
-import {Winners2022} from '../src/Winners'
+import {Winners2023} from '../src/Winners'
 
 const PageJury = (props) => (<div>
  

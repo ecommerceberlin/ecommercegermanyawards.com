@@ -17,7 +17,10 @@ import {
   const PageAbout = (props) => (
 
     <div>
-  
+  <WidgetGridWithImages setting="awards.about" />
+
+  <WhyParticipate />
+
     <Wrapper label="awards.about.title" first>
 
     <Section
@@ -35,10 +38,6 @@ left={
 />
  
 </Wrapper>
-
-<WidgetGridWithImages setting="awards.about" />
-
-<WhyParticipate />
 
 <WidgetVideoWithEventInfo/>
 

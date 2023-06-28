@@ -28,16 +28,17 @@ const PageIndex = (props) => (
 
   {/* <Categories dense={false} typography={undefined} secondaryTypography={undefined} wrapperProps={{label: "awards.voting.cta"}}/> */}
 
-  <IntroRegformTimeline />
-
 
   <Jurors limit={8} />
 
   <Winners2023 />
 
   <Wrapper label="awards.ceremony.title">
-    <EmbedSection data="https://www.youtube.com/watch?v=RNK3s3IquCQ" playerProps={{light: true}}/>
+    <EmbedSection data="https://www.youtube.com/watch?v=xCooH-tbgto" playerProps={{light: true}}/>
   </Wrapper>
+
+  <IntroRegformTimeline />
+
 
   <WidgetPhotostream setting="awardsphotostream" />
   <AllPartners />
