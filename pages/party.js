@@ -30,7 +30,7 @@ const PageJury = (props) => (<div>
 <WidgetPhotostream first setting="awardsphotostream" />
 
 {/* <YouTube url='https://www.youtube.com/watch?v=pLfnx7B3BBA' /> */}
-<Winners2022 />
+<Winners2023 />
 <AllPartners />
 <WidgetVideoWithEventInfo />
 </div>)
