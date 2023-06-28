@@ -31,7 +31,7 @@ import settings from '../../settings'
 
 import {Categories} from '../../src/icons' 
 
-import {Winners2022} from '../../src/Winners'
+import {Winners2023} from '../../src/Winners'
 
 const PageVote = (props) => (
 
@@ -49,7 +49,7 @@ const PageVote = (props) => (
   
        <Categories  dense={false} typography={undefined} secondaryTypography={undefined} />
        <WidgetFaq setting="contestant.faq" />
-      <Winners2022 />
+      <Winners2023 />
       <WidgetVideoWithEventInfo />
 
 

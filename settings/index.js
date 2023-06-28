@@ -70,12 +70,12 @@ const settings  = {
             {
                 name: 'awards',
                 items: [
-                    {name: 'vote', to: '/vote'},
+                    // {name: 'vote', to: '/vote'},
                     {name: 'about', to: '/about'},
-                    {name: 'categories', to: '/categories'},
+                    // {name: 'categories', to: '/categories'},
                     // {name: 'register', to: '/register'},
-                    {name: 'jurors', to: '/jurors'},
-                    {name: 'party', to: '/party'},
+                    // {name: 'jurors', to: '/jurors'},
+                    // {name: 'party', to: '/party'},
                 ]
               },
 
@@ -98,7 +98,7 @@ const settings  = {
         organizer_regno : 'VAT ID PL7792439665',
         event_name : 'E-commerce Germany Awards',
         event_location : 'Spindler & Klatt, Köpenicker Str. 16-17, 10997 Berlin',
-        event_date : '22nd February 2023',
+        event_date : '21st February 2024',
         event_hours : '10:00-17:00',
 
     },
@@ -150,11 +150,12 @@ const settings  = {
         iconSize: "40",
 
         items : [
-            {date: "2022-12-01", name: "submissions", icon:  "NoteAdd"  },
-            {date: "2023-01-09", name: "public-voting", icon:  "Public", dotColor: 'black', active: true},
-            {date: "2023-01-26", name: "qualification", icon:  "Assessment" },
-            {date: "2023-01-30", name: "jury-voting", icon:  "HowToVote" },
-            {date: "2023-02-22", name: "results", icon:  "Mic" }
+            {date: "2023-11-20", name: "submissions", icon:  "NoteAdd", dotColor: 'black', active: true  },
+            {date: "2023-12-18", name: "verification", icon:  "NoteAdd"  },
+            {date: "2024-01-08", name: "public-voting", icon:  "Public"},
+            {date: "2024-01-25", name: "qualification", icon:  "Assessment" },
+            {date: "2024-01-29", name: "jury-voting", icon:  "HowToVote" },
+            {date: "2024-02-21", name: "results", icon:  "Mic" }
             
         ]
 
@@ -510,30 +511,55 @@ const settings  = {
 
         items : [
 
-            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1604012207/ega/beer.jpg", cols: 3},
-            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1604012209/ega/audience1.jpg", cols: 3},
-            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1604012208/ega/photowall2.jpg", cols: 6},
+            {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1687948344/EGA%202023/wall.jpg", cols: 8},
+            {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1687946418/EGA%202023/award.jpg", cols: 4},
 
 
-            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1604012184/ega/award1.jpg", cols: 6},
-            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1604012217/ega/category_winner2.jpg", cols: 6},
+            {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1687948277/EGA%202023/stage.jpg", cols: 6},
+            {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1687948226/EGA%202023/wall1.jpg", cols: 6},
 
 
-            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1604012216/ega/MC_stage.jpg", cols: 6},
-            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1604012215/ega/party_screens2.jpg", cols: 6},
+            {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1687948842/EGA%202023/band.jpg", cols: 6},
+            {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1687946801/EGA%202023/stage3.jpg", cols: 6},
 
   
-            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1604012221/ega/patio3.jpg", cols: 4},
-            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1604012219/ega/venue3.jpg", cols: 4},
-            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1604012183/ega/beer2.jpg", cols: 4},
+            {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1687951291/EGA%202023/audience4.jpg", cols: 4},
+            {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1687951184/EGA%202023/wall5.jpg", cols: 4},
+            {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1687949674/EGA%202023/stage5.jpg", cols: 4},
 
 
-            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1604012196/ega/bimmer_mainscreen.jpg", cols: 6},
-            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1604012193/ega/venue2.jpg", cols: 6},
+            {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1687949828/EGA%202023/stage6.jpg", cols: 6},
+            {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1687949723/EGA%202023/audience7.jpg", cols: 6},
 
             
-            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1604012179/ega/MC_audience.jpg", cols: 6},
-            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1604012191/ega/photowall.jpg", cols: 6},
+            {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1687951124/EGA%202023/wall3.jpg", cols: 6},
+            {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1687951228/EGA%202023/audience6.jpg", cols: 6},
+
+
+            // {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1604012207/ega/beer.jpg", cols: 3},
+            // {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1604012209/ega/audience1.jpg", cols: 3},
+            // {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1604012208/ega/photowall2.jpg", cols: 6},
+
+
+            // {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1604012184/ega/award1.jpg", cols: 6},
+            // {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1604012217/ega/category_winner2.jpg", cols: 6},
+
+
+            // {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1604012216/ega/MC_stage.jpg", cols: 6},
+            // {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1604012215/ega/party_screens2.jpg", cols: 6},
+
+  
+            // {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1604012221/ega/patio3.jpg", cols: 4},
+            // {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1604012219/ega/venue3.jpg", cols: 4},
+            // {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1604012183/ega/beer2.jpg", cols: 4},
+
+
+            // {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1604012196/ega/bimmer_mainscreen.jpg", cols: 6},
+            // {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1604012193/ega/venue2.jpg", cols: 6},
+
+            
+            // {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1604012179/ega/MC_audience.jpg", cols: 6},
+            // {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1604012191/ega/photowall.jpg", cols: 6},
 
             // {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1604012212/ega/MC_stage2.jpg", cols: 6},
             // {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1604012177/ega/photo_wall.jpg", cols: 6},
