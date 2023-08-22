@@ -32,9 +32,9 @@ const settings  = {
 
     hero : {
         heading : "awards.hero.title",
-        subheading : "awards.hero.description",
-        videoSrc : "https://res.cloudinary.com/eventjuicer/video/upload/q_auto,f_auto/v1636489759/ega2022_video.mp4",
-        background : "https://res.cloudinary.com/eventjuicer/image/upload/q_auto,f_auto/v1575328032/ega2020_2_still.png",
+        subheading : "awards.hero.description", 
+        videoSrc : "https://res.cloudinary.com/ecommerceberlin/video/upload/q_auto,f_auto/v1688480752/Awards%20website/EGA_website_video_2023_2.mp4",
+        background : "https://res.cloudinary.com/ecommerceberlin/image/upload/q_auto,f_auto/v1691504706/Awards%20website/ega24_final_poster.png",
         overlay : "black",
         template : "heroGold",
         showable: ["date"],
@@ -169,32 +169,32 @@ const settings  = {
             },
             items : [
                 {
-                  image:
-                    'https://res.cloudinary.com/ecommerceberlin/image/upload/v1663079096/EGA22%20photo/wykresy_2023_NumberOfContestVotersmall.svg',
-                  //  'https://res.cloudinary.com/eventjuicer/image/upload/v1631743692/ega/ega_2022_numberOfContestVoters.svg',
-                  style: {
-                    width: '85%'
-                  }
+                    image:
+                    'https://res.cloudinary.com/ecommerceberlin/image/upload/v1692708940/Awards%20website/INFOGRAFIKA-aboutus-01-01.svg',
+                    // 'https://res.cloudinary.com/ecommerceberlin/image/upload/v1663079096/EGA22%20photo/wykresy_2023_NumberOfContestVotersmall.svg',
+                //    'https://res.cloudinary.com/eventjuicer/image/upload/v1631743692/ega/ega_2022_numberOfContestVoters.svg',
+                
                 },
 
                 {
                     image:
-                      'https://res.cloudinary.com/ecommerceberlin/image/upload/v1663079096/EGA22%20photo/wykresy_2023_NumberOfContestParticipants.svg',
+                      'https://res.cloudinary.com/ecommerceberlin/image/upload/v1692708940/Awards%20website/INFOGRAFIKA-aboutus-02-01.svg',
+                    //   'https://res.cloudinary.com/ecommerceberlin/image/upload/v1663079096/EGA22%20photo/wykresy_2023_NumberOfContestParticipants.svg',
                     //  'https://res.cloudinary.com/eventjuicer/image/upload/v1631743692/ega/ega_2022_numberOfContestParticipants.svg',
-                    style: {
-                      width: '85%'
-                    }
+                   
                   },
 
                   
                 {
                   image:
-                    'https://res.cloudinary.com/eventjuicer/image/upload/v1604003805/ega/ega_2021_awardsCeremonyGuests.svg',
+                    'https://res.cloudinary.com/ecommerceberlin/image/upload/v1692708940/Awards%20website/INFOGRAFIKA-aboutus-03-01.svg',
+                    // 'https://res.cloudinary.com/eventjuicer/image/upload/v1604003805/ega/ega_2021_awardsCeremonyGuests.svg',
                 },
                
                 {
                   image:
-                    'https://res.cloudinary.com/eventjuicer/image/upload/v1604003805/ega/ega_2021_promotion.svg',
+                    'https://res.cloudinary.com/ecommerceberlin/image/upload/v1692708940/Awards%20website/INFOGRAFIKA-aboutus-04-01.svg',
+                    // 'https://res.cloudinary.com/eventjuicer/image/upload/v1604003805/ega/ega_2021_promotion.svg',
                 },
                
             ]
