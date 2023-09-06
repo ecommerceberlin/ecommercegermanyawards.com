@@ -13,7 +13,7 @@ import {
 // import {Timeline, Categories} from '../src/icons' 
 import AllPartners from '../src/AllPartners'
 import Jurors from '../src/Jurors'
-// import RegForm from '../src/RegForm'
+import RegForm from '../src/RegForm'
 import IntroRegformTimeline from '../src/IntroRegformTimeline'
 import {Winners2023} from '../src/Winners'
 import settings from '../settings';
@@ -39,7 +39,7 @@ const PageIndex = (props) => (
 
   <IntroRegformTimeline />
 
-
+  <RegForm />
   <WidgetPhotostream setting="awardsphotostream" />
   <AllPartners />
 
