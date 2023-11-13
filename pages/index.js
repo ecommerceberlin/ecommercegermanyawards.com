@@ -17,6 +17,7 @@ import RegForm from '../src/RegForm'
 import IntroRegformTimeline from '../src/IntroRegformTimeline'
 import {Winners2023} from '../src/Winners'
 import settings from '../settings';
+import {Categories} from '../src/icons' 
 
 const PageIndex = (props) => (
 
@@ -26,7 +27,11 @@ const PageIndex = (props) => (
 
   {/* <Wrapper label="awards.hello.title"><Timeline /></Wrapper> */}
 
-  {/* <Categories dense={false} typography={undefined} secondaryTypography={undefined} wrapperProps={{label: "awards.voting.cta"}}/> */}
+  <IntroRegformTimeline />
+
+  <RegForm />
+
+  <Categories dense={false} typography={undefined} secondaryTypography={undefined} wrapperProps={{label: "awards.voting.cta"}}/>
 
 
   <Jurors limit={8} />
@@ -37,9 +42,7 @@ const PageIndex = (props) => (
     <EmbedSection data="https://www.youtube.com/watch?v=xCooH-tbgto" playerProps={{light: true}}/>
   </Wrapper>
 
-  <IntroRegformTimeline />
 
-  <RegForm />
   <WidgetPhotostream setting="awardsphotostream" />
   <AllPartners />
 
