@@ -15,6 +15,8 @@ import TrendingUp from '@material-ui/icons/TrendingUp'
 import VerifiedUser from '@material-ui/icons/VerifiedUser'
 import ShoppingBasket from '@material-ui/icons/ShoppingBasket';
 import CameraAlt from '@material-ui/icons/CameraAlt';
+import EmojiEmotions from '@material-ui/icons/EmojiEmotions';
+import ForwardRounded from '@material-ui/icons/ForwardRounded';
 import {WidgetIconGrid, WidgetVerticalTimeline} from 'eventjuicer-site-components'
 
 const Categories = (props) => (<WidgetIconGrid setting="contestant.categories" icons={{
@@ -29,7 +31,9 @@ const Categories = (props) => (<WidgetIconGrid setting="contestant.categories" i
     Computer,
     NewReleases,
     ShoppingBasket,
-    CameraAlt
+    CameraAlt,
+    EmojiEmotions,
+    ForwardRounded
 }}  {...props} />)
 
 const Timeline = (props) => (<WidgetVerticalTimeline 
