@@ -78,7 +78,7 @@
 * Best Communication & Engagement Solution
 * Best Tech Evolution & Innovation
 
-2. The Participant can adjust the information in the application or cancel it only till January 15th, 2023, 23:59 (11:59 pm), before the online voting starts.
+2. The Participant can adjust the information in the application or cancel it only till January 7th, 2024, 23:59 (11:59 pm), before the online voting starts.
 
 3. The application will be approved by the organizer only in case all the necessary information is provided by the Participant, and the Participant is not disqualified according to the Terms and Conditions.
 4. The Organizer is entitled to cancel the application in case the Participant does not meet the requirements for participation mentioned in paragraph 3 of the Terms and Conditions.

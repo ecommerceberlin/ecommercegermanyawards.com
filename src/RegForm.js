@@ -15,7 +15,7 @@ const RegForm = () => (
 <>
     <Wrapper label="awards.register.title">
 
-    {/* <CustomWidgetRegForm right={<RegFormRules />} /> */}
+    <CustomWidgetRegForm right={<RegFormRules />} />
     <RegFormRules />
     </Wrapper>
     </>
