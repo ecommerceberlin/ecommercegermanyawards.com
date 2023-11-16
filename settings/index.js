@@ -359,7 +359,16 @@ const settings  = {
                         label: "common.vote_now"
                     }]
                 },
-            
+
+                {
+                    icon : "EmojiEmotions",
+                    label : 'customers_experience',
+                    buttons: [{
+                        href: "/vote/categories/customers_experience",
+                        label: "common.vote_now"
+                    }]
+                },                
+
                 {
                     icon : "Public",
                     label : 'expansion',
@@ -374,6 +383,15 @@ const settings  = {
                     label : 'logistics',
                     buttons: [{
                         href: "/vote/categories/logistics",
+                        label: "common.vote_now"
+                    }]
+                },
+
+                {
+                    icon : "ForwardRounded",
+                    label : 'fulfillment_optimization',
+                    buttons: [{
+                        href: "/vote/categories/fulfillment_optimization",
                         label: "common.vote_now"
                     }]
                 },
@@ -415,6 +433,15 @@ const settings  = {
                 },
 
                 {
+                    icon : "ShoppingBasket",
+                    label : 'omnichannel',
+                    buttons: [{
+                        href: "/vote/categories/omnichannel",
+                        label: "common.vote_now"
+                    }]
+                },
+
+                {
                     icon : "Computer",
                     label : 'security_it',
                     buttons: [{
@@ -430,34 +457,7 @@ const settings  = {
                         href: "/vote/categories/innovation",
                         label: "common.vote_now"
                     }]
-                },
-
-                {
-                    icon : "ShoppingBasket",
-                    label : 'omnichannel',
-                    buttons: [{
-                        href: "/vote/categories/omnichannel",
-                        label: "common.vote_now"
-                    }]
-                },
-
-                {
-                    icon : "EmojiEmotions",
-                    label : 'customers_experience',
-                    buttons: [{
-                        href: "/vote/categories/customers_experience",
-                        label: "common.vote_now"
-                    }]
-                },
-
-                {
-                    icon : "ForwardRounded",
-                    label : 'fulfillment_optimization',
-                    buttons: [{
-                        href: "/vote/categories/fulfillment_optimization",
-                        label: "common.vote_now"
-                    }]
-                }
+                }                
 
 
             ]

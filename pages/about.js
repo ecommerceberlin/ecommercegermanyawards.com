@@ -21,23 +21,23 @@ import {
 
   <WhyParticipate />
 
-    <Wrapper label="awards.about.title" first>
+    {/* <Wrapper label="awards.about.title" first> */}
 
-    <Section
+    {/* <Section */}
 
-left={
+{/* left={ */}
 
-    <Markdown label="awards.about.body" />
+    {/* <Markdown label="awards.about.body" /> */}
    
   
-}
-    right={
-      <Timeline />
-    }     
+{/* } */}
+    {/* right={ */}
+      {/* <Timeline /> */}
+    {/* }      */}
     
-/>
+{/* /> */}
  
-</Wrapper>
+{/* </Wrapper> */}
 
 <WidgetVideoWithEventInfo/>
 
