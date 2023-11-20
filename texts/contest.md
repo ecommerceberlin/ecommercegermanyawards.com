@@ -58,7 +58,7 @@
   - December 18th, 2023 - January 7th, 2024 - verification of the applications by the Organizer
 * Stage II (January 8th, 2024 - January 24th, 2024; 3.59 pm) – Internet User's public voting
 * Stage III (January 25th, 2024) – Public Voting Nominees announcement
-* Stage IV (January 29th, 2023 - February 8th, 2023) – Jury voting and determining the results of the Contest - selection of winners
+* Stage IV (January 29th, 2024 - February 8th, 2024) – Jury voting and determining the results of the Contest - selection of winners
 * Stage V (February 21st, 2024) – announcement of the Contest Winners of the E-commerce Germany Awards during the E-commerce Germany Awards Gala and Networking Party.
 
 ## § 6 Stage I – Entry into Contest

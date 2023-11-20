@@ -16,7 +16,6 @@ const RegForm = () => (
     <Wrapper label="awards.register.title">
 
     <CustomWidgetRegForm right={<RegFormRules />} />
-    <RegFormRules />
     </Wrapper>
     </>
 
