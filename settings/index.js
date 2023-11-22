@@ -113,6 +113,14 @@ const settings  = {
 
     sales_support : {
 
+       
+    },
+
+    schedule : {
+    },
+
+    footer : {
+
         title: 'event.support.hello',
         description: 'event.support.description',
 
@@ -126,13 +134,11 @@ const settings  = {
                 email: 'awards@ecommerceberlin.com',
                 chatlio : true
             }
-        ]
-    },
+        ],
 
-    schedule : {
-    },
 
-    footer : {
+        hideOrganizerDetails: true,
+
         showable: ["date"],
         primaryStyle: null,
         secondaryStyle: null,
