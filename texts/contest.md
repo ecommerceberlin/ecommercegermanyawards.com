@@ -1,182 +1,192 @@
-## General information and contact details of the Administrator
+## §1 General information 
 
-E-commerce Capitals spółka z ograniczoną odpowiedzialnością sp. k. (Limited Liability Company limited partnership) with its registered seat in Poznań (postal code 60-586), ul. Botaniczna 26/2, entered into the Register of Entrepreneurs under the National Court Register (number 0000592712) and the register of entrepreneurs under KRS (number 0000592712), whose registration files are kept by the District Court for Poznań - Nowe Miasto and Wilda in Poznań, VIII Commercial Division of the National Court Register using the given 7792439665 tax identification number and REGON number 36746333, hereinafter referred to as ‘Company’ or ‘Administrator’, is fulfilling the obligation specified in art. 12, sec. 1 of the Regulation (EU) 2016/679 of the European Parliament and of the Council of April 27, 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation), hereinafter referred to as ‘GDPR’, as personal data administrator, hereby presents this information, asking whoever it may concern to get acquainted with it.
+1. E-commerce Capitals is a Limited Partnership company (registered name: E-Commerce Capitals spółka z ograniczoną odpowiedzialnością spółka komandytowa) with its registered office in Poznań, address: Matejki Street 6/7, Poznań 60-766, Poland, registered in the Register of Entrepreneurs of the National Court Register under number 0000592712. Its registration files are kept by the District Court for Poznań - Nowe Miasto and Wilda in Poznań, VIII Commercial Division of the National Court Register. The company's tax identification number is 7792439665 and its REGON number is 36746333. The Company, also referred to as the "Administrator" or "Organizer", is fulfilling its obligation as a personal data administrator specified in Article 12, Section 1 of the General Data Protection Regulation (GDPR) and presents this information to anyone concerned to become familiar with.
 
-The Administrator provides the following contact details for communication regarding personal data processing. Email address: office@ecommercecapitals.com, address: ul. Botaniczna 26/2, 60-586 Poznań (Poland).
+2. The Administrator has provided the following contact details for communication regarding the processing of personal data: office@ecommercecapitals.com and Matejki Street 6/7, Poznań 60-766, Poland.
 
-E-commerce Capitals organizes the contest called "E-commerce Germany Awards", in order to choose and reward the best entrepreneurs offering products and services for the e-commerce industry.
+3. The Administrator is organizing a contest called "E-commerce Germany Awards" to recognise and reward the best service-providing companies that offer specialized solutions, innovative technologies, and expert guidance to enhance the performance of e-commerce businesses. To ensure transparency of the contest rules and to provide fair information about the Organizer, the rules, terms, and conditions associated with the contest are outlined in the following document.
 
-In order to ensure transparency of the rules of the above-mentioned contest and to guarantee fair information about the organizer, the rules, terms, and conditions associated with the contest, E-commerce Capitals hereby establishes the following document.
+## §2 Definitions
 
-## §1 [Definitions]
+1. Administrator/Organizer - E-commerce Capitals (registered name: E-Commerce Capitals spółka z ograniczoną odpowiedzialnością spółka komandytowa, details as specified in § 1 sec. 1 above). 
 
-1. Organizer/Administrator - E-commerce Capitals spółka z ograniczoną odpowiedzialnością sp. k. (Limited Liability Company limited partnership) with its registered seat in Poznań (postal code 60-586), ul. Botaniczna 26/2, entered into the Register of Entrepreneurs under the National Court Register (number 0000592712) and the register of entrepreneurs under KRS (number 0000592712), whose registration files are kept by the District Court for Poznań - Nowe Miasto and Wilda in Poznań, VIII Commercial Division of the National Court Register using the given 7792439665 tax identification number and REGON number 36746333.
+2. Contest - a multi-stage process intended to recognise the most innovative and forward-thinking entities in each contest category, as determined by both the Jury and Internet users. The aim of this process is to identify entities that have demonstrated exceptional problem-solving skills, introduced groundbreaking solutions, and contributed significantly to advancing the industry, in accordance with the criteria defined in the Terms and Conditions.
 
-2. Contest – a multi-stage process aimed at selecting the winners of the Contest, i.e. entities which, according to Jury and Internet users' opinions, are leaders in the given contest category defined in these Terms and Conditions.
+3. Jury - a group of industry experts appointed by the Organizer who play a critical role in selecting the Contest Winners based on the criteria outlined in the Terms and Conditions.
 
-3. Jury – the experts nominated by the Organizer, who participate in the selection of Contest Winners based on rules specified in these Terms and Conditions.
+4. Internet Users - individuals who use the Contest Website and are not members of the Jury. They participate in the public voting process using their LinkedIn accounts, which helps ensure the authenticity and credibility of the voting process.
 
-4. Internet Users – users of the Contest Website, who are not members of the Jury and who participate in the public voting.
+5. Participant - any entrepreneur who is either a natural person, legal person, or organizational unit with legal capacity who has either entered or been submitted to the Contest and meets the conditions for participation specified in these Terms and Conditions.
 
-5. Participant – entrepreneur of an enterprise, a natural person with full legal capacity, a legal person or an organizational unit that has the capacity to perform legal acts, and that has entered or been submitted to the Contest, and meets the conditions of participation specified by these Terms and Conditions.
+6. Nominee - a contest participant chosen as one of the top 10 companies in their respective category, thanks to gathering the highest number of votes in the online public voting, and therefore submitted to the Jury voting.
 
-6. Nominee -contest participant that has been chosen in the public voting as a winner of this part of the contest and will be submitted to a Jury voting.
+7. Award - a prize that is given to the best participant in each category of the "E-commerce Germany Awards" Contest, which includes a statuette and the title of Winner.
 
-7. Award – a statuette and a title of the Winner of the "E-commerce Germany Awards" Contest, awarded to the best participant in each category.
+8. Contest Website - the website (https://ecommercegermanyawards.com/) specifically created for the purpose of the competition.
 
-9. Competition Website – the website of the contest available at https://ecommercegermanyawards.com/
+9. Terms and Conditions – this document.
 
-10. Terms and Conditions – this document.
+## § 3 Entry into the Contest
 
-## § 2 [Entry into the Contest]
+1. Only entrepreneurs who are service providers in the e-commerce industry and whose services are already available in the German market are eligible to participate in the Contest as Participants.
 
-1. Only entrepreneurs are entitled to enter the Contest as Participants.
+2. The Organizer reserves the right to ask for proof of services being available in the German market. Lack of proof may lead to disqualification.
 
-2. Participants who either in person or through their members' bodies, employees or associates, are a member of the Jury that evaluates the Contest Participants in the category in which the Participant was nominated for the Award, are not allowed to enter the Contest.
+3. Contest Participants who are members of the Jury in the category for which they are nominated are prohibited from entering the Contest, whether directly or through representatives, employees, or affiliates.
 
-3. Entry to the Contest can be made from December 1st, 2022, to January 6th, 2023, solely via the application form available on the Contest website. Participation in the Contest is subject to the fulfillment of all mandatory form fields and acceptance of the Terms and Conditions.
+4. Entry into the Contest is possible between November 20th, 2023, and December 15th, 2023, through the submission of an application form available on the Contest website. To participate, all mandatory fields of the application form must be completed, and the Terms and Conditions must be accepted.
 
-4. Entry into the Contest is equivalent to providing the Organizer with a consent to publish the Participant's name (s) and the Trademark Identification (logo) on the Contest Website, as well as in all promotional and advertising materials distributed by the Organizer concerning the Contest, for the duration of the Contest, and for a period of 1 (one) year from the closing date of the Contest.
+5. After submitting the initial application form, the Contest Organizer will send an extended application form to the Participant to complete. The extended application form must be completed in full and include all requested information. Failure to provide complete and accurate information may result in disqualification from the Contest.
 
-## § 3 [Personal Data]
+6. By entering the Contest, Participants consent to the Organizer's publication of their name(s) and trademark identification (logo) on the Contest Website, as well as in all promotional and advertising materials related to the Contest, for the duration of the Contest and for a period of 5 (five) years from the date of its closing.
 
-1. In the event of Participant data being personal data, the Organizer is the administrator of personal data.
+## § 4 Personal Data
 
-2. If the Participant agrees to this, the personal data will be used for the organization and conduct of the Contest, as well as for the Organizer's promotional and marketing purposes.
+1. If the Participant provides personal data, the Organizer will act as the data controller in accordance with applicable data protection laws.
 
-3. The Organizer is fulfilling the obligation specified in art. 12, sec. 1 of the Regulation (EU) 2016/679 of the European Parliament and of the Council of April 27, 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation), hereinafter referred to as ‘GDPR’, as personal data administrator, hereby presents this information, asking whoever it may concern to get acquainted with it.
+2. The Organizer will only use the personal data for the purpose of organizing and conducting the Contest, as well as for promotional and marketing purposes of the Organizer, provided that the Participant has given their consent by accepting the Terms and Conditions.
 
-4. For more information related to processing of personal data please go [here](https://ecommercegermanyawards.com/legal/personal-data)
+3. As the administrator of personal data, the Organizer is in compliance with the obligation set out in Article 12, section 1 of the General Data Protection Regulation (GDPR), Regulation (EU) 2016/679 of the European Parliament and of the Council of April 27, 2016, which concerns the protection of natural persons in the processing of their personal data and on the free movement of such data. This information is presented by the Organizer to ensure compliance with the GDPR and is directed to anyone who may be concerned. By providing personal data to the Organizer, Participants acknowledge that they have read this information and consent to the processing of their personal data as described herein.
 
-## § 4 [Schedule of the Contest]
+4. For more information related to the processing of personal data please go here.
+
+## § 5 Contest Timeline
 
 1. The contest will be conducted in the following stages:
+* Stage I:  
+  - November 20th, 2023 - December 15th, 2023 – entry into the contest and submissions
+  - December 18th, 2023 - January 7th, 2024 - verification of the applications by the Organizer
+* Stage II (January 8th, 2024 - January 24th, 2024; 3.59 pm) – Internet User's public voting
+* Stage III (January 25th, 2024) – Public Voting Nominees announcement
+* Stage IV (January 29th, 2024 - February 8th, 2024) – Jury voting and determining the results of the Contest - selection of winners
+* Stage V (February 21st, 2024) – announcement of the Contest Winners of the E-commerce Germany Awards during the E-commerce Germany Awards Gala and Networking Party.
 
-* Stage I (December 1st, 2022 - January 6th, 2023) – entry into the contest and submissions
-* Stage II (January 9th, 2023 - January 25th, 2023) – Internet User’s public voting
-* Stage III (January 26th, 2023) – Public Voting Nominees announcement
-* Stage IV (January 30th, 2023 - February 3rd, 2023) – Jury voting and determining the results of the Contest - selection of winners
-* Stage V (February 22nd, 2022) – announcement of the Contest Winners of the E-commerce Germany Awards during the Ceremony as a part of the E-commerce Expo Networking Party.
-
-2. Submitted information can be edited until January 15th, 2023, 23:59 (11:59 pm).
-
-## § 5 [Stage I – Entry into the Contest]
+## § 6 Stage I – Entry into Contest
 
 1. Stage I of the Contest includes entries and submissions to the Contest in the following categories described on the Contest Website:
+* Best Sales & Growth Solution
+* Best Platform & ERP
+* Best Payment Solution
+* Best Analytics & BI Solution
+* Best Agency Showcase
+* Best Security & IT Solution
+* Best Omnichannel & Integration Solution
+* Best Global Expansion Solution
+* Best Logistics and Shipments
+* Best Fulfilment and Optimization Solution
+* Best Customers Experience Solution
+* Best Communication & Engagement Solution
+* Best Tech Evolution & Innovation
 
-* Best Sales Generating Tool
-* Best Customer Communication Tool
-* Best Solution for International Expansion
-* Best Logistics Solution
-* Best Platform / Shop Software
-* Best Payment Provider
-* Best Analytics / BI Solutions
-* Best Agency
-* Best IT and infrastructural solution
-* Best innovation / New Development in E-commerce
-* Best Omnichannel Solution
-* Best Product Content Creation Tool
+2. The Participant can adjust the information in the application or cancel it only till January 7th, 2024, 23:59 (11:59 pm), before the online voting starts.
 
-2. Entry to the Contest, participation, nomination by the Jury and participation in the Award Ceremony is free of charge, subject to the provision of paragraph 7.2
+3. The application will be approved by the organizer only in case all the necessary information is provided by the Participant, and the Participant is not disqualified according to the Terms and Conditions.
+4. The Organizer is entitled to cancel the application in case the Participant does not meet the requirements for participation mentioned in paragraph 3 of the Terms and Conditions.
 
-3. The Organizer reserves the right to discontinue the Contest in the given category if the number of entries is less than 10 (ten) submissions.
+5. The Organizer reserves the right to exclude the Participant from the contest if the application is not completed in full before the online voting starts.
+6. Participation fees are detailed in paragraph 12 of the Terms and Conditions.
 
-4. Each company can enter the Contest in the maximum of 2 categories.
+7. The Organizer reserves the right to discontinue the Contest in the given category if the number of entries is less than 10 (ten).
 
-5. Submission to the Contest can be made only by a person who is entitled to act on behalf of the Participant.
+8. Each entrepreneur (including E-commerce Berlin Exhibitors) can enter the Contest in a maximum of 2 categories.
 
-## § 6 [Stage II – Internet User’s public Voting, “E-commerce Germany Awards” Nominations]
+9. Submission to the Contest can be made only by a person who is entitled to act on behalf of the Participant.
 
-1. Stage II includes public voting of Internet Users, which takes place through the Contest Website. Each Internet User can cast one vote in each category (only one vote is allowed per one IP address).
+## § 7 Stage II – Internet User's Public Voting
 
-2. The Organizer uses Linkedin as a verification tool to confirm the identity of a voting person or a company. The contest is in no way sponsored, endorsed, administered by, or associated with Linkedin. Users' content or information will not be collected by the Organizer. Information obtained from a person’s or company’s interaction with the call-to-action button will not be used for any purpose other than to provide the service associated with the call-to-action button. Individual votes will be There is no obligation to share the cast vote on a personal/company timeline.
+1. During Stage II of the Contest, Internet Users are invited to cast their votes through the Contest Website. Each Internet User is entitled to cast one vote in each category, with only one vote allowed per IP address.
 
-3. Every Participant is ultimately responsible for the actions taken with his account, or by applications associated with his account.
+2. The participants can share information about their participation in the contest and encourage their partners, clients, and colleagues to vote for their solution.
 
-4. Usage of any automated scripting/services, paid mass services or another automatic device, program, algorithm or technology which perform the same action, as well as any kind of automation executed by a third party in the voting process will result in the removal of the submission and canceling of the participation in the contest and will be immediately executed by the Organizer.
+3. The Organizer uses Linkedin as a verification tool to confirm the identity of individuals or companies participating in the voting process. The Contest is not sponsored, endorsed, administered by, or affiliated with Linkedin. 
 
-5. Only votes cast by Internet Users until January 25th, 2023, 19:59 (7:59 pm) will be considered in the final summary of the voting.
+4. Information obtained from a person's or company's interaction with the call-to-action button will be used for providing the service associated with the call-to-action button as well as for further communication solely connected with E-commerce Germany Awards or E-commerce Berlin Expo. Each individual vote cast will remain confidential and there is no obligation to share it on a personal or company timeline.
 
-6. The maximum of 10 (ten) Participants who will receive the highest number of votes in the Internet Users’ public voting in each category will become the nominees. In order to be qualified for Stage II of the “E-commerce Germany Awards” Contest, these participants are obliged to meet the formal conditions for participation in the Contest described in § 2 of these Terms and Conditions.
+5. Each Participant is solely responsible for all actions taken on their account, as well as any actions taken by applications associated with their account.
 
-7. Participants nominated to the Award receive from 1 to 10 contest points from the Internet Users, while the nominated Participant that receives the highest number of votes from the Internet Users gets 10 points, while the subsequent participants get 1, 2, 3, 4, 5, 6, 7, 8 and 9 points less so that the nominated Participant who receives the smallest number of votes receives the smallest number of points.
+6. The use of automated scripting/services, paid mass services, or any other automatic device, program, algorithm, or technology that performs the same action, as well as any kind of third-party automation in the voting process, is strictly prohibited. Such actions will be thoroughly monitored by the Organizer and may result in the removal of the submission and cancellation of participation in the contest, which will be enforced immediately by the Organizer.
 
-8. The announcement of the list of Participants nominated in all contest categories (Stage III) will take place on the Contest Website on January 26th, 2023.
+7. The Organizer will only consider votes cast by Internet Users until January 24th, 2024, 15:59 (3:59 pm) in the final summary of the voting.
 
-## § 7 [Stage IV – Voting of the Jury]
+## § 8 Stage III Public Voting Nominees announcement
 
-1. Stage IV includes the voting of the Jury.
+1. The maximum of 10 (ten) Participants who will receive the highest number of votes in the Internet Users' public voting in each category will become the Nominees. In order to be qualified for Stage II of the "E-commerce Germany Awards" Contest, these Participants are obliged to meet the formal conditions for participation in the Contest described in § 2 of these Terms and Conditions.
 
-2. Stage IV can be entered only by Participants who, in the manner specified in § 6, are nominated to the “E-commerce Germany Awards”, and who paid the participation fee (for more details please go to paragraph 10 below). Taking part in Stage IV and the following Stages is always free of charge for exhibitors of E-commerce Berlin Expo 2023.
+2. The maximum of 10 (ten) Participants with the highest number of votes gained in the Internet Users' public voting will be chosen in each category. These Participants will be announced as the Nominees and proceed to the next stage of the Contest (Jury Voting) given that they meet the formal requirements described in § 2 of these Terms and Conditions. 
 
-3. Jurors cast their votes by means of a special form made available to them by the Organizer.
+3. Participants who are nominated for the Award will receive contest points from 1 to 10 based on the number of votes received from Internet Users. The nominated Participant with the highest number of votes will receive 10 points, while subsequent Participants will receive 1, 2, 3, 4, 5, 6, 7, 8, and 9 points less, respectively, so that the nominated Participant with the smallest number of votes will receive the lowest number of points.
 
-4. Participants nominated to the E-commerce Germany Awards receive from 1 to 10 contest points as a result of the Jury voting. The nominated Participant that receives the highest number of votes from Jury gets 10 points, and the subsequent participants get 1, 2, 3, 4, 5, 6, 7, 8 and 9 points less so that the nominated Participant who receives the smallest number of votes receives the smallest number of points.
+4. The names of Nominees in each category will be published on the Contest Website on January 25th, 2024, at 3 pm. The information on the Nominees will also appear on the E-commerce Germany News website the same day.
 
-5. The Juror has the right to abstain from casting their vote if they determine that the Participant who is the subject of their assessment is their client or the client of the entity of which this Juror is a member, a member of the body or an employee.
+## § 9 Stage IV – Voting of the Jury
 
-## § 8 [Stage V – Determining the Results of the Contest – Selection of Winners]
+1. In order to enter the Stage IV of the Contest Participants are obliged to be chosen as the Nominees (check § 8) and pay the participation fee (check § 12 below).
 
-1. Stage IV includes the selection of Contest Winners.
+2. Jurors cast their votes by means of a special form created for them by the Organizer based on the information provided by the Participants in their application forms.
 
-2. To determine the results of the Contest, the Organizer shall take into account the contest points received by the Participants in the Internet Users’ voting and the Jury voting. The algorithm looks as follows:
+3. Contestants nominated for the E-commerce Germany Awards will receive contest points ranging from 1 to 10 based on the Jury's vote. The Nominee with the highest number of votes from the Jury will be awarded 10 points, while the following Nominees will receive 1, 2, 3, 4, 5, 6, 7, 8, and 9 points less, respectively. The Nominee with the lowest number of votes will receive the lowest number of points.
 
-Wu = PI * 0,4 + PJ * 0,6
+4. The Juror is entitled to refrain from voting if they find that the Nominee under evaluation is either their employee, their client, a client of the entity to which the Juror belongs, or a member of the organization.
 
+## § 10 Stage V – Determining the Results of the Contest – Selection of Winners
+
+1. The selection of Contest Winners is carried out once all members of the Jury have completed their voting process.
+
+2. To determine the results of the Contest, the Organizer shall take into account the contest points received by the Participants in the Internet Users' voting and the Jury voting. The algorithm looks as follows:
+Pr = Piv * 0,3 + Pjv * 0,7
 where:
+Pr – is the Participant's result,
+Piv – is the number of contest points received by the Participant in the Internet Users' voting,
+Pjv – is the number of contest points received by the Participant in the Jury voting.
 
-Wu – is the Participant’s result,
-
-PI – is the number of contest points received by the Participant in the Internet Users’ voting,
-
-PJ – is the number of contest points received by the Participant in the Jury voting.
-
-3. Based on the algorithm set out in paragraph 8, point 2 above, the Participant that achieves the highest score in the category becomes the Contest Winner.
+3. Based on the algorithm set out in paragraph 8, point 2 above, the 3 Participants who achieve the highest scores in the category will be awarded the 3rd and 2nd places, respectively. The Participant with the highest score will be recognised as the Contest Winner in this category.
 
 4. In the case of an equal score obtained by two or more Participants, the Contest Winner is the one who has received the highest number of points in the Jury voting in that category.
 
-5. The Contest Winner receives the Award.
+5. The companies that get the 3rd and 2nd places receive the diplomas. The Contest Winner receives a diploma and the Award statuette.
 
-## § 9 [Stage V - Announcement of the Contest Winners and the Award Ceremony]
+6. If the Participants of the E-commerce Germany Awards, that get 3rd, 2nd, and 1st places happen to be the E-commerce Berlin Expo's exhibitors, they receive both digital and printed stickers distinguishing their booths during the Expo. 
 
-The announcement of the Contest Winners will take place during the “E-commerce Germany Awards” Ceremony, as a part of the Networking Party on February 22nd, 2023, during the E-commerce Berlin Expo Networking Party.
+## § 11 Stage V - Announcement of the Contest Winners
 
-## § 10 [Participation fees]
+1. The announcement of the Contest Winners will take place during the E-commerce Germany Awards Gala and Networking Party on February 21, 2024.
 
-1. Following provisions do not apply to the exhibitors of Ecommerce Berlin Expo 2023 for witch entering Stage IV of the Contest is free of charge.
+## § 12 Participation fees
 
-2. To take part in Stage IV and the following stages of the Contest, the Participant is obliged to: 
-(1) enter into a participation contract with the Organizer, and
-(2) pay the participation fee.
+1. Each entrepreneur applying to the Contest consents to pay a participation fee in case it receives enough votes to be selected as one of the Nominees (TOP10 companies) in its category, thereby advancing to Stages III and IV of the Contest.
 
-3. The participation fee mentioned in the article 2 consist of:
+2. The Participant is only obliged to pay the participation fee if it is selected as the Nominee (one of the TOP 10 companies).
+
+3. The Participant that advanced to the next round will receive a draft contract and an invoice from the Organizer. The Participant is obliged to send the signed contract and pay the registration fee within 5 working days of receiving the documents.
+
+4. The Participant can't refuse to enter the next steps of the Contest and pay a fee after the online voting is over and the Nominees are announced. 
+
+5. The participation fee consists of:
 * 400 EUR for participation in the first Contest category
 * (if applicable) 200 EUR for participation in the second Contest category.
 
-4. The participation fee covers the cost of jury voting and other costs related to the Contest.
+6. The participation fee covers the cost of jury voting, and other costs related to the Contest. Participant also receives 1 complimentary ticket to the Awards Gala taking place on the 21st of February, 2024. 
 
-5. If conditions mentioned in article 2 above are not met until February 2nd, 2023, the Organizer shall exclude the Participant from the Contest.
+7. Entering Stage III of the Contest is free only for the exhibitors of the E-commerce Berlin Expo 2024. Representatives of the companies that proceeded to Stage III and wish to participate in the E-commerce Germany Awards Gala must buy the entry tickets in their exhibitor profile.
 
-6. If conditions mentioned in article 2 above are met until February 2nd, 2023, the Participant shall be entitled to enter Stage IV and following and receives two tickets to Ecommerce Berlin Networking Party.
-
-## § 11 [Contest Communication Channels]
+## § 13 Contest Communication Channels
 
 1. The Internet is the main medium of communication. All information related to the Contest will be published on the Contest Website.
 
-2. The Organizer may publish information on the Contest and its results also in other media, in particular in the press, radio, television, and outdoor advertising media.
+2. The Organizer has the right to publish information regarding the Contest and its results through various media channels, including but not limited to press, radio, television, and outdoor advertising.
 
-3. The Organizer reserves the right to publish the results of the Contest on the Contest Website in particular. The results of the Contest will also be published on the websites of the Contest media patrons and the entities sponsoring the Organizer, whose logos are published on the Contest Website. Participants who agree to participate in the Contest also express their consent to the above activities of the Organizer.
+3. The Organizer retains the right to publish the Contest results, primarily on the Contest Website. Additionally, the results may appear on the websites of Contest media patrons and entities sponsoring the Organizer, whose logos are featured on the Contest Website. Participants who willingly participate in the Contest also provide their consent to the activities mentioned above conducted by the Organizer.
 
-## § 12 [Filing and Handling Complaints]
+## § 14 Filing and Handling Complaints
 
-1. All complaints about the Contest must be submitted via email to office@ecommercecapitals.com not later than within 7 (seven) days from the date of the announcement of the Contest Winners.
+1. Any complaints regarding the Contest must be submitted via email to awards@ecommercecapitals.com no later than 7 (seven) days from the date of the announcement of the Contest Winners.
 
-2. The complaint should include the name and the email address of the complaining party, as well as the description and reason for the complaint.
+2. The complaint should include the name and email address of the complaining party, as well as the description and reason for the complaint.
 
-3. Complaints will be considered by the Organizer within 7 (seven) days of their receipt. The complaining party will be notified about the result of the complaint via email.
+3. The Organizer will review the complaints within 7 (seven) days of receiving them. The complaining party will be notified of the complaint's outcome via email.
 
-## § 13 [Final Provisions]
+## § 15 Final Provisions
 
 1. These Terms & Conditions are available at the Organizer's premises and the Contest Website.
 
-2. These Terms & Conditions apply from the time of its announcement on the Contest Website.
+2. These Terms & Conditions are applicable starting from the moment they appear on the Contest Website.

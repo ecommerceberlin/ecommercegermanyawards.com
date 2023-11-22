@@ -74,7 +74,7 @@ const settings  = {
                 items: [
                     // {name: 'vote', to: '/vote'},
                     {name: 'about', to: '/about'},
-                    // {name: 'categories', to: '/categories'},
+                    {name: 'categories', to: '/categories'},
                     // {name: 'register', to: '/register'},
                     {name: 'jurors', to: '/jurors'},
                     // {name: 'party', to: '/party'},
@@ -293,7 +293,8 @@ const settings  = {
               {name: "lname", required: true},
               {name: "cname2", required: true},
             //   {name: "position", required: true},
-            //   {name: "nip", required: false},
+              {name: "nip", required: true},
+              {name: "company_address", required: true},
               {name: "project_name", required: true},
               {name: "awards_category", required: true, options: "categories"},
               {name: "phone", required: true},
@@ -351,9 +352,9 @@ const settings  = {
 
                 {
                     icon : "ShoppingCart",
-                    label :  'sales_generation',
+                    label :  'sales',
                     buttons: [{
-                        href: "/vote/categories/sales_generation",
+                        href: "/vote/categories/sales",
                         label: "common.vote_now"
                     }]
                 },
@@ -366,12 +367,21 @@ const settings  = {
                         label: "common.vote_now"
                     }]
                 },
-            
+
+                {
+                    icon : "EmojiEmotions",
+                    label : 'customers_experience',
+                    buttons: [{
+                        href: "/vote/categories/customers_experience",
+                        label: "common.vote_now"
+                    }]
+                },                
+
                 {
                     icon : "Public",
-                    label : 'internationalization',
+                    label : 'expansion',
                     buttons: [{
-                        href: "/vote/categories/internationalization",
+                        href: "/vote/categories/expansion",
                         label: "common.vote_now"
                     }]
                 },
@@ -381,6 +391,15 @@ const settings  = {
                     label : 'logistics',
                     buttons: [{
                         href: "/vote/categories/logistics",
+                        label: "common.vote_now"
+                    }]
+                },
+
+                {
+                    icon : "ForwardRounded",
+                    label : 'fulfillment_optimization',
+                    buttons: [{
+                        href: "/vote/categories/fulfillment_optimization",
                         label: "common.vote_now"
                     }]
                 },
@@ -422,10 +441,19 @@ const settings  = {
                 },
 
                 {
-                    icon : "Computer",
-                    label : 'infrastructure',
+                    icon : "ShoppingBasket",
+                    label : 'omnichannel',
                     buttons: [{
-                        href: "/vote/categories/infrastructure",
+                        href: "/vote/categories/omnichannel",
+                        label: "common.vote_now"
+                    }]
+                },
+
+                {
+                    icon : "Computer",
+                    label : 'security_it',
+                    buttons: [{
+                        href: "/vote/categories/security_it",
                         label: "common.vote_now"
                     }]
                 },
@@ -437,25 +465,7 @@ const settings  = {
                         href: "/vote/categories/innovation",
                         label: "common.vote_now"
                     }]
-                },
-
-                {
-                    icon : "ShoppingBasket",
-                    label : 'omnichannel',
-                    buttons: [{
-                        href: "/vote/categories/omnichannel",
-                        label: "common.vote_now"
-                    }]
-                },
-
-                {
-                    icon : "CameraAlt",
-                    label : 'ar_vr_3d',
-                    buttons: [{
-                        href: "/vote/categories/product_content",
-                        label: "common.vote_now"
-                    }]
-                }
+                }                
 
 
             ]
@@ -485,7 +495,7 @@ const settings  = {
                     {name: "logotype", required: true},
                     {name: "difference", long: true, required: true},
                     {name: "innovations", long: true, required: true},
-                    {name: "testimonials", long: true},
+                    // {name: "testimonials", long: true},
                     {name: "case_study", long: true},
                     {name: "confidential", long: true},
                     {name: "video"},

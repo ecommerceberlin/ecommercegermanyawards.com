@@ -8,18 +8,19 @@ const CustomWidgetRegForm = ({right=null}) =>  <WidgetRegForm
         setting="contestant.register"
         options={{
             "categories": [
-            'sales_generation',
+            'sales',
             'communication',
-            'internationalization',
+            'expansion',
             'logistics',
             'platform',
             'payment',
             'analytics',
             'agency',
-            'infrastructure',
+            'security_it',
             'innovation',
             'omnichannel',
-            'product_content'
+            'customers_experience',
+            'fulfillment_optimization'
         ]
         }} 
         right={right}

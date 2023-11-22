@@ -27,7 +27,7 @@ const PageAccount = () => {
             {name: "logotype", required: true},
             {name: "difference", long: true, required: true},
             {name: "innovations", long: true, required: true},
-            {name: "testimonials", long: true},
+            // {name: "testimonials", long: true},
             {name: "case_study", long: true},
             {name: "confidential", long: true},
             {name: "video"},
