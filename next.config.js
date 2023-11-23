@@ -17,6 +17,9 @@ const SentryWebpackPluginOptions = {
 
 
 module.exports = withSentryConfig(withTM({
+    experimental: {
+    esmExternals: 'loose',
+    },
 
     eslint: {
       // Warning: Dangerously allow production builds to successfully complete even if
@@ -53,7 +56,15 @@ module.exports = withSentryConfig(withTM({
 
 
     async redirects() {
-      return [{
+      return [
+        
+        {
+          source: '/ng',
+          destination: '/?utm_source=email&utm_medium=email&utm_campaign=magic_link_ng',
+          permanent: false, 
+        },
+        
+        {
           source: '/vote/categories',
           destination: '/vote',
           permanent: false,
