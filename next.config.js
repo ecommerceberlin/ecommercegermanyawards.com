@@ -57,7 +57,43 @@ module.exports = withSentryConfig(withTM({
 
     async redirects() {
       return [
-        
+         
+        {
+          source: '/gy',
+          destination: '/?utm_source=email&utm_medium=email&utm_campaign=magic_link_gy',
+          permanent: false, 
+        },
+
+        {
+          source: '/lz',
+          destination: '/?utm_source=email&utm_medium=email&utm_campaign=magic_link_lz',
+          permanent: false, 
+        },
+
+        {
+          source: '/ao',
+          destination: '/?utm_source=email&utm_medium=email&utm_campaign=magic_link_ao',
+          permanent: false, 
+        },
+
+        {
+          source: '/dk',
+          destination: '/?utm_source=email&utm_medium=email&utm_campaign=magic_link_dk',
+          permanent: false, 
+        },
+
+        {
+          source: '/mb',
+          destination: '/?utm_source=email&utm_medium=email&utm_campaign=magic_link_mb',
+          permanent: false, 
+        },
+
+        {
+          source: '/ad',
+          destination: '/?utm_source=email&utm_medium=email&utm_campaign=magic_link_ad',
+          permanent: false, 
+        },
+
         {
           source: '/ng',
           destination: '/?utm_source=email&utm_medium=email&utm_campaign=magic_link_ng',
