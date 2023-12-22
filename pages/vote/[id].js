@@ -43,7 +43,7 @@ const PageVote = ({id}) => (
 <div>
 
 <ExternalSettings urls={["https://ecommerceberlin.com/api/settings?path=visitor.register"]} />
-<HeadVoteContestant id={id} template="ega2023_vote_template2">{(data) => <Head>{data}</Head>}</HeadVoteContestant> 
+<HeadVoteContestant id={id} template="ega2024_vote_template">{(data) => <Head>{data}</Head>}</HeadVoteContestant> 
 {/* <RegForm /> */}
        
 <WidgetContestantPerson
