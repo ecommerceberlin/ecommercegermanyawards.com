@@ -499,6 +499,8 @@ const settings  = {
                     {name: "case_study", long: true},
                     {name: "confidential", long: true},
                     {name: "video"},
+                    {name: "company_website"},
+     
                 ],
     
     
