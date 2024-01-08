@@ -31,7 +31,35 @@ const DynamicWidgetVoteWithLinkedIn = dynamic(
 const RegForm = () => <HasTicketWithRole>{(check) => (<WidgetRegForm wrapperProps={{
   label: "awards.ebereg.title",
   secondaryLabel: "awards.ebereg.description"
-}} setting="https://ecommerceberlin.com/api/settings?path=visitor.register" />)}</HasTicketWithRole>
+  }}
+
+  options={{
+    participant_type: [
+        "retailer_wholesaler",
+        "brand_manufacturer",
+        "service_provider",
+        "consultant",
+        "developer",
+        "media",
+        "student"
+    ],
+    company_role: [
+        "student",
+        "entry",
+        "manager",
+        "professional",
+        "head_of_department",
+        "director",
+        "c_level",
+        "board_member",
+        "other"
+    ],
+    location: [
+        "yes",
+        "no",
+    ]}}
+
+ setting="https://ecommerceberlin.com/api/settings?path=visitor.register" />)}</HasTicketWithRole>
 
 const onVoted = (canVote) => (<>
   <WidgetVoteStatus max_votes={12} />
@@ -49,8 +77,8 @@ const PageVote = ({id}) => (
 <WidgetContestantPerson
   id={id}
   wrapperProps={{label: null, first: true}}
- // vote={<DynamicWidgetVoteWithLinkedIn id={id} max_votes={12} onVoted={onVoted} />}
-  vote={null}
+ vote={<DynamicWidgetVoteWithLinkedIn id={id} max_votes={12} onVoted={onVoted} />}
+//  vote={null}
   status={<WidgetVoteStatus max_votes={12} />}
   // show_votes={true}
 />
