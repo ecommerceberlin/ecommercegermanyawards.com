@@ -62,7 +62,7 @@ const RegForm = () => <HasTicketWithRole>{(check) => (<WidgetRegForm wrapperProp
  setting="https://ecommerceberlin.com/api/settings?path=visitor.register" />)}</HasTicketWithRole>
 
 const onVoted = (canVote) => (<>
-  <WidgetVoteStatus max_votes={12} />
+  {/* <WidgetVoteStatus max_votes={25} /> */}
   {canVote ? <div><RegForm /><Categories label={null} secondaryLabel={null} /></div>: <RegForm />}</>)
 
 
@@ -77,17 +77,17 @@ const PageVote = ({id}) => (
 <WidgetContestantPerson
   id={id}
   wrapperProps={{label: null, first: true}}
- vote={<DynamicWidgetVoteWithLinkedIn id={id} max_votes={12} onVoted={onVoted} />}
+ vote={<DynamicWidgetVoteWithLinkedIn id={id} max_votes={25} onVoted={onVoted} />}
 //  vote={null}
-  status={<WidgetVoteStatus max_votes={12} />}
-  // show_votes={true}
+  // status={<WidgetVoteStatus max_votes={25} />}
+  show_votes={false}
 />
 
-{/* <Categories first dense={false} typography={undefined} secondaryTypography={undefined} wrapperProps={{label: "awards.voting.cta"}}/> */}
+<Categories first dense={false} typography={undefined} secondaryTypography={undefined} wrapperProps={{label: "awards.voting.cta"}}/>
 
-  <Winners2023 />
+  {/* <Winners2023 /> */}
 
-  {/* <RegForm /> */}
+  <RegForm />
 
   <WidgetVideoWithEventInfo />
 

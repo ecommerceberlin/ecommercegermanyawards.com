@@ -26,7 +26,7 @@ import {
           <WidgetContestantCompanies
             intro={
               <div style={{ width: '80%' }}>
-                <WidgetVoteStatus max_votes={12} />
+                {/* <WidgetVoteStatus max_votes={25} /> */}
                 <Typography template="benefitsText">
                   <Markdown label="awards.contestants.voting-rules.description" />
                 </Typography>
@@ -43,7 +43,7 @@ import {
             keyword_source="profile.awards_category"
             keyword={category}
             label='awards.contestants.list.title'
-            // show_votes={true}
+            show_votes={false}
             first={false}
             renderAs="table"
             resolveTitle={function(item){ return item.profile.cname2 } }
