@@ -246,7 +246,7 @@ const settings  = {
               {name: "phone", required: true},
               {name: "company_website", required: true},
               {
-                name: "party_participant_type",
+                name: "participant_type",
                 required: true,
                 options: [
                     "ega_participant",
