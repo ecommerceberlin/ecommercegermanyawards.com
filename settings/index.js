@@ -72,12 +72,12 @@ const settings  = {
             {
                 name: 'awards',
                 items: [
-                    // {name: 'vote', to: '/vote'},
+                    {name: 'vote', to: '/vote'},
                     {name: 'about', to: '/about'},
                     {name: 'categories', to: '/categories'},
                     // {name: 'register', to: '/register'},
                     {name: 'jurors', to: '/jurors'},
-                    // {name: 'party', to: '/party'},
+                    {name: 'party', to: '/party'},
                 ]
               },
 
@@ -245,6 +245,20 @@ const settings  = {
               {name: "position", required: true},
               {name: "phone", required: true},
               {name: "company_website", required: true},
+              {
+                name: "party_participant_type",
+                required: true,
+                options: [
+                    "ega_participant",
+                    "ebe_exhibitor",
+                    "ega_sponsor",
+                    "jury_ambassador",
+                    "speaker",
+                    "media",
+                    "assosiation",
+                    "other"
+                ]
+            },
             ],
             start : ['fname', 'lname', 'cname2'],
             ticket_id : 2576,
