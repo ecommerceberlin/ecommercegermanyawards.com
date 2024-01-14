@@ -255,7 +255,7 @@ const settings  = {
                     "jury_ambassador",
                     "speaker",
                     "media",
-                    "assosiation",
+                    "association",
                     "other"
                 ]
             },
