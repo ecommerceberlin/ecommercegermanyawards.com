@@ -27,12 +27,11 @@ const PageIndex = (props) => (
 
   {/* <Wrapper label="awards.hello.title"><Timeline /></Wrapper> */}
 
-  {/* <IntroRegformTimeline /> */}
-
   {/* <RegForm /> */}
 
   <Categories dense={false} typography={undefined} secondaryTypography={undefined} wrapperProps={{label: "awards.voting.cta"}}/>
 
+  <IntroRegformTimeline />
 
   <Jurors limit={8} />
 

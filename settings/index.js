@@ -463,14 +463,14 @@ const settings  = {
                     }]
                 },
 
-                {
-                    icon : "Computer",
-                    label : 'security_it',
-                    buttons: [{
-                        href: "/vote/categories/security_it",
-                        label: "common.vote_now"
-                    }]
-                },
+                // {
+                //     icon : "Computer",
+                //     label : 'security_it',
+                //     buttons: [{
+                //         href: "/vote/categories/security_it",
+                //         label: "common.vote_now"
+                //     }]
+                // },
 
                 {
                     icon : "NewReleases",
