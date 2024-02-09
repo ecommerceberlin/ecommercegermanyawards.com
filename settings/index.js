@@ -557,7 +557,7 @@ const settings  = {
             {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1687946801/EGA%202023/stage3.jpg", cols: 6},
 
   
-            {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1687951291/EGA%202023/audience4.jpg", cols: 4},
+            {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1707472323/EGA%202023/0493DSC01694-Pano-kopia.jpg", cols: 4},
             {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1687951184/EGA%202023/wall5.jpg", cols: 4},
             {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1687949674/EGA%202023/stage5.jpg", cols: 4},
 
