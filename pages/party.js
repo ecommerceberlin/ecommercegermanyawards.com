@@ -12,11 +12,11 @@ import {
  
 import AllPartners from '../src/AllPartners'
 import settings from '../settings';
-import {Winners2023} from '../src/Winners'
+import {Winners2024} from '../src/Winners'
 
 const PageJury = (props) => (<div>
  
-<WidgetRegForm  
+{/* <WidgetRegForm  
   setting="awards.attend_a_party"
   right={
     <div style={{marginTop: 30, marginLeft: 10}}>
@@ -25,12 +25,12 @@ const PageJury = (props) => (<div>
     </div>
   }
   summary={<div>asd</div>}
-/>
+/> */}
 
 <WidgetPhotostream first setting="awardsphotostream" />
 
 {/* <YouTube url='https://www.youtube.com/watch?v=pLfnx7B3BBA' /> */}
-<Winners2023 />
+<Winners2024 />
 <AllPartners />
 <WidgetVideoWithEventInfo />
 </div>)

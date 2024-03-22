@@ -18,9 +18,9 @@ const PageCategories = (props) => (
 
   <Categories first dense={false} typography={undefined} secondaryTypography={undefined} />
 
-  <Intro />
+  {/* <Intro /> */}
 
-  <RegForm />
+  {/* <RegForm /> */}
 
   <WidgetFaq setting="contestant.faq" />
 

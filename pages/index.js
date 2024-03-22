@@ -15,7 +15,7 @@ import AllPartners from '../src/AllPartners'
 import Jurors from '../src/Jurors'
 import RegForm from '../src/RegForm'
 import IntroRegformTimeline from '../src/IntroRegformTimeline'
-import {Winners2023} from '../src/Winners'
+import {Winners2024} from '../src/Winners'
 import settings from '../settings';
 import {Categories} from '../src/icons' 
 
@@ -29,17 +29,21 @@ const PageIndex = (props) => (
 
   {/* <RegForm /> */}
 
-  <Categories dense={false} typography={undefined} secondaryTypography={undefined} wrapperProps={{label: "awards.voting.cta"}}/>
+  <Winners2024 />
 
-  <IntroRegformTimeline />
+  <Wrapper label="awards.ceremony.title">
+    <EmbedSection data="https://www.youtube.com/watch?v=ymXfBldjdKo&t" playerProps={{light: true}}/>
+  </Wrapper>
 
   <Jurors limit={8} />
 
-  <Winners2023 />
+  <Categories dense={false} typography={undefined} secondaryTypography={undefined} wrapperProps={{label: "awards.voting.cta"}}/>
 
-  <Wrapper label="awards.ceremony.title">
-    <EmbedSection data="https://www.youtube.com/watch?v=xCooH-tbgto" playerProps={{light: true}}/>
-  </Wrapper>
+  {/* <IntroRegformTimeline /> */}
+
+
+
+
 
 
   <WidgetPhotostream setting="awardsphotostream" />

@@ -3,9 +3,9 @@
 
 E-commerce Capitals Sp. z o.o. Sp. k.
 
-Botaniczna 26/2
+Matejki 6/7
 
-60-586, Poznan, Poland
+60-766, Poznan, Poland
 
 ## Place of administration
 
