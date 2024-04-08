@@ -20,7 +20,7 @@ import dynamic from 'next/dynamic'
 
 import settings from '../../settings'
 
-import {Winners2023} from '../../src/Winners'
+import {Winners2024} from '../../src/Winners'
 import {Categories} from '../../src/icons' 
 
 const DynamicWidgetVoteWithLinkedIn = dynamic(
@@ -77,15 +77,15 @@ const PageVote = ({id}) => (
 <WidgetContestantPerson
   id={id}
   wrapperProps={{label: null, first: true}}
- vote={<DynamicWidgetVoteWithLinkedIn id={id} max_votes={25} onVoted={onVoted} />}
-//  vote={null}
+//  vote={<DynamicWidgetVoteWithLinkedIn id={id} max_votes={25} onVoted={onVoted} />}
+ vote={null}
   // status={<WidgetVoteStatus max_votes={25} />}
-  show_votes={false}
+  show_votes={true}
 />
 
 <Categories first dense={false} typography={undefined} secondaryTypography={undefined} wrapperProps={{label: "awards.voting.cta"}}/>
 
-  {/* <Winners2023 /> */}
+  {/* <Winners2024 /> */}
 
   <RegForm />
 

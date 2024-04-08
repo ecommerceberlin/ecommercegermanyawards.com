@@ -52,7 +52,7 @@ const settings  = {
     },
 
     appbar: {
-        logotype: "https://res.cloudinary.com/eventjuicer/image/upload/c_fit,h_30,f_auto,q_auto/v1636478607/logo_ega.png",
+        logotype: "https://res.cloudinary.com/eventjuicer/image/upload/c_fit,h_30,f_auto,q_auto/v1711106330/Logo_b_y_awards.png",
         links: [
             // {label: "Vote!", color: "secondary",  href: "/vote", variant: "contained"}
         ],
@@ -72,19 +72,19 @@ const settings  = {
             {
                 name: 'awards',
                 items: [
-                    {name: 'vote', to: '/vote'},
+                    // {name: 'vote', to: '/vote'},
                     {name: 'about', to: '/about'},
                     {name: 'categories', to: '/categories'},
                     // {name: 'register', to: '/register'},
                     {name: 'jurors', to: '/jurors'},
-                    {name: 'party', to: '/party'},
+                    // {name: 'party', to: '/party'},
                 ]
               },
 
             {
               name: 'partners',
               items: [
-                {name: 'premium', to: '/premium'},
+                // {name: 'premium', to: '/premium'},
                 {name: 'sponsors', to: '/sponsors'},
               ]
             },
@@ -100,7 +100,7 @@ const settings  = {
         organizer_regno : 'VAT ID PL7792439665',
         event_name : 'E-commerce Germany Awards',
         event_location : 'Spindler & Klatt, Köpenicker Str. 16-17, 10997 Berlin',
-        event_date : '21st February 2024',
+        event_date : '19th February 2025',
         event_hours : '10:00-17:00',
 
     },
@@ -255,7 +255,7 @@ const settings  = {
                     "jury_ambassador",
                     "speaker",
                     "media",
-                    "assosiation",
+                    "association",
                     "other"
                 ]
             },
@@ -463,14 +463,14 @@ const settings  = {
                     }]
                 },
 
-                {
-                    icon : "Computer",
-                    label : 'security_it',
-                    buttons: [{
-                        href: "/vote/categories/security_it",
-                        label: "common.vote_now"
-                    }]
-                },
+                // {
+                //     icon : "Computer",
+                //     label : 'security_it',
+                //     buttons: [{
+                //         href: "/vote/categories/security_it",
+                //         label: "common.vote_now"
+                //     }]
+                // },
 
                 {
                     icon : "NewReleases",
@@ -542,32 +542,31 @@ const settings  = {
         },
 
         cols: 12,
-
+        
         items : [
 
-            {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1687948344/EGA%202023/wall.jpg", cols: 8},
-            {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1687946418/EGA%202023/award.jpg", cols: 4},
+            {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1710428717/EGA24/photos%20for%20www/i-hs4vJj7-X3.jpg", cols: 8},
+            {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1710428731/EGA24/photos%20for%20www/i-Sd9jzLS-X3.jpg", cols: 4},
 
 
-            {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1687948277/EGA%202023/stage.jpg", cols: 6},
-            {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1687948226/EGA%202023/wall1.jpg", cols: 6},
+            {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1710428391/EGA24/photos%20for%20www/i-tx38gTd-X3.jpg", cols: 6},
+            {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1710428725/EGA24/photos%20for%20www/i-HW5DmVb-X3.jpg", cols: 6},
 
-
-            {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1687948842/EGA%202023/band.jpg", cols: 6},
-            {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1687946801/EGA%202023/stage3.jpg", cols: 6},
+            {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1710428727/EGA24/photos%20for%20www/i-MqmmHDN-X3.jpg", cols: 6},
+            {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1710428732/EGA24/photos%20for%20www/i-6FCKW7J-X3.jpg", cols: 6},
 
   
-            {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1687951291/EGA%202023/audience4.jpg", cols: 4},
-            {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1687951184/EGA%202023/wall5.jpg", cols: 4},
-            {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1687949674/EGA%202023/stage5.jpg", cols: 4},
+            {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1710428723/EGA24/photos%20for%20www/i-DrwPSBj-X3.jpg", cols: 4},
+            {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1710428723/EGA24/photos%20for%20www/i-xFTGjz2-X3.jpg", cols: 4},
+            {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1710428722/EGA24/photos%20for%20www/i-FNnfzDd-X3.jpg", cols: 4},
 
 
-            {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1687949828/EGA%202023/stage6.jpg", cols: 6},
-            {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1687949723/EGA%202023/audience7.jpg", cols: 6},
+            {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1710428718/EGA24/photos%20for%20www/i-6phWm7H-X3.jpg", cols: 6},
+            {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1710428730/EGA24/photos%20for%20www/i-tMV4dxd-X3.jpg", cols: 6},
 
             
-            {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1687951124/EGA%202023/wall3.jpg", cols: 6},
-            {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1687951228/EGA%202023/audience6.jpg", cols: 6},
+            {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1710428717/EGA24/photos%20for%20www/i-JDwnsg9-X3.jpg", cols: 6},
+            {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1710428716/EGA24/photos%20for%20www/i-WmZgcSV-X3.jpg", cols: 6},
 
 
             // {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1604012207/ega/beer.jpg", cols: 3},
