@@ -27,7 +27,8 @@ const PageIndex = (props) => (
 
   {/* <Wrapper label="awards.hello.title"><Timeline /></Wrapper> */}
 
-  {/* <RegForm /> */}
+  <IntroRegformTimeline />
+  <RegForm />
 
   <Winners2024 />
 
@@ -39,7 +40,6 @@ const PageIndex = (props) => (
 
   <Categories dense={false} typography={undefined} secondaryTypography={undefined} wrapperProps={{label: "awards.voting.cta"}}/>
 
-  {/* <IntroRegformTimeline /> */}
 
 
 

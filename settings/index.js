@@ -72,12 +72,12 @@ const settings  = {
             {
                 name: 'awards',
                 items: [
-                    // {name: 'vote', to: '/vote'},
+                    {name: 'vote', to: '/vote'},
                     {name: 'about', to: '/about'},
                     {name: 'categories', to: '/categories'},
-                    // {name: 'register', to: '/register'},
+                    {name: 'register', to: '/register'},
                     {name: 'jurors', to: '/jurors'},
-                    // {name: 'party', to: '/party'},
+                    {name: 'party', to: '/party'},
                 ]
               },
 
@@ -224,7 +224,7 @@ const settings  = {
               {name: "company_website", required: true},
             ],
             start : ['fname', 'lname', 'cname2'],
-            ticket_id : 2587,
+            ticket_id : 2963,
             cc: "awards+juror@ecommerceberlin.com",
             email_template : "ega-juror-submission-confirmation",
             background : "https://res.cloudinary.com/ecommerceberlin/image/upload/c_fit,h_500,w_500/v1546813408/ebe_lanyard1.jpg",
@@ -261,7 +261,7 @@ const settings  = {
             },
             ],
             start : ['fname', 'lname', 'cname2'],
-            ticket_id : 2576,
+            ticket_id : 2952,
             cc: "awards+party@ecommerceberlin.com",
             email_template : "ega-party-submission-confirmation",
             background : "https://res.cloudinary.com/ecommerceberlin/image/upload/c_fit,h_500,w_500/v1546813408/ebe_lanyard1.jpg",
@@ -317,7 +317,7 @@ const settings  = {
             ],
 
             start : ['cname2', 'project_name', 'awards_category'],
-            ticket_id : 2586,
+            ticket_id : 2962,
             cc: "awards+submission@ecommerceberlin.com",
             email_template : "ega-submission-confirmation",
             background : "https://res.cloudinary.com/ecommerceberlin/image/upload/c_fit,h_500,w_500/v1546813408/ebe_lanyard1.jpg",
