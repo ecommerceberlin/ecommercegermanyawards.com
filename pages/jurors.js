@@ -27,10 +27,10 @@ const PageJury = (props) => (<div>
   summary={<div>asd</div>}
 /> */}
 <Jurors limit={100} />
-<WidgetPhotostream setting="awardsphotostream" />
+{/* <WidgetPhotostream setting="awardsphotostream" />
 <Winners2024 />
 <AllPartners />
-<WidgetVideoWithEventInfo />
+<WidgetVideoWithEventInfo /> */}
 </div>)
  
  
