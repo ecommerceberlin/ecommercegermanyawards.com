@@ -5,8 +5,9 @@ import {
   configure,
   WidgetPhotostream,
   Wrapper,
-
-  EmbedSection
+  Markdown,
+  EmbedSection,
+  WidgetFaq,
 } from 'eventjuicer-site-components';
 
 
@@ -25,29 +26,29 @@ const PageIndex = (props) => (
 
   <WidgetVideoWithEventInfo  />
 
-  {/* <Wrapper label="awards.hello.title"><Timeline /></Wrapper> */}
-
-  <IntroRegformTimeline />
+  <Wrapper first label="awards.intro.title">
+  <Markdown label="awards.intro.description" />
+  </Wrapper>
   <RegForm />
+  <Categories dense={false} typography={undefined} secondaryTypography={undefined} wrapperProps={{label: "awards.voting.cta"}}/>
+  <IntroRegformTimeline />
+
+  <Wrapper label="awards.infovideo.title">
+    <EmbedSection data="https://youtu.be/ZJKWjBRlcHo" playerProps={{light: true}}/>
+  </Wrapper>
 
   <Winners2024 />
+
+  <Jurors limit={8} />
 
   <Wrapper label="awards.ceremony.title">
     <EmbedSection data="https://www.youtube.com/watch?v=ymXfBldjdKo&t" playerProps={{light: true}}/>
   </Wrapper>
 
-  <Jurors limit={8} />
-
-  <Categories dense={false} typography={undefined} secondaryTypography={undefined} wrapperProps={{label: "awards.voting.cta"}}/>
-
-
-
-
-
-
-
   <WidgetPhotostream setting="awardsphotostream" />
-  <AllPartners />
+  <WidgetFaq setting="contestant.faq" />
+  {/* <AllPartners /> */}
+
 
 </div>
 
