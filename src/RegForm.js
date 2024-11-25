@@ -1,5 +1,3 @@
-
-
 import {
     WidgetRegForm,
     MyTypography,
@@ -9,21 +7,15 @@ import {
 } from 'eventjuicer-site-components';
 
 import CustomWidgetRegForm from './WidgetRegForm';
-import RegFormRules from './RegFormRules';
 
 const RegForm = () => (
-<>
-    <Wrapper label="awards.register.title">
-
-    <CustomWidgetRegForm right={<RegFormRules />} />
+  <>
+    <Wrapper label="awards.register.main.title">
+      <CustomWidgetRegForm />
     </Wrapper>
-    </>
+  </>
+);
 
+RegForm.defaultProps = {};
 
-)
-
-RegForm.defaultProps = {
-
-}
-
-export default RegForm
+export default RegForm;

@@ -75,7 +75,7 @@ const settings  = {
                     // {name: 'vote', to: '/vote'},
                     {name: 'about', to: '/about'},
                     {name: 'categories', to: '/categories'},
-                    // {name: 'register', to: '/register'},
+                    {name: 'register', to: '/register'},
                     {name: 'jurors', to: '/jurors'},
                     // {name: 'party', to: '/party'},
                 ]
@@ -158,12 +158,12 @@ const settings  = {
         iconSize: "40",
 
         items : [
-            {date: "2023-11-20", name: "submissions", icon:  "NoteAdd", dotColor: 'black', active: true  },
-            {date: "2023-12-18", name: "verification", icon:  "NoteAdd"  },
-            {date: "2024-01-08", name: "public-voting", icon:  "Public"},
-            {date: "2024-01-25", name: "qualification", icon:  "Assessment" },
-            {date: "2024-01-29", name: "jury-voting", icon:  "HowToVote" },
-            {date: "2024-02-21", name: "results", icon:  "Mic" }
+            {date: "2024-12-02", name: "submissions", icon:  "NoteAdd", dotColor: 'black', active: true  },
+            {date: "2024-12-23", name: "verification", icon:  "NoteAdd"  },
+            {date: "2025-01-07", name: "public-voting", icon:  "Public"},
+            {date: "2025-01-24", name: "qualification", icon:  "Assessment" },
+            {date: "2025-02-03", name: "jury-voting", icon:  "HowToVote" },
+            {date: "2025-02-19", name: "results", icon:  "Mic" }
             
         ]
 
@@ -173,38 +173,31 @@ const settings  = {
 
         about : {
             wrapperProps: {
-                label: "awards.about.stats"
-            },
+                label: "awards.about.stats"},
             items : [
                 {
                     image:
-                    'https://res.cloudinary.com/ecommerceberlin/image/upload/v1692708940/Awards%20website/INFOGRAFIKA-aboutus-01-01.svg',
-                    // 'https://res.cloudinary.com/ecommerceberlin/image/upload/v1663079096/EGA22%20photo/wykresy_2023_NumberOfContestVotersmall.svg',
-                //    'https://res.cloudinary.com/eventjuicer/image/upload/v1631743692/ega/ega_2022_numberOfContestVoters.svg',
+                    'https://res.cloudinary.com/eventjuicer/image/upload/v1732103069/EGA_2025_-_01.svg'
                 
                 },
 
                 {
                     image:
-                      'https://res.cloudinary.com/ecommerceberlin/image/upload/v1692708940/Awards%20website/INFOGRAFIKA-aboutus-02-01.svg',
-                    //   'https://res.cloudinary.com/ecommerceberlin/image/upload/v1663079096/EGA22%20photo/wykresy_2023_NumberOfContestParticipants.svg',
-                    //  'https://res.cloudinary.com/eventjuicer/image/upload/v1631743692/ega/ega_2022_numberOfContestParticipants.svg',
+                      'https://res.cloudinary.com/eventjuicer/image/upload/v1732103071/EGA_2025_-_02.svg',
                    
                   },
 
                   
                 {
                   image:
-                    'https://res.cloudinary.com/ecommerceberlin/image/upload/v1692708940/Awards%20website/INFOGRAFIKA-aboutus-03-01.svg',
-                    // 'https://res.cloudinary.com/eventjuicer/image/upload/v1604003805/ega/ega_2021_awardsCeremonyGuests.svg',
+                    'https://res.cloudinary.com/eventjuicer/image/upload/v1732103117/EGA_2025_-_03.svg',
                 },
                
                 {
                   image:
-                    'https://res.cloudinary.com/ecommerceberlin/image/upload/v1692708940/Awards%20website/INFOGRAFIKA-aboutus-04-01.svg',
-                    // 'https://res.cloudinary.com/eventjuicer/image/upload/v1604003805/ega/ega_2021_promotion.svg',
+                    'https://res.cloudinary.com/eventjuicer/image/upload/v1732103105/EGA_2025_-_04.svg',
                 },
-               
+
             ]
         },
 
@@ -224,7 +217,7 @@ const settings  = {
               {name: "company_website", required: true},
             ],
             start : ['fname', 'lname', 'cname2'],
-            ticket_id : 2587,
+            ticket_id : 2963,
             cc: "awards+juror@ecommerceberlin.com",
             email_template : "ega-juror-submission-confirmation",
             background : "https://res.cloudinary.com/ecommerceberlin/image/upload/c_fit,h_500,w_500/v1546813408/ebe_lanyard1.jpg",
@@ -250,18 +243,19 @@ const settings  = {
                 required: true,
                 options: [
                     "ega_participant",
-                    "ebe_exhibitor",
-                    "ega_sponsor",
-                    "jury_ambassador",
-                    "speaker",
+                    "jury",
                     "media",
-                    "association",
+                    "ambassador",
+                    "speaker",
+                    "ega_sponsor",
+                    "vip",
+                    "ebe_exhibitor",
                     "other"
                 ]
             },
             ],
             start : ['fname', 'lname', 'cname2'],
-            ticket_id : 2576,
+            ticket_id : 2952,
             cc: "awards+party@ecommerceberlin.com",
             email_template : "ega-party-submission-confirmation",
             background : "https://res.cloudinary.com/ecommerceberlin/image/upload/c_fit,h_500,w_500/v1546813408/ebe_lanyard1.jpg",
@@ -313,11 +307,12 @@ const settings  = {
               {name: "awards_category", required: true, options: "categories"},
               {name: "phone", required: true},
               {name: "company_website", required: true},
-              {name: "accept", required: true, type: "confirm"}
+              {name: "accept", required: true, type: "confirm"},
+              {name: "terms_and_conditions", required: true, type: "confirm"}
             ],
 
             start : ['cname2', 'project_name', 'awards_category'],
-            ticket_id : 2586,
+            ticket_id : 2962,
             cc: "awards+submission@ecommerceberlin.com",
             email_template : "ega-submission-confirmation",
             background : "https://res.cloudinary.com/ecommerceberlin/image/upload/c_fit,h_500,w_500/v1546813408/ebe_lanyard1.jpg",
@@ -367,119 +362,119 @@ const settings  = {
                 {
                     icon : "ShoppingCart",
                     label :  'sales',
-                    buttons: [{
-                        href: "/vote/categories/sales",
-                        label: "common.vote_now"
-                    }]
+                    // buttons: [{
+                    //     href: "/vote/categories/sales",
+                    //     label: "common.vote_now"
+                    // }]
                 },
             
                 {
                     icon : "Forum",
                     label : 'communication',
-                    buttons: [{
-                        href: "/vote/categories/communication",
-                        label: "common.vote_now"
-                    }]
+                    // buttons: [{
+                    //     href: "/vote/categories/communication",
+                    //     label: "common.vote_now"
+                    // }]
                 },
 
                 {
                     icon : "EmojiEmotions",
                     label : 'customers_experience',
-                    buttons: [{
-                        href: "/vote/categories/customers_experience",
-                        label: "common.vote_now"
-                    }]
+                    // buttons: [{
+                    //     href: "/vote/categories/customers_experience",
+                    //     label: "common.vote_now"
+                    // }]
                 },                
 
                 {
                     icon : "Public",
                     label : 'expansion',
-                    buttons: [{
-                        href: "/vote/categories/expansion",
-                        label: "common.vote_now"
-                    }]
+                    // buttons: [{
+                    //     href: "/vote/categories/expansion",
+                    //     label: "common.vote_now"
+                    // }]
                 },
 
                 {
                     icon : "LocalShipping",
                     label : 'logistics',
-                    buttons: [{
-                        href: "/vote/categories/logistics",
-                        label: "common.vote_now"
-                    }]
+                    // buttons: [{
+                    //     href: "/vote/categories/logistics",
+                    //     label: "common.vote_now"
+                    // }]
                 },
 
                 {
                     icon : "ForwardRounded",
                     label : 'fulfillment_optimization',
-                    buttons: [{
-                        href: "/vote/categories/fulfillment_optimization",
-                        label: "common.vote_now"
-                    }]
+                    // buttons: [{
+                    //     href: "/vote/categories/fulfillment_optimization",
+                    //     label: "common.vote_now"
+                    // }]
                 },
 
                 {
                     icon : "Storefront",
                     label :  'platform',
-                    buttons: [{
-                        href: "/vote/categories/platform",
-                        label: "common.vote_now"
-                    }]
+                    // buttons: [{
+                    //     href: "/vote/categories/platform",
+                    //     label: "common.vote_now"
+                    // }]
                 },
             
                 {
                     icon : "MonetizationOn",
                     label : 'payment',
-                    buttons: [{
-                        href: "/vote/categories/payment",
-                        label: "common.vote_now"
-                    }]
+                    // buttons: [{
+                    //     href: "/vote/categories/payment",
+                    //     label: "common.vote_now"
+                    // }]
                 },
             
                 {
                     icon : "Assessment",
                     label : 'analytics',
-                    buttons: [{
-                        href: "/vote/categories/analytics",
-                        label: "common.vote_now"
-                    }]
+                    // buttons: [{
+                    //     href: "/vote/categories/analytics",
+                    //     label: "common.vote_now"
+                    // }]
                 },
 
                 {
                     icon : "People",
                     label : 'agency',
-                    buttons: [{
-                        href: "/vote/categories/agency",
-                        label: "common.vote_now"
-                    }]
+                    // buttons: [{
+                    //     href: "/vote/categories/agency",
+                    //     label: "common.vote_now"
+                    // }]
                 },
 
                 {
                     icon : "ShoppingBasket",
                     label : 'omnichannel',
-                    buttons: [{
-                        href: "/vote/categories/omnichannel",
-                        label: "common.vote_now"
-                    }]
+                    // buttons: [{
+                    //     href: "/vote/categories/omnichannel",
+                    //     label: "common.vote_now"
+                    // }]
+                },
+
+                {
+                    icon : "Computer",
+                    label : 'infrastructure',
+                    // buttons: [{
+                    //     href: "/vote/categories/infrastructure",
+                    //     label: "common.vote_now"
+                    // }]
                 },
 
                 // {
-                //     icon : "Computer",
-                //     label : 'security_it',
+                //     icon : "NewReleases",
+                //     label : 'innovation',
                 //     buttons: [{
-                //         href: "/vote/categories/security_it",
+                //         href: "/vote/categories/innovation",
                 //         label: "common.vote_now"
                 //     }]
-                // },
-
-                {
-                    icon : "NewReleases",
-                    label : 'innovation',
-                    buttons: [{
-                        href: "/vote/categories/innovation",
-                        label: "common.vote_now"
-                    }]
-                }                
+                // }                
 
 
             ]
