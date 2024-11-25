@@ -47,7 +47,7 @@ const PageIndex = (props) => (
 
   <WidgetPhotostream setting="awardsphotostream" />
   <WidgetFaq setting="contestant.faq" />
-  {/* <AllPartners /> */}
+  <AllPartners />
 
 
 </div>

@@ -23,12 +23,12 @@
 ## § 4 Personal Data
 1. If a Participant submits personal data, the Organizer will act as the data controller in compliance with applicable data protection laws. This data will be used exclusively for organizing and managing the Contest, as well as for the Organizer's promotional and marketing purposes, subject to the Participant's consent through acceptance of the Terms and Conditions.
 2. As the data controller, the Organizer complies with Article 12, section 1 of the General Data Protection Regulation (GDPR), Regulation (EU) 2016/679, issued by the European Parliament and Council on April 27, 2016, which governs the protection of personal data and the free movement of such data. This information is provided to ensure GDPR compliance and to inform all concerned individuals. By submitting personal data, Participants confirm they have reviewed this information and consent to the described data processing.
-3. For more details on the processing of personal data, please refer to [link].
+3. For more details on the processing of personal data, please refer to [link](https://ecommercegermanyawards.com/legal/personal-data).
 ## § 5 Contest Timeline
 1. The contest will be conducted in the following stages:
 - **Stage I:**
-December 2nd, 2024 - December 20th, 2024 – entries for the initial submissions are open
-December 23rd, 2024 - January 6th, 2025 - filling out the profiles' details and verification of the applications by the Organizer
+    - December 2nd, 2024 - December 20th, 2024 – entries for the initial submissions are open
+    - December 23rd, 2024 - January 6th, 2025 - filling out the profiles' details and verification of the applications by the Organizer
 - **Stage II** (January 7th, 2025 - January 23rd, 2025; 2.59 pm): – Internet User's public voting
 - **Stage III** (January 24th, 2025): – Public Voting Nominees announcement
 - **Stage IV** (February 3rd, 2025 - February 9th, 2025): – Jury voting and determining the results of the Contest - selection of winners
@@ -65,10 +65,10 @@ December 23rd, 2024 - January 6th, 2025 - filling out the profiles' details and 
 7. Considering that the contest evaluates the achievements of providers on the German market, where EU standards apply, and taking into account cases of unfair practices, the Organizer reserves the right to disregard votes submitted in large volumes and within a short period from IP addresses outside the European region to maintain the integrity of the voting process and ensure compliance with data protection regulations.
 8. If such actions are observed, votes submitted from these IP addresses within a short period will be removed, and the participant will be notified. If the situation repeats, the participant will be disqualified from the contest.
 The Organizer will only consider votes cast by Internet Users until **January 23rd, 2025, 14:59 (2:59 pm)** in the final summary of the voting.
-## § 8 Stage III Public Voting Nominees announcement
+## § 8 Stage III - Public Voting Nominees announcement
 1. The maximum of 10 (ten) Participants with the highest number of votes gained in the Internet Users' public voting will be chosen in each category. These Participants will be announced as the Nominees and proceed to the next stage of the Contest (Jury Voting) given that they meet the formal requirements described in § 2 of these Terms and Conditions.
 2. Nominees will be awarded points based on the number of votes received from Internet Users, with points ranging from 10 to 1. The Nominee with the highest number of votes will be awarded 10 points, the second highest will be awarded 9 points, the third highest 8 points, and so on, down to the Nominee with the fewest votes, who will be awarded 1 point.
-3. The nominees in each category will be highlighted on the contest's website following the announcement on **January 24th, 12 pm."" The information on the Nominees will also appear on the E-commerce Germany News website the same day.
+3. The nominees in each category will be highlighted on the contest's website following the announcement on **January 24th, 12 pm.** The information on the Nominees will also appear on the E-commerce Germany News website the same day.
 ## § 9 Stage IV – Voting of the Jury
 1. In order to enter the Stage IV of the Contest Participants are obliged to be chosen as the Nominees (check § 8), sign the agreement with the Organizer, and pay the participation fee (check § 12 below).
 2. Jurors cast their votes through a special form created for them by the Organizer based on the information provided by the Participants in their application forms.

@@ -10,7 +10,7 @@ import CustomWidgetRegForm from './WidgetRegForm';
 
 const RegForm = () => (
   <>
-    <Wrapper label="awards.register.title">
+    <Wrapper label="awards.register.main.title">
       <CustomWidgetRegForm />
     </Wrapper>
   </>

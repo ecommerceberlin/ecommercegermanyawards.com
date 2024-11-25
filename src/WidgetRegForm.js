@@ -17,7 +17,7 @@ const CustomWidgetRegForm = ({right=null}) =>  <WidgetRegForm
             'analytics',
             'agency',
             'infrastructure',
-            'innovation',
+            // 'innovation',
             'omnichannel',
             'customers_experience',
             'fulfillment_optimization'

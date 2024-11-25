@@ -243,12 +243,13 @@ const settings  = {
                 required: true,
                 options: [
                     "ega_participant",
-                    "ebe_exhibitor",
-                    "ega_sponsor",
-                    "jury_ambassador",
-                    "speaker",
+                    "jury",
                     "media",
-                    "association",
+                    "ambassador",
+                    "speaker",
+                    "ega_sponsor",
+                    "vip",
+                    "ebe_exhibitor",
                     "other"
                 ]
             },
