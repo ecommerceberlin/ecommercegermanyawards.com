@@ -23,7 +23,7 @@ const PageIndex = (props) => (
   <RegForm first />
   <Intro />
   <Categories />
-  <WidgetVideoWithEventInfo />
+  {/* <WidgetVideoWithEventInfo /> */}
   <WidgetFaq setting="contestant.faq" />
   <Jurors />
   <Winners2024 />

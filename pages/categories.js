@@ -20,11 +20,11 @@ const PageCategories = (props) => (
 
   {/* <Intro /> */}
 
-  {/* <RegForm /> */}
+  <RegForm />
 
-  <WidgetFaq setting="contestant.faq" />
+  {/* <WidgetFaq setting="contestant.faq" /> */}
 
-  <AllPartners />
+  {/* <AllPartners /> */}
 
 </div>
 

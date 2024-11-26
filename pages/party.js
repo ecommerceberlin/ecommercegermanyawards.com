@@ -16,7 +16,7 @@ import {Winners2024} from '../src/Winners'
 
 const PageJury = (props) => (<div>
  
-{/* <WidgetRegForm  
+<WidgetRegForm  
   setting="awards.attend_a_party"
   right={
     <div style={{marginTop: 30, marginLeft: 10}}>
@@ -25,7 +25,7 @@ const PageJury = (props) => (<div>
     </div>
   }
   summary={<div>asd</div>}
-/> */}
+/>
 
 <WidgetPhotostream first setting="awardsphotostream" />
 

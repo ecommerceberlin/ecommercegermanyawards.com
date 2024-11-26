@@ -17,9 +17,55 @@ import {
   const PageAbout = (props) => (
 
     <div>
-  <WidgetGridWithImages setting="awards.about" />
 
-  <WhyParticipate />
+<Wrapper>
+  <Wrapper first label="awards.about.title">
+  <Markdown label="awards.about.description" />
+  </Wrapper>
+    {[
+      {
+        image:
+          'https://res.cloudinary.com/eventjuicer/image/upload/v1732103069/EGA_2025_-_01.svg'
+              
+      },
+
+      {
+        image:
+          'https://res.cloudinary.com/eventjuicer/image/upload/v1732103071/EGA_2025_-_02.svg',
+                 
+      },
+                
+      {
+        image:
+          'https://res.cloudinary.com/eventjuicer/image/upload/v1732103117/EGA_2025_-_03.svg',
+      },
+             
+      {
+        image:
+          'https://res.cloudinary.com/eventjuicer/image/upload/v1732103105/EGA_2025_-_04.svg',
+      },
+
+      {
+        image:
+          'https://res.cloudinary.com/eventjuicer/image/upload/v1732103068/EGA_2025_-_05.svg',
+      },
+    ].map(item => (
+      <img
+        key={item.image}
+        src={item.image}
+        style={{
+          width: '100%',
+          maxWidth: 1200,
+          display: 'block', 
+          margin: '0 auto',
+        }}
+      />
+    ))}
+
+  </Wrapper>
+  {/* <WidgetGridWithImages setting="awards.about" /> */}
+
+  {/* <WhyParticipate /> */}
 
     {/* <Wrapper label="awards.about.title" first> */}
 
@@ -39,7 +85,7 @@ import {
  
 {/* </Wrapper> */}
 
-<WidgetVideoWithEventInfo/>
+{/* <WidgetVideoWithEventInfo/> */}
 
 </div>
   

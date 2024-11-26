@@ -14,13 +14,15 @@ const PageSponsors = (props) => (
     <div>
 
     <Wrapper first label="awards.sponsors.list.title">
-        <CompanyCardSimple id={2566} label="awards.sponsor.drinkables_dj_food" labelParam="2024" />
-        <CompanyCardSimple id={2508} label="awards.sponsor.supporting" labelParam="2024" />
+        <CompanyCardSimple id={2696} label="awards.sponsor.silver" labelParam="2025" />
 
    
     </Wrapper>
 
     <Wrapper  label="awards.sponsors.archive.title">
+
+        <CompanyCardSimple id={2566} label="awards.sponsor.drinkables_dj_food" labelParam="2024" />
+        <CompanyCardSimple id={2508} label="awards.sponsor.supporting" labelParam="2024" />
 
         <CompanyCardSimple id={2204} label="awards.sponsor.headline" labelParam="2023" />
         <CompanyCardSimple id={2070} label="awards.sponsor.drinkables" labelParam="2023" />

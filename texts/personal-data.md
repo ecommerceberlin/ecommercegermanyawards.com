@@ -1,68 +1,54 @@
+## General Information and Contact Details of the Administrator
+The Administrator of your personal data is **E-Commerce Capitals sp. z o.o. sp. k.**, a company based in Poznań, Poland.
+- Address: ul. Jana Matejki 6/7, 60-766 Poznań, Poland
+- Registry: Registered under the National Court Register (KRS) number 0000592712, maintained by the District Court Poznań Nowe Miasto and Wilda, 8th Economic Department of the National Court Register
+- Tax ID (NIP): 7792439665
+- Statistical Number (REGON): 363746333
+Referred to here as the "Company" or "Administrator," we comply with Article 12(1) of the General Data Protection Regulation (GDPR) (Regulation (EU) 2016/679). 
 
+This document provides information about how we process your personal data.
 
-## General information and contact details of the Administrator
+For inquiries regarding data processing, you can contact us at:
+- **Email**: office@ecommercecapitals.com
+- **Address**: ul. Jana Matejki 6/7, 60-766 Poznań, Poland
+## Categories of Personal Data and Voluntary Nature of Providing Data
+As the organizer of the E-commerce Germany Awards (the "Contest"), the Company collects personal data from individuals acting on behalf of Participants when submitting applications on the Contest website. This includes:
+- Email address
+- First name and last name
+- Represented brand name
+- Phone number
+- Website address
 
-1. A company under the business name E-Commerce Capitals spółka z ograniczoną odpowiedzialnością sp. k. seated in Poznań (Poland), ul. Botaniczna 26/2, 60-586 Poznań (Poland), entered into the Register of Entrepreneurs under the National Court Register number 0000592712, whose files are kept by the District Court Poznań Nowe Miasto and Wilda in Poznań, 8th Economic Department of the National Court Register, that uses tax identification number (NIP): 7792423665 and REGON statistical number: 363746333, hereinafter referred to as ‘Company’ or ‘Administrator’, fulfilling the obligation specified in art. 12, sec. 1 of the Regulation (EU) 2016/679 of the European Parliament and of the Council of April 27, 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation), hereinafter referred to as ‘GDPR’, as personal data administrator, hereby presents this information, asking whoever it may concern to get acquainted with it.
-
-2. The Administrator provides the following contact details for communication regarding personal data processing. Email address: office@ecommercecapitals.com, address: ul. Botaniczna 26/2, 60-586 Poznań (Poland).
-
-## Categories of personal data subject to processing and information on the freedom to provide them
-
-1. The Company is the organizer of E-commerce German Awards, hereinafter referred to as ‘Contest’. Whoever wants to participate in the the Contest, hereinafter referred to as ‘Participant’, can do so by submitting at the Contest’s website. The person who acts on behalf of the Participant provides us the following personal data:
-
-* email address,
-* name,
-* surname,
-* represented brand name,
-* telephone no.
-* www address
-
-2. Stage II of the Contest is a public vote. Anyone who has an active profile on Linkedin can give their vote. With regard to the Contest we process email address of the voter.
-
-3. The provision of personal data is voluntary. However, unless they are provided, it will be impossible to conclude an agreement between the Administrator and the Participant or to give a vote.
-
-## Purposes for which personal data are processed
-
-1. The personal data mentioned in point 3 and 4 above serve exclusively the following purposes:
-
-* to hold the Contest,
-* to verify if the voter is an existing, natural person,
-* to realize direct marketing activities for Administrator’s services – email communication related to the current and subsequent editions of the Contest and E-Commerce Berlin Expo & Conference.
-
-## Legal basis for personal data processing
-
-1. The Administrator informs that personal data are processed for purposes mentioned in point 6, subpoints 1) – 2) above, under art. 6, sec. 1 (b) of GDPR, that is, exclusively to execute the agreement between the Administrator and the Participant. Terms of the agreement are specified by the Terms and conditions of the “E-commerce Germany Awards”.
-
-2. The Administrator informs that personal data are processed for the purpose specified in point 6, subpoint 3) above, under art. 6, sec. 1 (f) of GDPR, that is, in legally justified interest of the data Administrator, which is direct marketing related to the current and subsequent editions of the Contest. We hereby explain that direct marketing consists in providing information on the Contest via email, including subsequent editions of the event, especially information that encourages addressees to participate in the Contest.
-
-The period of personal data processing
-
-3. Personal data of will be processed for purposes mentioned in point 6, subpoints 1) – 2) above until the edition of the Contest is completed and for the purpose mentioned in point 6, subpoint 3 above – until one opposes to data processing and for the purpose mentioned in point 5,
-
-## The place of personal data storing
-
-1. We hereby inform that the data we accumulate are stored on servers that are leased from [Hetzner Online GmbH, Industriestr. 25, 91710 Gunzenhausen, Germany] and located at https://www.hetzner.com/rechtliches/impressum?country=us
-
-## The rights of people whose data we process
-
-1. Every person whose personal data we process has the right to file a complaint about our actions or negligence to the supervising body, that is, the Inspector General for Personal Data Protection. The Office of the Inspector General for Personal Data Protection is located at ul. Stawki 2, 00-193 Warsaw.
-
-2. Every person whose data we process has the right to obtain confirmation from us whether their personal data are processed and if this is the case, they are entitled to acquire access to the data and obtain information included in this document.
-
-3. Every person whose personal data we process has the right to demand that we immediately correct the data that are incorrect. Besides, considering the purposes of processing, the person whom given data concern has the right to demand to complement incomplete personal data, including through presentation of an additional statement.
-
-4. Every person whom the data concern has the right to ‘be forgotten’. It means that everybody whom the data concern may demand that we remove their personal data and we will do so immediately provided that:
-
-* the personal data are no longer essential for the purposes mentioned in point 6 above,
-* the person whom the data concern withdraws the permission on the basis of which we process the data,
-* the person whom the data concern opposed to our processing of the data (see point 17 below)
-* the data are processed illegally,
-* the request to remove the data results from the fact that we have not fulfilled our legal obligation under the law of the European Union or the Polish law,
-* personal data have been acquired as a result of offering information society services to a person under 18.
-
-5. The person whom the data concern has the right to demand that we restrict processing in the following situations: the person whom the data concern questions correctness of personal data – for the period of time we need to verify these data, the processing is illegal and the person whom the data concern opposes to their removing, demanding restriction of the use of the data instead, we do not need the personal data for the purposes of processing anymore, but the person whom they concern needs them for formulating, pursuing or defending claims, the person whom the data concern opposed to our processing of the data (see point 17) – for as long as it takes to determine whether legally justified grounds on the part of the Administrator are superior to the grounds of opposition of the person whom the data concern.
-
-6. The person whom the data concern has the right to receive from us – in a structured, commonly used, machine-readable format – their personal data they have provided and they have the right to send these personal data to another administration as well as demand – if technically feasible – that we submit the data directly to another administrator, provided that: the data are processed on the basis of a permission we have obtained or in order to execute an agreement that has been concluded with us, the data are processed automatically.
-
-7. We process the accumulated personal data for the purpose of direct marketing so the person whom the data concern has the right to oppose – for reasons related to their particular situation – to processing of their personal data, to the scope within which the processing is made for the purpose of direct marketing. In such a case we will immediately cease to process their personal data for this purpose.
-
+During Stage II of the Contest, which involves public voting, we process voters' email addresses. Voting is open to individuals with active LinkedIn profiles.
+Providing personal data is voluntary. However, without it, participation in the Contest or voting will not be possible.
+## Purpose of Data Processing
+The personal data listed above is processed for the following purposes:
+1. Organizing and managing the Contest.
+2. Verifying that voters are real individuals.
+3. Conducting direct marketing for the Administrator's services, including email communications about the current and future editions of the Contest and the E-Commerce Berlin Expo & Conference.
+## Legal Basis for Data Processing
+1. **Contest Participation**: Data processed for organizing the Contest and verifying voters (Purposes 1 and 2) is based on Article 6(1)(b) of the GDPR (necessary for the performance of a contract). The agreement's terms are outlined in the Contest's Terms and Conditions.
+2. **Marketing Activities**: Data used for marketing purposes (Purpose 3) is based on Article 6(1)(f) of the GDPR (legitimate interest of the Administrator). Our legitimate interest includes promoting the Contest and encouraging participation in current and future editions via email.
+## Data Retention Period
+Personal data collected for Contest participation will be stored until the conclusion of the current Contest edition.
+Data processed for marketing purposes will be retained until the individual objects to its processing.
+## Data Storage
+All data is securely stored on servers provided by Hetzner Online GmbH (Industriestr. 25, 91710 Gunzenhausen, Germany). Additional details can be found [here](https://www.hetzner.com/rechtliches/impressum?country=us).
+## Rights of Data Subjects
+Individuals whose personal data is processed have the following rights:
+1. Access: You can request confirmation of whether your personal data is being processed and access the information provided in this document.
+2. Correction: You may request corrections to any inaccurate or incomplete personal data.
+3. Erasure ("Right to be Forgotten"): You can request the deletion of your personal data if:
+- It is no longer necessary for the purposes outlined above.
+- You withdraw your consent for processing (if applicable).
+- The data has been unlawfully processed.
+- We are legally obligated to delete the data under EU or Polish law.
+- The data was collected from a minor under 18 through an online service.
+4. Restriction of Processing: You can request restricted processing in the following cases:
+- You contest the accuracy of your data (restricted until verification).
+- The processing is unlawful, but you prefer restricted use over deletion.
+- We no longer need the data, but you require it for legal claims.
+- You object to processing (pending determination of whether our legitimate grounds override yours).
+5. Data Portability: You have a right to receive your data in a structured, machine-readable format or have it transmitted to another administrator, where technically feasible.
+6. Objection to Processing for Marketing: If your data is processed for direct marketing, you may object at any time. Upon objection, we will immediately cease processing your data for this purpose.
+7.	Complaints: If you believe your data has been mismanaged, you can file a complaint with the supervisory authority: Office of the Inspector General for Personal Data Protection, ul. Stawki 2, 00-193 Warsaw, Poland.
