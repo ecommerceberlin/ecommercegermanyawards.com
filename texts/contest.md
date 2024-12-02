@@ -122,3 +122,4 @@ Pjv – is the number of contest points received by the Participant in the Jury 
 ## § 15 Final Provisions
 1. These Terms & Conditions are available at the Organizer's premises and the Contest Website.
 2. These Terms & Conditions are applicable starting from the moment they appear on the Contest Website.
+3. Companies sponsoring the E-commerce Germany Awards are not eligible to participate in the contest as applicants. If a participating company takes on a sponsoring role at any stage, their application will be canceled.
