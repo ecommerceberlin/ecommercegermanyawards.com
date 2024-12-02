@@ -276,16 +276,17 @@ const settings  = {
             baseLabel: "awards.faq",
             items: [
              {
-               label: 'categories'
+               label: 'information'
              },
              {
                label: 'timeline',
              },
              { label: 'fee' },
              { label: 'limits' },
-             { label: 'status' },
-             { label: 'abuse' },
-             { label: 'sponsorship'},
+             { label: 'contestant' },
+             { label: 'steps' },
+             { label: 'nocontact'},
+             { label: 'award'},
         ]
 
         },
