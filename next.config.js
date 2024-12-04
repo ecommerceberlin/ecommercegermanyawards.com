@@ -59,8 +59,8 @@ module.exports = withSentryConfig(withTM({
       return [
          
         {
-          source: '/gy',
-          destination: '/?utm_source=email&utm_medium=email&utm_campaign=magic_link_gy',
+          source: '/cg',
+          destination: '/?utm_source=email&utm_medium=email&utm_campaign=magic_link_cg',
           permanent: false, 
         },
 
@@ -71,8 +71,14 @@ module.exports = withSentryConfig(withTM({
         },
 
         {
-          source: '/ao',
-          destination: '/?utm_source=email&utm_medium=email&utm_campaign=magic_link_ao',
+          source: '/ng',
+          destination: '/?utm_source=email&utm_medium=email&utm_campaign=magic_link_ng',
+          permanent: false, 
+        },
+
+        {
+          source: '/me',
+          destination: '/?utm_source=email&utm_medium=email&utm_campaign=magic_link_me',
           permanent: false, 
         },
 
@@ -95,8 +101,8 @@ module.exports = withSentryConfig(withTM({
         },
 
         {
-          source: '/ng',
-          destination: '/?utm_source=email&utm_medium=email&utm_campaign=magic_link_ng',
+          source: '/mk',
+          destination: '/?utm_source=email&utm_medium=email&utm_campaign=magic_link_mk',
           permanent: false, 
         },
         
