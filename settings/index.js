@@ -363,109 +363,109 @@ const settings  = {
                 {
                     icon : "ShoppingCart",
                     label :  'sales',
-                    // buttons: [{
-                    //     href: "/vote/categories/sales",
-                    //     label: "common.vote_now"
-                    // }]
+                    buttons: [{
+                        href: "/vote/categories/sales",
+                        label: "common.vote_now"
+                    }]
                 },
             
                 {
                     icon : "Forum",
                     label : 'communication',
-                    // buttons: [{
-                    //     href: "/vote/categories/communication",
-                    //     label: "common.vote_now"
-                    // }]
+                    buttons: [{
+                        href: "/vote/categories/communication",
+                        label: "common.vote_now"
+                    }]
                 },
 
                 {
                     icon : "EmojiEmotions",
                     label : 'customers_experience',
-                    // buttons: [{
-                    //     href: "/vote/categories/customers_experience",
-                    //     label: "common.vote_now"
-                    // }]
+                    buttons: [{
+                        href: "/vote/categories/customers_experience",
+                        label: "common.vote_now"
+                    }]
                 },                
 
                 {
                     icon : "Public",
                     label : 'expansion',
-                    // buttons: [{
-                    //     href: "/vote/categories/expansion",
-                    //     label: "common.vote_now"
-                    // }]
+                    buttons: [{
+                        href: "/vote/categories/expansion",
+                        label: "common.vote_now"
+                    }]
                 },
 
                 {
                     icon : "LocalShipping",
                     label : 'logistics',
-                    // buttons: [{
-                    //     href: "/vote/categories/logistics",
-                    //     label: "common.vote_now"
-                    // }]
+                    buttons: [{
+                        href: "/vote/categories/logistics",
+                        label: "common.vote_now"
+                    }]
                 },
 
                 {
                     icon : "ForwardRounded",
                     label : 'fulfillment_optimization',
-                    // buttons: [{
-                    //     href: "/vote/categories/fulfillment_optimization",
-                    //     label: "common.vote_now"
-                    // }]
+                    buttons: [{
+                        href: "/vote/categories/fulfillment_optimization",
+                        label: "common.vote_now"
+                    }]
                 },
 
                 {
                     icon : "Storefront",
                     label :  'platform',
-                    // buttons: [{
-                    //     href: "/vote/categories/platform",
-                    //     label: "common.vote_now"
-                    // }]
+                    buttons: [{
+                        href: "/vote/categories/platform",
+                        label: "common.vote_now"
+                    }]
                 },
             
                 {
                     icon : "MonetizationOn",
                     label : 'payment',
-                    // buttons: [{
-                    //     href: "/vote/categories/payment",
-                    //     label: "common.vote_now"
-                    // }]
+                    buttons: [{
+                        href: "/vote/categories/payment",
+                        label: "common.vote_now"
+                    }]
                 },
             
                 {
                     icon : "Assessment",
                     label : 'analytics',
-                    // buttons: [{
-                    //     href: "/vote/categories/analytics",
-                    //     label: "common.vote_now"
-                    // }]
+                    buttons: [{
+                        href: "/vote/categories/analytics",
+                        label: "common.vote_now"
+                    }]
                 },
 
                 {
                     icon : "People",
                     label : 'agency',
-                    // buttons: [{
-                    //     href: "/vote/categories/agency",
-                    //     label: "common.vote_now"
-                    // }]
+                    buttons: [{
+                        href: "/vote/categories/agency",
+                        label: "common.vote_now"
+                    }]
                 },
 
                 {
                     icon : "ShoppingBasket",
                     label : 'omnichannel',
-                    // buttons: [{
-                    //     href: "/vote/categories/omnichannel",
-                    //     label: "common.vote_now"
-                    // }]
+                    buttons: [{
+                        href: "/vote/categories/omnichannel",
+                        label: "common.vote_now"
+                    }]
                 },
 
                 {
                     icon : "Computer",
                     label : 'infrastructure',
-                    // buttons: [{
-                    //     href: "/vote/categories/infrastructure",
-                    //     label: "common.vote_now"
-                    // }]
+                    buttons: [{
+                        href: "/vote/categories/infrastructure",
+                        label: "common.vote_now"
+                    }]
                 },
 
                 // {
