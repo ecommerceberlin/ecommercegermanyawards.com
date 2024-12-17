@@ -8,6 +8,8 @@ import {
   Markdown,
   EmbedSection,
   WidgetFaq,
+  Box, 
+  MyButton,
 } from 'eventjuicer-site-components';
 
 
@@ -22,7 +24,7 @@ import {Categories} from '../src/icons'
 
 const PageIndex = (props) => (
 
-<div>
+<div style={{ backgroundColor: "white" }}>
 
   <WidgetVideoWithEventInfo  />
 
@@ -40,6 +42,14 @@ const PageIndex = (props) => (
   <Winners2024 />
 
   <Jurors limit={8} />
+  <Box textAlign="center" mt={2} >
+    <MyButton
+      href="/jurors"
+      label="all.jurors.button"
+      variant="outlined"
+      style={{ width: "300px", height: "50px" }}
+    />
+  </Box>
 
   <Wrapper label="awards.ceremony.title">
     <EmbedSection data="https://www.youtube.com/watch?v=ymXfBldjdKo&t" playerProps={{light: true}}/>
