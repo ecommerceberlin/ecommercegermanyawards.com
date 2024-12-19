@@ -55,6 +55,7 @@
 7. The Organizer reserves the right to discontinue the Contest in the given category if the number of entries is less than 10 (ten).
 8. Each entrepreneur (including E-commerce Berlin Exhibitors) can enter the Contest in a maximum of **2 categories**.
 9. Submission to the Contest can be made only by a person who is entitled to act on behalf of the Participant.
+10. Companies sponsoring the E-commerce Germany Awards are not eligible to participate in the contest as applicants. If a participating company takes on a sponsoring role at any stage, their application will be canceled.
 ## § 7 Stage II – Internet User's Public Voting
 1. During Stage II of the Contest, Internet Users are invited to cast their votes through the Contest Website. Each Internet User is entitled to cast one vote in each category, with only one vote allowed per IP address.
 2. Participants can share information about their participation in the contest and encourage their partners and clients to vote for their solution.
@@ -122,4 +123,3 @@ Pjv – is the number of contest points received by the Participant in the Jury 
 ## § 15 Final Provisions
 1. These Terms & Conditions are available at the Organizer's premises and the Contest Website.
 2. These Terms & Conditions are applicable starting from the moment they appear on the Contest Website.
-3. Companies sponsoring the E-commerce Germany Awards are not eligible to participate in the contest as applicants. If a participating company takes on a sponsoring role at any stage, their application will be canceled.

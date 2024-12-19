@@ -28,9 +28,9 @@ const PageIndex = (props) => (
 
   <WidgetVideoWithEventInfo  />
 
-  <Wrapper first label="awards.intro.title">
+  {/* <Wrapper first label="awards.intro.title">
   <Markdown label="awards.intro.description" />
-  </Wrapper>
+  </Wrapper> */}
   <RegForm />
   <Categories dense={false} typography={undefined} secondaryTypography={undefined} wrapperProps={{label: "awards.voting.cta"}}/>
   <IntroRegformTimeline />
