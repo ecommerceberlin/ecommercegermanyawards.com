@@ -77,10 +77,10 @@ const PageVote = ({id}) => (
 <WidgetContestantPerson
   id={id}
   wrapperProps={{label: null, first: true}}
-//  vote={<DynamicWidgetVoteWithLinkedIn id={id} max_votes={25} onVoted={onVoted} />}
- vote={null}
+ vote={<DynamicWidgetVoteWithLinkedIn id={id} max_votes={35} onVoted={onVoted} />}
+//  vote={null}
   // status={<WidgetVoteStatus max_votes={25} />}
-  show_votes={false}
+  show_votes={true}
 />
 
 <Categories first dense={false} typography={undefined} secondaryTypography={undefined} wrapperProps={{label: "awards.voting.cta"}}/>
