@@ -10,6 +10,7 @@ import {
   WidgetFaq,
   Box, 
   MyButton,
+  WidgetPremiumTickets,
 } from 'eventjuicer-site-components';
 
 
@@ -31,16 +32,9 @@ const PageIndex = (props) => (
   {/* <Wrapper first label="awards.intro.title">
   <Markdown label="awards.intro.description" />
   </Wrapper> */}
-  <RegForm />
   <Categories dense={false} typography={undefined} secondaryTypography={undefined} wrapperProps={{label: "awards.voting.cta"}}/>
+  <RegForm />
   <IntroRegformTimeline />
-
-  <Wrapper label="awards.infovideo.title">
-    <EmbedSection data="https://youtu.be/ZJKWjBRlcHo" playerProps={{light: true}}/>
-  </Wrapper>
-
-  <Winners2024 />
-
   <Jurors limit={8} />
   <Box textAlign="center" mt={2} >
     <MyButton
@@ -50,15 +44,19 @@ const PageIndex = (props) => (
       style={{ width: "300px", height: "50px" }}
     />
   </Box>
-
+  <WidgetPhotostream setting="awardsphotostream" />
   <Wrapper label="awards.ceremony.title">
     <EmbedSection data="https://www.youtube.com/watch?v=ymXfBldjdKo&t" playerProps={{light: true}}/>
   </Wrapper>
+  <WidgetPremiumTickets label="resources.awards.premium.title"  />
+  {/* <Winners2024 /> */}
 
-  <WidgetPhotostream setting="awardsphotostream" />
   <WidgetFaq setting="contestant.faq" />
   <AllPartners />
 
+  <Wrapper label="awards.infovideo.title">
+    <EmbedSection data="https://youtu.be/ZJKWjBRlcHo" playerProps={{light: true}}/>
+  </Wrapper>
 
 </div>
 
