@@ -12,7 +12,10 @@ import {
   HeadVoteContestant,
   WidgetRegForm,
   ExternalSettings,
-  HasTicketWithRole
+  HasTicketWithRole,
+  Wrapper,
+  Box,
+  MyButton,
 } from 'eventjuicer-site-components';
 
 import Head from 'next/head'
@@ -63,8 +66,37 @@ const RegForm = () => <HasTicketWithRole>{(check) => (<WidgetRegForm wrapperProp
 
 const onVoted = (canVote) => (<>
   {/* <WidgetVoteStatus max_votes={25} /> */}
-  {canVote ? <div><RegForm /><Categories label={null} secondaryLabel={null} /></div>: <RegForm />}</>)
-
+  {canVote ? (
+      <div>
+        <Categories label={null} secondaryLabel={null} />
+        <Wrapper first label="awards.ebeinfo.title">
+          <Markdown label="awards.ebeinfo.description" />
+    
+        <Box textAlign="center" mt={2}>
+          <MyButton
+            href="https://ecommerceberlin.com/visit?utm_source=ega&utm_medium=banner&utm_campaign=ega_banner_partner"
+            label="ebeinfo.button"
+            variant="outlined"
+            style={{ width: "300px", height: "50px" }}
+          />
+        </Box>
+        </Wrapper>
+      </div>
+    ) : (
+      <Wrapper first label="awards.ebeinfo.title">
+        <Markdown label="awards.ebeinfo.description" />
+        <Box textAlign="center" mt={2}>
+          <MyButton
+            href="/jurors"
+            label="ebeinfo.button"
+            variant="outlined"
+            style={{ width: "300px", height: "50px" }}
+          />
+        </Box>
+      </Wrapper>
+    )}
+  </>
+);
 
 const PageVote = ({id}) => (
 
@@ -87,7 +119,18 @@ const PageVote = ({id}) => (
 
   {/* <Winners2024 /> */}
 
-  <RegForm />
+<Wrapper first label="awards.ebeinfo.title">
+        <Markdown label="awards.ebeinfo.description" />
+    
+      <Box textAlign="center" mt={2}>
+        <MyButton
+          href="https://ecommerceberlin.com/visit?utm_source=ega&utm_medium=banner&utm_campaign=ega_banner_partner"
+          label="ebeinfo.button"
+          variant="outlined"
+          style={{ width: "300px", height: "50px" }}
+        />
+      </Box>
+</Wrapper>
 
   <WidgetVideoWithEventInfo />
 

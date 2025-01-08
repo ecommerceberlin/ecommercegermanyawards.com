@@ -72,10 +72,10 @@ const settings  = {
             {
                 name: 'awards',
                 items: [
-                    // {name: 'vote', to: '/vote'},
+                    {name: 'vote', to: '/vote'},
                     {name: 'about', to: '/about'},
                     {name: 'categories', to: '/categories'},
-                    {name: 'register', to: '/register'},
+                    // {name: 'register', to: '/register'},
                     {name: 'jurors', to: '/jurors'},
                     // {name: 'party', to: '/party'},
                 ]
