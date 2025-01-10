@@ -35,7 +35,7 @@ const settings  = {
     hero : {
         heading : "awards.hero.title",
         subheading : "awards.hero.description", 
-        videoSrc : "https://res.cloudinary.com/ecommerceberlin/video/upload/q_auto,f_auto/v1688480752/Awards%20website/EGA_website_video_2023_2.mp4",
+        videoSrc : "https://res.cloudinary.com/ecommerceberlin/video/upload/q_auto,f_auto/v1736504780/Visitors%20registration%20form/EGA_website_video_2023_2_small.mp4",
         background : "https://res.cloudinary.com/ecommerceberlin/image/upload/q_auto,f_auto/v1691504706/Awards%20website/ega24_final_poster.png",
         overlay : "black",
         template : "heroGold",
