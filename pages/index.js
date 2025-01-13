@@ -33,8 +33,8 @@ const PageIndex = (props) => (
   <Markdown label="awards.intro.description" />
   </Wrapper> */}
   <Categories dense={false} typography={undefined} secondaryTypography={undefined} wrapperProps={{label: "awards.voting.cta"}}/>
-  <RegForm />
-  <IntroRegformTimeline />
+  {/* <RegForm /> */}
+  {/* <IntroRegformTimeline /> */}
   <Jurors limit={8} />
   <Box textAlign="center" mt={2} >
     <MyButton
