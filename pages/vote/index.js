@@ -12,7 +12,9 @@ import {
   WidgetVideoWithEventInfo,
   reduxWrapper,
   configure,
-  Wrapper
+  Wrapper,
+  Box,
+  MyButton,
 } from 'eventjuicer-site-components';
 
 /*
@@ -35,7 +37,7 @@ import {Winners2024} from '../../src/Winners'
 
 const PageVote = (props) => (
 
-  <div>
+  <div style={{ backgroundColor: "white" }}>
 
       <Wrapper label="awards.contestants.categories.title" secondaryLabel="awards.contestants.list.description">
 
@@ -49,6 +51,19 @@ const PageVote = (props) => (
   
        <Categories  dense={false} typography={undefined} secondaryTypography={undefined} />
        <WidgetFaq setting="contestant.faq" />
+
+       <Wrapper first label="awards.ebeinfo.title">
+        <Markdown label="awards.ebeinfo.description" />
+    
+      <Box textAlign="center" mt={2}>
+        <MyButton
+          href="https://ecommerceberlin.com/visit?utm_source=ega&utm_medium=banner&utm_campaign=ega_banner_partner"
+          label="ebeinfo.button"
+          variant="outlined"
+          style={{ width: "300px", height: "50px" }}
+        />
+      </Box>
+      </Wrapper>
       <Winners2024 />
       <WidgetVideoWithEventInfo />
 
