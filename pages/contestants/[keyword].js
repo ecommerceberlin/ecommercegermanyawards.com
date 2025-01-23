@@ -49,7 +49,7 @@ const PageVote = ({keyword}) => (
 
 export const getStaticPaths = () => {
 
-return {paths: [], fallback: true}
+return {paths: [], fallback: "blocking"}
 }
 
 export const getStaticProps = reduxWrapper.getStaticProps(async ({ params, store }) => {
@@ -59,10 +59,12 @@ export const getStaticProps = reduxWrapper.getStaticProps(async ({ params, store
     preload: ['contestant_companies']
   })
 
-  return {props : {
-    keyword: "keyword" in params ? params.keyword : ""
-  }, 
-  revalidate: 1}
+  return {
+    props : {
+      keyword: "keyword" in params ? params.keyword : ""
+    }, 
+    revalidate: 600
+  }
   
 })
 

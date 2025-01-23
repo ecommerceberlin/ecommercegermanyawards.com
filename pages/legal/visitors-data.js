@@ -19,7 +19,7 @@ const PageLegalVisitorsData = (props) => (
 
 export const getStaticProps = reduxWrapper.getStaticProps(async (props) => {
 
-  await configure(props, {
+  return await configure(props, {
     settings: settings,
     preload: []
   })

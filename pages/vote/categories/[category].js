@@ -87,7 +87,7 @@ import {
       props : {
           category : category
       },
-      revalidate: 60
+      revalidate: 3600
     }
   
   })
