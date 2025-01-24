@@ -4,10 +4,10 @@
   "description": "ecommerceberlin awards site",
   "main": "pages/index.js",
   "scripts": {
-    "next": "NODE_OPTIONS=--max_old_space_size=8192 next",
+    "next": "NODE_OPTIONS='--max_old_space_size=8192 --openssl-legacy-provider' next",
     "precommit": "lint-staged",
-    "dev": "NODE_OPTIONS=--max_old_space_size=8192 NODE_OPTIONS=--openssl-legacy-provider next dev",
-    "build": "NODE_OPTIONS=--max_old_space_size=8192 NODE_ENV=production next build",
+    "dev": "NODE_OPTIONS='--max_old_space_size=8192 --openssl-legacy-provider' next dev",
+    "build": "NODE_OPTIONS='--max_old_space_size=8192 --openssl-legacy-provider' NODE_ENV=production next build",
     "start": "NODE_ENV=production next start",
     "XXXpostinstall": "sed -i 's/followSymlinks: false/followSymlinks: true/g' node_modules/watchpack/lib/DirectoryWatcher.js"
   },
